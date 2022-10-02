@@ -14,27 +14,27 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#007cba",
+					"color": "#007062",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#006ba1",
+					"color": "#cec790",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#333333",
+					"color": "#007062",
 					"name": "Foreground",
 					"slug": "foreground"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#f1ede7",
 					"name": "Background",
 					"slug": "background"
 				},
 				{
-					"color": "#F0F0F0",
+					"color": "#f8f5f3",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
