@@ -41,8 +41,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "1000px",
+			"wideSize": "1195px"
 		},
 		"spacing": {
 			"units": [
@@ -274,10 +274,10 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "1.5rem",
+			"blockGap": "2.5rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"left": "clamp(1.25rem, ((2vw - 0.75rem) * 10) , 6.25rem)",
+				"right": "clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem)"
 			}
 		},
 		"typography": {
