@@ -110,4 +110,8 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	padding: 17.5px 0px;
 	margin-top: calc(7.5rem - var(--wp--custom--nav-mobile-gap));
 }
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-link.is-style-navigation-link-button a:hover {
+	background-color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--primary);
+}
 }
