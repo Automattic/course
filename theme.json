@@ -63,6 +63,23 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "LeagueGothic",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/LeagueGothic-Regular.ttf"
+							]
+						}
+					],
+					"fontFamily": "LeagueGothic, sans-serif",
+					"name": "League Gothic",
+					"slug": "league-gothic"
 				}
 			],
 			"fontSizes": [
