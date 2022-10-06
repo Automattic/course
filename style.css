@@ -66,3 +66,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	font-size: var(--wp--preset--font-size--small);
 	text-align: center;
 }
+
+/*
+ * Provide styles for a Block Style for navigation links
+ */
+ .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open.has-modal-open {
+	background-color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--background);
+	padding: 1.5rem;
+ }
+}
