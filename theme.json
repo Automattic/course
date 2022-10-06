@@ -274,9 +274,6 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700",
-					"textDecoration": "none"
 					"textTransform": "uppercase",
 					"fontWeight": "400",
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
