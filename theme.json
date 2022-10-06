@@ -193,6 +193,16 @@
 					}
 				}
 			},
+			"core/navigation": {
+				"typography": {
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"textDecoration": "none",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--nav-medium)",
+					"lineHeight": "1.5rem"
+				}
+			},
 			"core/post-date": {
 				"color": {
 					"text": "var(--wp--preset--color--foreground)"
