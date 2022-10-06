@@ -282,6 +282,13 @@
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "var(--wp--preset--font-size--nav-medium)",
 					"lineHeight": "1.5rem"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		},
