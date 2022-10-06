@@ -81,4 +81,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close {
 	color: var(--wp--preset--color--background);
  }
+ .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container a.wp-block-navigation-item__content {
+	line-height: 90%;
+ }
 }
