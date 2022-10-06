@@ -277,6 +277,11 @@
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "700",
 					"textDecoration": "none"
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--nav-medium)",
+					"lineHeight": "1.5rem"
 				}
 			}
 		},
