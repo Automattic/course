@@ -102,4 +102,12 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-link:not(.is-style-navigation-link-button) a {
 	font-size: var(--wp--preset--font-size--xx-large);
 }
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-link.is-style-navigation-link-button a {
+	color: var(--wp--preset--color--foreground);
+	background-color: var(--wp--preset--color--background);
+	width: calc(100vw - 3rem);
+	text-align: center;
+	padding: 17.5px 0px;
+	margin-top: calc(7.5rem - var(--wp--custom--nav-mobile-gap));
+}
 }
