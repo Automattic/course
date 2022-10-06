@@ -99,6 +99,18 @@
 				},
 				{
 					"fluid": false,
+					"name": "Navbar Medium",
+					"size": "1.5rem",
+					"slug": "nav-medium"
+				},
+				{
+					"fluid": false,
+					"name": "Navbar Button Link",
+					"size": "1.3125rem",
+					"slug": "nav-button-link"
+				},
+				{
+					"fluid": false,
 					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
@@ -110,6 +122,12 @@
 					"name": "Extra Large",
 					"size": "3rem",
 					"slug": "x-large"
+				},
+				{
+					"fluid": false,
+					"name": "Extra Large",
+					"size": "4rem",
+					"slug": "xx-large"
 				}
 			]
 		}
