@@ -72,6 +72,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	font-size: var(--wp--preset--font-size--small);
 }
 
+.wp-block-quote {
+	border: solid;
+	border-width: 0 0 0 1px;
+	border-color: var(--wp--preset--color--primary);
+	padding-left: 1.25rem;
+}
+
 .wp-block-pullquote cite {
 	font-style: normal;
 	font-size: var(--wp--preset--font-size--small);
