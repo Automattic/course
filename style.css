@@ -116,7 +116,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 }
 header {
 	position: sticky;
-	top: 0;
+	top: -1px;;
 	z-index: 1111;
 	background-color: var(--wp--preset--color--background);
 }
