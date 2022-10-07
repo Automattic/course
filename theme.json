@@ -278,8 +278,8 @@
 					"textTransform": "uppercase",
 					"fontWeight": "400",
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "var(--wp--preset--font-size--nav-medium)",
-					"lineHeight": "1.5rem"
+					"fontSize": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)",
+					"lineHeight": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)"
 				},
 				"elements": {
 					"link": {
