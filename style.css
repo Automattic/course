@@ -121,3 +121,7 @@ header {
 	background-color: var(--wp--preset--color--background);
 	padding: var(--wp--custom--header-padding) 0px;
 }
+
+header:not(.is-being-sticky) {
+	background-color: transparent;
+}
