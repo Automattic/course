@@ -41,7 +41,8 @@
 			]
 		},
 		"custom": {
-			"navMobileGap": "2.5rem"
+			"navMobileGap": "2.5rem",
+			"headerPadding": "1.875rem"
 		},
 		"layout": {
 			"contentSize": "1000px",

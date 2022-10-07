@@ -119,4 +119,5 @@ header {
 	top: -1px;;
 	z-index: 1111;
 	background-color: var(--wp--preset--color--background);
+	padding: var(--wp--custom--header-padding) 0px;
 }
