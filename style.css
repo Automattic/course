@@ -147,3 +147,20 @@ header {
 header:not(.is-being-sticky) {
 	background-color: transparent;
 }
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	text-decoration: underline dotted;
+}
+
+a:active {
+	text-decoration: none;
+	background-color: var(--wp--preset--color--secondary);
+}
