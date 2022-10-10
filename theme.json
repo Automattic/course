@@ -333,7 +333,7 @@
 			"h1": {
 				"typography": {
           "fontFamily": "var(--wp--preset--font-family--league-gothic)",
-          "fontSize": "var(--wp--preset--font-size--3x-large)",
+          "fontSize": "var(--wp--preset--font-size--3-x-large)",
           "fontWeight": "400",
           "textTransform": "uppercase",
           "lineHeight": "96%"
