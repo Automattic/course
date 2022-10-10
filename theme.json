@@ -42,6 +42,10 @@
 				}
 			]
 		},
+		"custom": {
+			"navMobileGap": "2.5rem",
+			"headerPadding": "1.875rem"
+		},
 		"layout": {
 			"contentSize": "1000px",
 			"wideSize": "1000px"
@@ -73,11 +77,11 @@
 					],
 					"fontFamily": "\"league_gothicregular\", serif",
 					"name": "League Gothic",
-					"slug": "league-lothic"
+					"slug": "league-gothic"
 				},
-        {
-          "fontFace": [
-            {
+				{
+					"fontFace": [
+						{
 							"fontDisplay": "block",
 							"fontFamily": "EB Garamond",
 							"fontStretch": "normal",
@@ -86,12 +90,12 @@
 							"src": [
 								"file:./assets/fonts/ebgaramond-regular.woff2"
 							]
-            }
-          ],
-          "fontFamily": "\"EB Garamond\", serif",
+						}
+					],
+					"fontFamily": "\"EB Garamond\", serif",
 					"name": "EB Garamond",
 					"slug": "eb-garamond"
-        }
+				}
 			],
 			"fontSizes": [
 				{
@@ -110,7 +114,20 @@
 					"slug": "medium"
 				},
 				{
-          "name": "Large",
+					"fluid": false,
+					"name": "Navbar Medium",
+					"size": "1.5rem",
+					"slug": "nav-medium"
+				},
+				{
+					"fluid": false,
+					"name": "Navbar Button Link",
+					"size": "1.3125rem",
+					"slug": "nav-button-link"
+				},
+				{
+					"fluid": false,
+					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
 				},
@@ -118,6 +135,12 @@
           "name": "Extra Large",
 					"size": "6rem",
 					"slug": "x-large"
+				},
+				{
+					"fluid": false,
+					"name": "Extra Large",
+					"size": "4rem",
+					"slug": "xx-large"
 				}
 			]
 		}
@@ -181,6 +204,16 @@
 					"padding": {
 						"left": "var(--wp--preset--spacing--70)"
 					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"textDecoration": "none",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--nav-medium)",
+					"lineHeight": "1.5rem"
 				}
 			},
 			"core/post-date": {
@@ -254,9 +287,18 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700",
-					"textDecoration": "none"
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)",
+					"lineHeight": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
       "core/paragraph": {
@@ -274,7 +316,7 @@
 		"elements": {
 			"h1": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(3rem, 5vw + 1.5rem, 6.029rem)",
           "fontWeight": "400",
           "textTransform": "uppercase",
@@ -283,32 +325,32 @@
 			},
 			"h2": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(2rem, 2vw + 1.5rem, 3rem)",
           "lineHeight": "96%"
 				}
 			},
 			"h3": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
           "fontSize": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)"
 				}
 			},
 			"h4": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)"
 				}
 			},
 			"h5": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
           "fontSize": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)"
 				}
 			},
 			"h6": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+          "fontFamily": "var(--wp--preset--font-family--league-gothic)",
           "fontSize": "clamp(1.10rem, 2vw + 1.5rem, 1.22rem)"
 				}
 			},

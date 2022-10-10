@@ -29,16 +29,16 @@ endif;
 
 add_action( 'after_setup_theme', 'course_support' );
 
-if ( ! function_exists( 'course_styles' ) ) :
+if ( ! function_exists( 'course_scripts' ) ) :
 
 	/**
-	 * Enqueue styles.
+	 * Enqueue scripts and styles.
 	 *
 	 * @since Course 1.0
 	 *
 	 * @return void
 	 */
-	function course_styles() {
+	function course_scripts() {
 
 		// Register theme stylesheet.
 		wp_register_style(
@@ -51,8 +51,23 @@ if ( ! function_exists( 'course_styles' ) ) :
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'course-style' );
 
+		// Enqueque theme scripts.
+		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
+
 	}
 
 endif;
 
-add_action( 'wp_enqueue_scripts', 'course_styles' );
+add_action( 'wp_enqueue_scripts', 'course_scripts' );
+
+function course_theme_init() {
+	register_block_style(
+		'core/navigation-link',
+		array(
+			'name'  => 'navigation-link-button',
+			'label' => __( 'Button', 'course' ),
+		)
+	);
+}
+
+add_action( 'init', 'course_theme_init' );
