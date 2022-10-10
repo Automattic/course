@@ -1,6 +1,6 @@
 {
-  "$schema": "https://schemas.wp.org/wp/6.0/theme.json",
-  "version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"version": 2,
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -42,8 +42,12 @@
 				}
 			]
 		},
+		"custom": {
+			"navMobileGap": "2.5rem",
+			"headerPadding": "1.875rem"
+		},
 		"layout": {
-			"contentSize": "620px",
+			"contentSize": "1000px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
@@ -73,11 +77,11 @@
 					],
 					"fontFamily": "\"league_gothicregular\", serif",
 					"name": "League Gothic",
-					"slug": "league-lothic"
+					"slug": "league-gothic"
 				},
-        {
-          "fontFace": [
-            {
+				{
+					"fontFace": [
+						{
 							"fontDisplay": "block",
 							"fontFamily": "EB Garamond",
 							"fontStretch": "normal",
@@ -86,43 +90,59 @@
 							"src": [
 								"file:./assets/fonts/ebgaramond-regular.woff2"
 							]
-            }
-          ],
-          "fontFamily": "\"EB Garamond\", serif",
-					"name": "EB Garamond",
-					"slug": "eb-garamond"
-        },
-        {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
+						}
+					]
+				},
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
 					"name": "System",
 					"slug": "system"
-        }
+				}
 			],
 			"fontSizes": [
 				{
-          "name": "Extra small",
+					"name": "Extra small",
 					"size": "1rem",
 					"slug": "x-small"
 				},
 				{
-          "name": "Small",
+					"name": "Small",
 					"size": "1.125rem",
 					"slug": "small"
 				},
 				{
-          "name": "Medium",
+					"name": "Medium",
 					"size": "1.3rem",
 					"slug": "medium"
 				},
 				{
-          "name": "Large",
+					"fluid": false,
+					"name": "Navbar Medium",
+					"size": "1.5rem",
+					"slug": "nav-medium"
+				},
+				{
+					"fluid": false,
+					"name": "Navbar Button Link",
+					"size": "1.3125rem",
+					"slug": "nav-button-link"
+				},
+				{
+					"fluid": false,
+					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
 				},
 				{
-          "name": "Extra Large",
+					"name": "Extra Large",
 					"size": "6rem",
 					"slug": "x-large"
+				},
+				{
+					"fluid": false,
+					"name": "Extra Large",
+					"size": "4rem",
+					"slug": "xx-large"
 				}
 			]
 		}
@@ -188,12 +208,22 @@
 					}
 				}
 			},
+			"core/navigation": {
+				"typography": {
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"textDecoration": "none",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--nav-medium)",
+					"lineHeight": "1.5rem"
+				}
+			},
 			"core/post-date": {
 				"color": {
 					"text": "var(--wp--preset--color--foreground)"
 				},
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--system)",
+					"fontFamily": "var(--wp--preset--font-family--system)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -260,17 +290,26 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700",
-					"textDecoration": "none"
+					"textTransform": "uppercase",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)",
+					"lineHeight": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
-      "core/paragraph": {
-        	"typography": {
-			      "fontSize": "clamp(1.313rem, 2vw + 0.5rem, 1.5rem)",
-			      "lineHeight": "1.838rem"
-          }
-      }
+			"core/paragraph": {
+					"typography": {
+						"fontSize": "clamp(1.313rem, 2vw + 0.5rem, 1.5rem)",
+						"lineHeight": "1.838rem"
+					}
+			}
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
@@ -279,42 +318,42 @@
 		"elements": {
 			"h1": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(3rem, 5vw + 1.5rem, 6.029rem)",
-          "fontWeight": "400",
-          "textTransform": "uppercase",
-          "lineHeight": "96%"
+					"fontWeight": "400",
+					"textTransform": "uppercase",
+					"lineHeight": "96%"
 				}
 			},
 			"h2": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(2rem, 2vw + 1.5rem, 3rem)",
-          "lineHeight": "96%"
+					"lineHeight": "96%"
 				}
 			},
 			"h3": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
-          "fontSize": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)"
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)"
 				}
 			},
 			"h4": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)"
 				}
 			},
 			"h5": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
-          "fontSize": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)"
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)"
 				}
 			},
 			"h6": {
 				"typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-lothic)",
-          "fontSize": "clamp(1.10rem, 2vw + 1.5rem, 1.22rem)"
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "clamp(1.10rem, 2vw + 1.5rem, 1.22rem)"
 				}
 			},
 			"link": {
@@ -324,10 +363,10 @@
 			}  
 		},
 		"spacing": {
-			"blockGap": "1.5rem",
+			"blockGap": "2.5rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"left": "clamp(1.25rem, ((2vw - 0.75rem) * 10) , 6.25rem)",
+				"right": "clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem)"
 			}
 		},
 		"typography": {
