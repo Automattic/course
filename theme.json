@@ -103,8 +103,11 @@
 							"fontStyle": "normal",
 							"fontWeight": "200 800",
 							"src": ["file:./assets/fonts/inter.woff2"]
-						}						
-					]
+						}
+					],
+					"fontFamily": "Inter",
+					"name": "Inter",
+					"slug": "inter"
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
@@ -332,13 +335,6 @@
 						}
 					}
 				}
-			},
-			"core/paragraph": {
-					"typography": {
-						"fontSize": "clamp(1.313rem, 2vw + 0.5rem, 1.5rem)",
-						"lineHeight": "1.838rem",
-						"fontFamily": "var(--wp--preset--font-family--eb-garamond)"
-					}
 			}
 		},
 		"color": {
@@ -400,7 +396,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
-			"fontSize": "1.125rem",
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.838rem"
 		}
 	},
