@@ -1,5 +1,5 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.1/theme.json",
 	"version": 2,
 	"customTemplates": [
 		{
@@ -114,8 +114,13 @@
 			],
 			"fontSizes": [
 				{
+					"name": "XX small",
+					"size": "1.125rem",
+					"slug": "xx-small"
+				},
+				{
 					"name": "Extra small",
-					"size": "1rem",
+					"size": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)",
 					"slug": "x-small"
 				},
 				{
@@ -125,37 +130,48 @@
 				},
 				{
 					"name": "Medium",
-					"size": "1.3rem",
+					"size": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.25rem, 1.33vw + 0.92rem, 1.75rem)",
 					"slug": "medium"
 				},
 				{
-					"fluid": false,
+					"name": "Medium",
+					"size": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)",
+					"slug": "large"
+				},
+				{
+					"name": "Extra large",
+					"size": "clamp(2rem, 2vw + 1.5rem, 3rem)",
+					"slug": "x-large"
+				},
+				{
+					"name": "XX Large",
+					"size": "clamp(3rem, 5.03vw + 0.24rem, 4rem)",
+					"slug": "xx-large"
+				},
+				{
+					"name": "3X Large",
+					"size": "clamp(3rem, 5vw + 1.5rem, 6.029rem)",
+					"slug": "3x-large"
+				},
+				{
+					"name": "4X Large",
+					"size": "clamp(4rem, 12vw + 1rem, 8.5rem)",
+					"slug": "4x-large"
+				},
+				{
 					"name": "Navbar Medium",
 					"size": "1.5rem",
 					"slug": "nav-medium"
 				},
 				{
-					"fluid": false,
 					"name": "Navbar Button Link",
 					"size": "1.3125rem",
 					"slug": "nav-button-link"
-				},
-				{
-					"fluid": false,
-					"name": "Large",
-					"size": "1.75rem",
-					"slug": "large"
-				},
-				{
-					"name": "Extra Large",
-					"size": "6rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": false,
-					"name": "Extra Large",
-					"size": "4rem",
-					"slug": "xx-large"
 				}
 			]
 		}
@@ -204,7 +220,7 @@
 			},
 			"core/comments-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"core/gallery": {
@@ -261,7 +277,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontStyle": "italic"
 				}
 			},
@@ -330,10 +346,14 @@
 			"text": "var(--wp--preset--color--foreground)"
 		},
 		"elements": {
+			"heading": {
+					"typography": {
+						"fontFamily": "var(--wp--preset--font-family--league-gothic)"
+					}
+			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(3rem, 5vw + 1.5rem, 6.029rem)",
+					"fontSize": "var(--wp--preset--font-size--3-x-large)",
 					"fontWeight": "400",
 					"textTransform": "uppercase",
 					"lineHeight": "96%"
@@ -341,33 +361,28 @@
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(2rem, 2vw + 1.5rem, 3rem)",
+					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"lineHeight": "96%"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(1.10rem, 2vw + 1.5rem, 1.22rem)"
+					"fontSize": "var(--wp--preset--font-size--xx-small)"
 				}
 			},
 			"link": {
