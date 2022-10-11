@@ -256,7 +256,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system)",
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--xx-small)"
 				}
 			},
 			"core/post-title": {
