@@ -44,7 +44,6 @@
 		},
 		"custom": {
 			"navMobileGap": "2.5rem",
-			"headerPadding": "1.875rem"
 			"headerPadding": "1.875rem",
 			"replyColumnGap": "2.349rem"
 		},
@@ -119,9 +118,6 @@
 			],
 			"fontSizes": [
 				{
-					"name": "XX small",
-					"size": "1.125rem",
-					"slug": "xx-small"
 					"name": "Tiny",
 					"size": "0.6875rem",
 					"slug": "tiny"
