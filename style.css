@@ -171,6 +171,14 @@ header:not(.is-being-sticky) {
 	grid-column-gap: var(--wp--custom--reply-column-gap);
 	grid-row-gap: calc(var(--wp--preset--spacing--60) - var(--wp--preset--spacing--40));
 }
+
+@media screen and (max-width: 480px) {
+	.wp-block-post-comments-form .comment-form {
+		display: flex;
+		flex-direction: column;
+		gap: calc(var(--wp--preset--spacing--60) - var(--wp--preset--spacing--40));
+	}
+}
 /*
  * Link styles
  */
