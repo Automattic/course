@@ -45,6 +45,8 @@
 		"custom": {
 			"navMobileGap": "2.5rem",
 			"headerPadding": "1.875rem"
+			"headerPadding": "1.875rem",
+			"replyColumnGap": "2.349rem"
 		},
 		"layout": {
 			"contentSize": "1000px",
