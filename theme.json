@@ -494,7 +494,7 @@
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-small)"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"link": {
