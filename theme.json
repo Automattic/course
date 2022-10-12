@@ -225,6 +225,11 @@
 					"fontFamily": "var(--wp--preset--font-family--system)"
 				},
 				 "elements": {
+					 "link": {
+						 "typography": {
+							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
+						 }
+					 },
 					 "heading": {
 						 "typography": {
 							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
@@ -241,36 +246,44 @@
 							"textTransform": "uppercase",
 							"fontWeight": "400",
 							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-							"fontSize": "1.313rem",
-							"lineHeight": "1.313rem"
+							"fontSize": "var(--wp--preset--font-size--nav-button-link)",
+							"lineHeight": "var(--wp--preset--font-size--nav-button-link)"
 						}
 					}
-				}
-			},
-			"core/comment-author-name": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-edit-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-reply-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"textDecoration": "underline"
 				}
 			},
 			"core/comments-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"core/comment-content": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"lineHeight": "160%",
+					"fontFamily": "var(--wp--preset--font-family--eb-garamond)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "var(--wp--preset--spacing--40)"
+					}
+				}
+			},
+			"core/comment-date": {
+				"spacing": {
+					"margin": {
+						"top": "10px"
+					}
+				}
+			},
+			"core/comment-edit-link": {
+				"typography": {
+					"textDecoration": "underline"
+				}
+			},
+			"core/comment-reply-link": {
+				"typography": {
+					"textDecoration": "underline"
 				}
 			},
 			"core/gallery": {
@@ -513,7 +526,7 @@
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--xx-small)"
 				}
 			},
 			"link": {
