@@ -148,6 +148,18 @@ header:not(.is-being-sticky) {
 	background-color: transparent;
 }
 
+.wp-block-post-comments-form p {
+	font-size: var(--wp--preset--font-size--tiny);
+	line-height: var(--wp--preset--font-size--x-small);
+	text-transform: uppercase;
+}
+
+.wp-block-post-comments-form form.comment-form p input:not([type=submit]),
+.wp-block-post-comments-form form.comment-form textarea {
+	border: 1px solid var(--wp--preset--color--primary);
+	border-radius: 8px;
+	background-color: var(--wp--preset--color--background);
+}
 /*
  * Link styles
  */
