@@ -160,6 +160,10 @@ header:not(.is-being-sticky) {
 	border-radius: 8px;
 	background-color: var(--wp--preset--color--background);
 }
+
+.wp-block-post-comments-form .comment-form-cookies-consent label {
+	margin: auto 0;
+}
 /*
  * Link styles
  */
