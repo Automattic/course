@@ -122,6 +122,9 @@
 					"name": "XX small",
 					"size": "1.125rem",
 					"slug": "xx-small"
+					"name": "Tiny",
+					"size": "0.6875rem",
+					"slug": "tiny"
 				},
 				{
 					"name": "Extra small",
