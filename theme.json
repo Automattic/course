@@ -126,17 +126,17 @@
 					"slug": "tiny"
 				},
 				{
+					"name": "XX small",
+					"size": "1.125rem",
+					"slug": "xx-small"
+				},
+				{
 					"name": "Extra small",
 					"size": "clamp(1.22rem, 2vw + 1.5rem, 1.25rem)",
 					"slug": "x-small"
 				},
 				{
 					"name": "Small",
-					"size": "1.125rem",
-					"slug": "small"
-				},
-				{
-					"name": "Medium",
 					"size": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)",
 					"slug": "small"
 				},
