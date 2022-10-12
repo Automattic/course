@@ -204,6 +204,22 @@
 					"fontFamily": "monospace"
 				}
 			},
+			"core/comments": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"lineHeight": "var(--wp--preset--font-size--xx-small)",
+					"fontWeight": "400",
+					"letterSpacing": "2%"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/post-comments-form": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system)"
