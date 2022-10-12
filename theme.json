@@ -201,6 +201,33 @@
 					"fontFamily": "monospace"
 				}
 			},
+			"core/post-comments-form": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)"
+				},
+				 "elements": {
+					 "heading": {
+						 "typography": {
+							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
+						 }
+					 },
+					"button": {
+						"border": {
+							"radius": "8px"
+						},
+						"color": {
+							"background": "var(--wp--preset--color--primary)"
+						},
+						"typography": {
+							"textTransform": "uppercase",
+							"fontWeight": "400",
+							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"fontSize": "1.313rem",
+							"lineHeight": "1.313rem"
+						}
+					}
+				}
+			},
 			"core/comment-author-name": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
