@@ -4,7 +4,7 @@ Theme URI: https://github.com/Automattic/sensei-theme
 Author: Automattic
 Author URI: https://automattic.com/
 Description: Sensei starter theme
-Requires at least: 5.8
+Requires at least: 6.1
 Tested up to: 5.9
 Requires PHP: 5.7
 Version: 0.0.1
@@ -146,6 +146,14 @@ header {
 /* No background color needed as per design when the navbar is being sticky on top */
 header:not(.is-being-sticky) {
 	background-color: transparent;
+}
+
+/*
+ * Link styles
+ */
+a {
+	text-decoration-thickness: .0625em !important;
+	text-underline-offset: .15em
 }
 
 a:link {
