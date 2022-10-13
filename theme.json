@@ -66,7 +66,7 @@
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "league_gothicregular",
+							"fontFamily": "League Gothic",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "200 800",
@@ -75,7 +75,7 @@
 							]
 						}
 					],
-					"fontFamily": "\"league_gothicregular\", serif",
+					"fontFamily": "\"League Gothic\", serif",
 					"name": "League Gothic",
 					"slug": "league-gothic"
 				},
@@ -87,17 +87,30 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "200 800",
-							"src": [
-								"file:./assets/fonts/ebgaramond-regular.woff2"
-							]
+							"src": ["file:./assets/fonts/ebgaramond-regular.woff2"]
 						}
 					],
-					"fontFamily": "\"EB Garamond\", serif",
 					"name": "EB Garamond",
+					"fontFamily": "EB Garamond",
 					"slug": "eb-garamond"
 				},
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": ["file:./assets/fonts/inter.woff2"]
+						}
+					],
+					"fontFamily": "Inter",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
 					"name": "System",
 					"slug": "system"
 				}
@@ -115,16 +128,21 @@
 				},
 				{
 					"name": "Small",
+					"size": "1.125rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
 					"size": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)",
 					"slug": "small"
 				},
 				{
-					"name": "Large",
+					"name": "Medium",
 					"size": "clamp(1.25rem, 1.33vw + 0.92rem, 1.75rem)",
 					"slug": "medium"
 				},
 				{
-					"name": "Medium",
+					"name": "Large",
 					"size": "clamp(1.5rem, 2vw + 1.5rem, 2.25rem)",
 					"slug": "large"
 				},
@@ -296,37 +314,55 @@
 				}
 			},
 			"core/pullquote": {
-				"border": {
-					"color": "var(--wp--preset--color--foreground)",
-					"style": "solid",
-					"width": "1px 0"
-				},
 				"spacing": {
 					"padding": {
 						"bottom": "var(--wp--preset--spacing--50)",
-						"left": "var(--wp--preset--spacing--50)",
-						"right": "var(--wp--preset--spacing--50)",
+						"left": "clamp(0rem, -2.965rem + 13.953vw, 7.5rem)",
+						"right": "clamp(0rem, -2.965rem + 13.953vw, 7.5rem)",
 						"top": "var(--wp--preset--spacing--50)"
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontStyle": "italic"
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontStyle": "normal",
+					"textTransform": "uppercase"
+				},
+				"elements": {
+						"cite": {
+							"typography": {
+								"fontStyle": "normal",
+								"fontSize": "var(--wp--preset--font-size--xx-small)",
+								"fontFamily": "var(--wp--preset--font-family--system)",
+								"textTransform": "none"
+							}
+						}
 				}
 			},
 			"core/quote": {
-				"border": {
-					"color": "var(--wp--preset--color--primary)",
-					"style": "solid",
-					"width": "0 0 0 1px"
-				},
 				"spacing": {
 					"padding": {
 						"left": "var(--wp--preset--spacing--50)"
 					}
 				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontStyle": "normal",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"fontFamily": "var(--wp--preset--font-family--system)"
+						}
+					}
+				},
 				"typography": {
-					"fontStyle": "normal"
+					"fontStyle": "normal",
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				},
+				"border": {
+					"color": " var(--wp--preset--color--primary)",
+					"style": "solid",
+					"width": "0 0 0 1px"
 				}
 			},
 			"core/search": {
@@ -370,12 +406,6 @@
 						}
 					}
 				}
-			},
-			"core/paragraph": {
-					"typography": {
-						"fontSize": "clamp(1.313rem, 2vw + 0.5rem, 1.5rem)",
-						"lineHeight": "1.838rem"
-					}
 			}
 		},
 		"color": {
@@ -458,8 +488,7 @@
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"h6": {
@@ -487,7 +516,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
-			"fontSize": "1.125rem",
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.838rem"
 		}
 	},
