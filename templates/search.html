@@ -1,57 +1,58 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|70"}}}} -->
-<div class="wp-block-columns"><!-- wp:column {"width":"72%","layout":{"type":"constrained"}} -->
+<div class="wp-block-columns">
+  <!-- wp:column {"width":"72%","layout":{"type":"constrained"}} -->
   <div class="wp-block-column" style="flex-basis:72%">
-<!-- wp:pattern {"slug":"course/search"} /-->
-<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null},"displayLayout":{"type":"list"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:post-date /-->
+    <!-- wp:pattern {"slug":"course/search"} /-->
+    <!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null},"displayLayout":{"type":"list"},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-query">
+      <!-- wp:post-template -->
+      <!-- wp:group -->
+      <div class="wp-block-group">
+        <!-- wp:post-date /-->
 
-<!-- wp:post-title {"isLink":true} /-->
+        <!-- wp:post-title {"isLink":true} /-->
 
-<!-- wp:post-featured-image {"isLink":true} /-->
+        <!-- wp:post-featured-image {"isLink":true} /-->
 
-<!-- wp:post-excerpt /--></div>
-<!-- /wp:group -->
-<!-- /wp:post-template -->
+        <!-- wp:post-excerpt /-->
+      </div>
+      <!-- /wp:group -->
+      <!-- /wp:post-template -->
 
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:query-pagination -->
-<!-- wp:query-pagination-previous /-->
+      <!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+      <div class="wp-block-group">
+        <!-- wp:query-pagination -->
+        <!-- wp:query-pagination-previous /-->
 
-<!-- wp:query-pagination-numbers /-->
+        <!-- wp:query-pagination-numbers /-->
 
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination --></div>
-<!-- /wp:group --></div>
-<!-- /wp:query --></div>
-<!-- /wp:column -->
+        <!-- wp:query-pagination-next /-->
+        <!-- /wp:query-pagination -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:query -->
+  </div>
+  <!-- /wp:column -->
 
-<!-- wp:column {"width":"32.83%","style":{"spacing":{"blockGap":"9.83rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-column" style="flex-basis:32.83%"><!-- wp:social-links {"iconColor":"primary","iconColorValue":"#007062","style":{"spacing":{"blockGap":{"top":"1.33rem","left":"1.33rem"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal"}} -->
-<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"twitter"} /-->
+  <!-- wp:column {"width":"32.83%","style":{"spacing":{"blockGap":"9.83rem"}},"layout":{"type":"constrained"}} -->
+  <div class="wp-block-column" style="flex-basis:32.83%">
+    <!-- wp:social-links {"iconColor":"primary","iconColorValue":"#007062","style":{"spacing":{"blockGap":{"top":"1.33rem","left":"1.33rem"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal"}} -->
+    <ul class="wp-block-social-links has-icon-color is-style-logos-only">
+      <!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+      <!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
-<!-- wp:social-link {"url":"#","service":"facebook"} /--></ul>
-<!-- /wp:social-links -->
+      <!-- wp:social-link {"url":"#","service":"facebook"} /-->
+    </ul>
+    <!-- /wp:social-links -->
+    <!-- wp:pattern {"slug":"course/newsletter"} /-->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"1.25rem"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:heading {"fontSize":"medium"} -->
-<h2 class="has-medium-font-size">NEWSLETTER</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Our latest updates<br>in your e-mail.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="#">Sign up</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
+  </div>
+  <!-- /wp:column -->
+</div>
 <!-- /wp:columns -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
