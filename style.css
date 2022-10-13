@@ -156,3 +156,43 @@ a {
 	text-underline-offset: .15em
 }
 
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-buttons .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):active {
+	background-color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):focus {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--background);
+	border-color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding-right: 4.5rem;
+	padding-left: 4.5rem;
+}
+
