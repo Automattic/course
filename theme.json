@@ -218,6 +218,9 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"spacing": {
+					"blockGap": "0px"
 				}
 			},
 			"core/post-comments-form": {
@@ -252,9 +255,25 @@
 					}
 				}
 			},
+			"core/comment-author-name": {
+				"typography": {
+					"lineHeight": "100%"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
+					}
+				}
+			},
 			"core/comments-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontFamily": "var(--wp--preset--font-family--system)"
 				}
 			},
 			"core/comment-content": {
@@ -270,20 +289,51 @@
 				}
 			},
 			"core/comment-date": {
+				"typography": {
+					"lineHeight": "100%"
+				},
 				"spacing": {
 					"margin": {
 						"top": "10px"
+					}
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
 					}
 				}
 			},
 			"core/comment-edit-link": {
 				"typography": {
-					"textDecoration": "underline"
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"lineHeight": "var(--wp--preset--font-size--xx-small)"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid 1px"
+						}
+					}
 				}
 			},
 			"core/comment-reply-link": {
 				"typography": {
-					"textDecoration": "underline"
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"lineHeight": "var(--wp--preset--font-size--xx-small)"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid 1px"
+						}
+					}
 				}
 			},
 			"core/gallery": {

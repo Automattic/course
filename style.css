@@ -228,6 +228,15 @@ header:not(.is-being-sticky) {
 	margin-block-start: var(--wp--custom--comment-gap-medium);
 	margin-block-end: var(--wp--custom--comment-gap-small);
 }
+
+.wp-block-comments-query-loop .comment > .is-vertical > .wp-block-group {
+	align-items: flex-start;
+	gap: var(--wp--custom--comment-gap-small);
+}
+
+.wp-block-comments-query-loop .comment > div > div > .is-vertical {
+	gap: 0;
+}
 /*
  * Link styles
  */
