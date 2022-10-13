@@ -228,11 +228,6 @@
 					"fontFamily": "var(--wp--preset--font-family--system)"
 				},
 				 "elements": {
-					 "link": {
-						 "typography": {
-							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
-						 }
-					 },
 					 "heading": {
 						 "typography": {
 							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
