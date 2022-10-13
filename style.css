@@ -169,11 +169,6 @@ body .is-layout-flow .wp-block-group {
 /*
  * Search styles
  */
-.wp-block[data-type="core/search"] {
-	margin-bottom: 5rem !important;
-	display: block;
- }
-
 .wp-block-search__button {
 	color: #ffffff;
 	padding: calc(0.667em + 2px) calc(1.333em + 8px);
