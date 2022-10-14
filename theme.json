@@ -362,7 +362,7 @@
 			},
 			"core/search": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"lineHeight": "1.6"
 				}
 			},
