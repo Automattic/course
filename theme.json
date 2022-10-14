@@ -401,6 +401,20 @@
 						}
 					}
 				}
+			},
+			"core/query-pagination": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"textTransform": "uppercase"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
 			}
 		},
 		"color": {
