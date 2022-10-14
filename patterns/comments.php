@@ -8,7 +8,8 @@
 ?>
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop "} -->
-<div class="wp-block-comments wp-block-comments-query-loop"><!-- wp:comments-title {"level":3,"fontSize":"small"} /-->
+<div class="wp-block-comments wp-block-comments-query-loop">
+<!-- wp:comments-title {"showPostTitle":false,"showCommentsCount":false,"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} /-->
 
 <!-- wp:comment-template -->
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
