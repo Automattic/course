@@ -176,9 +176,19 @@
 					"slug": "3x-large"
 				},
 				{
+					"name": "3.5X Large",
+					"size": "clamp(64px, calc(4rem + ((1vw - 4.8px) * 6.3889)), 110px);",
+					"slug": "3-2x-large"
+				},
+				{
 					"name": "4X Large",
 					"size": "clamp(4rem, 12vw + 1rem, 8.5rem)",
 					"slug": "4x-large"
+				},
+				{
+					"name": "5X Large",
+					"size": "clamp(83px, calc(5.1875rem + ((1vw - 4.8px) * 25.1389)), 264px)",
+					"slug": "5x-large"
 				},
 				{
 					"name": "Navbar Medium",
@@ -245,6 +255,18 @@
 					"margin": {
 						"bottom": "var(--wp--preset--spacing--50)"
 					}
+				}
+			},
+			"core/group": {
+				"elements": {
+					"h2": {
+						"typography": {
+							"fontFamily": "var(--wp--preset--font-family--league-gothic)"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
 				}
 			},
 			"core/list": {
