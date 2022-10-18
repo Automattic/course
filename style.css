@@ -227,3 +227,13 @@ body .is-layout-flow .wp-block-group {
 	padding-right: 4.5rem;
 	padding-left: 4.5rem;
 }
+
+body.page-template-homepage {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.page-template-homepage header {
+	padding-left: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
+	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
+}

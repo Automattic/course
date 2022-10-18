@@ -9,6 +9,10 @@
 				"post"
 			],
 			"title": "Blank"
+		},
+		{
+			"name": "homepage",
+			"title": "Homepage"
 		}
 	],
 	"settings": {
