@@ -102,6 +102,21 @@
 					"fontFace": [
 						{
 							"fontDisplay": "block",
+							"fontFamily": "Sorts Mill Goudy",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": ["file:./assets/fonts/SortsMillGoudy-Regular.woff2"]
+						}
+					],
+					"fontFamily": "Sorts Mill Goudy",
+					"name": "Sorts Mill Goudy",
+					"slug": "sorts-mill-goudy"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
 							"fontFamily": "Inter",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
