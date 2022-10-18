@@ -401,6 +401,27 @@
 					"width": "0 0 0 1px"
 				}
 			},
+			"core/query": {
+				"elements": {
+					"button": {
+						"typography": {
+							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"textTransform": "uppercase"
+						}
+					},
+					"h2": {
+						"typography": {
+							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"textTransform": "uppercase"
+						}
+					},
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/search": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-small)",
