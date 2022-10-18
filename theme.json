@@ -20,7 +20,6 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#007062",
 					"color": "#00594F",
 					"name": "Primary",
 					"slug": "primary"
@@ -53,7 +52,6 @@
 		},
 		"layout": {
 			"contentSize": "1000px",
-			"wideSize": "1000px"
 			"wideSize": "1200px"
 		},
 		"spacing": {
