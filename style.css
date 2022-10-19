@@ -172,3 +172,74 @@ a:active {
 	text-decoration: none;
 	background-color: var(--wp--preset--color--secondary);
 }
+/* Reduce the default vertical distance between elements when inside a layout flow */
+body .is-layout-flow > * + * {
+    margin-block-start: 0.5rem;
+}
+
+/* Increase the default vertical distance between elements when inside a layout flow */
+body .is-layout-flow .wp-block-group {
+   margin-block-end: 5rem;
+}
+
+/*
+ * Search styles
+ */
+.wp-block-search__button {
+	color: #ffffff;
+	padding: calc(0.667em + 2px) calc(1.333em + 8px);
+}
+
+.wp-block-search__input {
+	background-color: var(--wp--preset--color--background);
+	padding: 1.063rem;
+}
+
+/* Add the search icon only when there is no text inside the search button */
+.wp-block-search__button:empty {
+	background-image: url('./assets/images/magnifying-glass-solid.svg');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: center center;
+	fill: #ffffff;
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-buttons .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):active {
+	background-color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):focus {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--background);
+	border-color: var(--wp--preset--color--primary);
+}
+
+/*
+* Control the hover stylings of outline block style.
+* Unnecessary once block styles are configurable via theme.json
+*/
+.wp-block-button.is-style-outline>.wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding-right: 4.5rem;
+	padding-left: 4.5rem;
+}
