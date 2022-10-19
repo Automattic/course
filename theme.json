@@ -44,7 +44,11 @@
 		},
 		"custom": {
 			"navMobileGap": "2.5rem",
-			"headerPadding": "1.875rem"
+			"headerPadding": "1.875rem",
+			"replyColumnGap": "2.349rem",
+			"commentGap" : "5rem",
+			"commentGapSmall" : "10px",
+			"commentGapMedium" : "1.25rem"
 		},
 		"layout": {
 			"contentSize": "1000px",
@@ -116,6 +120,11 @@
 				}
 			],
 			"fontSizes": [
+				{
+					"name": "Tiny",
+					"size": "0.6875rem",
+					"slug": "tiny"
+				},
 				{
 					"name": "XX small",
 					"size": "1.125rem",
@@ -195,30 +204,128 @@
 					"fontFamily": "monospace"
 				}
 			},
+			"core/comments": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"lineHeight": "var(--wp--preset--font-size--xx-small)",
+					"fontWeight": "400",
+					"letterSpacing": "2%"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"spacing": {
+					"blockGap": "0px"
+				}
+			},
+			"core/post-comments-form": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)"
+				},
+				 "elements": {
+					 "heading": {
+						 "typography": {
+							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
+						 }
+					 },
+					"button": {
+						"border": {
+							"radius": "8px"
+						},
+						"color": {
+							"background": "var(--wp--preset--color--primary)"
+						},
+						"typography": {
+							"textTransform": "uppercase",
+							"fontWeight": "400",
+							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"fontSize": "var(--wp--preset--font-size--nav-button-link)",
+							"lineHeight": "var(--wp--preset--font-size--nav-button-link)"
+						}
+					}
+				}
+			},
 			"core/comment-author-name": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
-				}
-			},
-			"core/comment-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
-				}
-			},
-			"core/comment-edit-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
-				}
-			},
-			"core/comment-reply-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"textDecoration": "underline"
+					"lineHeight": "100%"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
+					}
 				}
 			},
 			"core/comments-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"letterSpacing": "-0.01em"
+				}
+			},
+			"core/comment-content": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"lineHeight": "160%",
+					"fontFamily": "var(--wp--preset--font-family--eb-garamond)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "var(--wp--preset--spacing--40)"
+					}
+				}
+			},
+			"core/comment-date": {
+				"typography": {
+					"lineHeight": "100%"
+				},
+				"spacing": {
+					"margin": {
+						"top": "10px"
+					}
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
+					}
+				}
+			},
+			"core/comment-edit-link": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid 1px",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
+					}
+				}
+			},
+			"core/comment-reply-link": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid 1px",
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"lineHeight": "var(--wp--preset--font-size--xx-small)"
+						}
+					}
 				}
 			},
 			"core/gallery": {
