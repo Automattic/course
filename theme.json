@@ -136,6 +136,11 @@
 			],
 			"fontSizes": [
 				{
+					"name": "3X small",
+					"size": "0.6875rem",
+					"slug": "3x-small"
+				},
+				{
 					"name": "XX small",
 					"size": "1.125rem",
 					"slug": "xx-small"

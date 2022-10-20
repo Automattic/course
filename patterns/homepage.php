@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px","padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"layout":{"inherit":false,"wideSize":"","contentSize":""}} -->
-<div class="wp-block-group alignfull" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default","contentSize":"660px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px","padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"className":"course-homepage-pattern-parent-group","layout":{"inherit":false,"wideSize":"","contentSize":""}} -->
+<div class="wp-block-group alignfull course-homepage-pattern-parent-group" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default","contentSize":"660px"}} -->
 <div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -32,13 +32,13 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"primary","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1000px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"primary","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull course-home-page-responsive-padding has-foreground-color has-primary-background-color has-text-color has-background" style="padding-top:20px;padding-bottom:20px"><!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group has-tertiary-color has-primary-background-color has-text-color has-background"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}}},"borderColor":"tertiary","className":"is-style-group-left-border","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-tertiary-color has-primary-background-color has-text-color has-background"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}}},"borderColor":"tertiary","className":"is-style-group-left-border","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group is-style-group-left-border has-border-color has-tertiary-border-color" style="padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"className":"has-league-gothic-font-family"} -->
 <h3 class="has-league-gothic-font-family" style="text-transform:uppercase">COURSE LIST</h3>
 <!-- /wp:heading --></div>
@@ -50,9 +50,9 @@
 <!-- /wp:group -->
 
 <!-- wp:query {"query":{"offset":0,"postType":"course","order":"desc","orderBy":"date","author":"","search":"","sticky":"","perPage":"2","inherit":false},"displayLayout":{"type":"list"},"className":"wp-block-sensei-lms-course-list wp-block-sensei-lms-course-list\u002d\u002dis-list-view","layout":{"inherit":true}} -->
-<div class="wp-block-query wp-block-sensei-lms-course-list wp-block-sensei-lms-course-list--is-list-view"><!-- wp:post-template -->
-<!-- wp:columns {"style":{"spacing":{"blockGap":"10px"}},"textColor":"tertiary"} -->
-<div class="wp-block-columns has-tertiary-color has-text-color"><!-- wp:column {"verticalAlignment":"top","width":"30%","layout":{"inherit":true}} -->
+<div class="wp-block-query wp-block-sensei-lms-course-list wp-block-sensei-lms-course-list--is-list-view"><!-- wp:post-template {"align":"full"} -->
+<!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"20px"}},"textColor":"tertiary"} -->
+<div class="wp-block-columns are-vertically-aligned-top has-tertiary-color has-text-color"><!-- wp:column {"verticalAlignment":"top","width":"30%","layout":{"inherit":true}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:30%"><!-- wp:post-featured-image {"isLink":true,"width":"","height":"350px","align":"center","style":{"border":{"width":"1px","radius":"4px"}}} /--></div>
 <!-- /wp:column -->
 
@@ -90,7 +90,7 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1000px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull course-home-page-responsive-padding has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-bottom:20px"><!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -122,7 +122,7 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"80px"}}},"className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1000px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"80px"}}},"className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull course-home-page-responsive-padding" style="padding-top:20px;padding-bottom:80px"><!-- wp:group {"style":{"spacing":{"padding":{"left":"40px"}}},"borderColor":"primary","className":"is-style-group-left-border","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group is-style-group-left-border has-border-color has-primary-border-color" style="padding-left:40px"><!-- wp:heading {"textAlign":"left","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xx-large"} -->
 <h2 class="has-text-align-left has-xx-large-font-size" style="text-transform:uppercase">keep track of the latest<br>news and lessons.<br>Every week in your inbox.</h2>
@@ -136,7 +136,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"backgroundColor":"primary","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1000px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"backgroundColor":"primary","textColor":"foreground","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull course-home-page-responsive-padding has-foreground-color has-primary-background-color has-text-color has-background" style="padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -148,12 +148,10 @@
 <!-- /wp:group -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":"20px"}},"textColor":"tertiary"} -->
-<div class="wp-block-columns has-tertiary-color has-text-color"><!-- wp:column {"width":"41%"} -->
-<div class="wp-block-column" style="flex-basis:41%"><!-- wp:group {"style":{"border":{"width":"1px","radius":"8px"}},"borderColor":"tertiary"} -->
-<div class="wp-block-group has-border-color has-tertiary-border-color" style="border-radius:8px;border-width:1px"><!-- wp:image {"id":2150,"width":405,"height":500,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}},"className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-resized is-style-default" style="border-radius:8px"><img src="http://sentest.test/wp-content/themes/sensei-theme/assets/images/course-theme-testimonial.png" alt="" class="wp-image-2150" width="405" height="500"/></figure>
+<div class="wp-block-columns has-tertiary-color has-text-color"><!-- wp:column {"verticalAlignment":"bottom","width":"41%"} -->
+<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:41%"><!-- wp:image {"id":2150,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}},"className":"is-style-course-image-border"} -->
+<figure class="wp-block-image size-full is-style-course-image-border" style="border-radius:8px"><img src="http://sentest.test/wp-content/themes/sensei-theme/assets/images/course-theme-testimonial.png" alt="" class="wp-image-2150"/></figure>
 <!-- /wp:image --></div>
-<!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":"10px"}}} -->
@@ -176,7 +174,7 @@
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"primary","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1000px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"primary","className":"course-home-page-responsive-padding","layout":{"type":"default","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull course-home-page-responsive-padding has-primary-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-bottom:20px"><!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

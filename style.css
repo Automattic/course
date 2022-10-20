@@ -272,3 +272,35 @@ body.page-template-homepage {
 .wp-block-image {
 	margin: 0px;
 }
+
+.course-homepage-pattern-parent-group > .wp-block-group {
+	padding-left: clamp(20px, calc(1.25rem + ((1vw - 4.8px) * 11.1111)), 100px);
+	padding-right: clamp(20px, calc(1.25rem + ((1vw - 4.8px) * 11.1111)), 100px);
+}
+
+.is-style-course-image-border img {
+	border: 1px solid var(--wp--preset--color--tertiary);
+}
+
+.wp-block-sensei-lms-course-list .featured-image-wrapper .sensei-lms-featured-badge,
+.featured-course-wrapper__featured-image .course-list-featured-label__featured-image {
+	font-family: var(--wp--preset--font-family--system);
+	font-size: var(--wp--preset--font-size--3-x-small);
+	background-color: var(--wp--preset--color--primary);
+	text-transform: uppercase;
+	padding: 3px 6px;
+	line-height: 1rem;
+	border-radius: 2px;
+}
+
+.featured-course-wrapper__course-categories a {
+	font-family: var(--wp--preset--font-family--system);
+	line-height: 145%;
+	padding: 3px 6px;
+}
+
+.wp-block-post-author__avatar img {
+	border: 1px solid var(--wp--preset--color--tertiary);
+	border-radius: 4px;
+}
+}
