@@ -303,4 +303,7 @@ body.page-template-homepage {
 	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 4px;
 }
+
+.wp-block-sensei-lms-course-list--is-grid-view .wp-block-post div.block-editor-block-list__block.wp-block-group {
+	height: auto;
 }
