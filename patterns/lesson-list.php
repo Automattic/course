@@ -12,11 +12,11 @@
   <!-- /wp:heading -->
 
   <!-- wp:sensei-lms/course-outline -->
-  <!-- wp:sensei-lms/course-outline-lesson {"id":4164,"title":"Lesson 1"} /-->
+  <!-- wp:sensei-lms/course-outline-lesson { "title":"Lesson 1"} /-->
 
-  <!-- wp:sensei-lms/course-outline-lesson {"id":4166,"title":"Lesson 2"} /-->
+  <!-- wp:sensei-lms/course-outline-lesson { "title":"Lesson 2"} /-->
 
-  <!-- wp:sensei-lms/course-outline-lesson {"id":4168,"title":"Lesson 3"} /-->
+  <!-- wp:sensei-lms/course-outline-lesson { "title":"Lesson 3"} /-->
   <!-- /wp:sensei-lms/course-outline -->
 
   <!-- wp:sensei-lms/button-take-course {"className":"is-style-secondary"} -->
