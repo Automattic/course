@@ -9,6 +9,16 @@
 				"post"
 			],
 			"title": "Blank"
+		},
+		{
+			"name": "page-with-transparent-menu",
+			"postTypes": [
+				"page",
+				"post",
+				"course",
+				"lesson"
+			],
+			"title": "Page using transparent menu"
 		}
 	],
 	"settings": {
