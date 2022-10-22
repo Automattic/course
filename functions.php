@@ -53,7 +53,7 @@ if ( ! function_exists( 'course_scripts' ) ) :
 
 		// Enqueque theme scripts.
 		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
-
+		wp_enqueue_script( 'course-cover', get_template_directory_uri() . '/assets/js/cover.js', [], wp_get_theme()->get('Version'), true);
 	}
 
 endif;
