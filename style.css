@@ -65,6 +65,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .wp-block-table thead {
 	border-bottom: 3px solid;
 }
+
 .wp-block-table tfoot {
 	border-top: 3px solid;
 }
@@ -383,4 +384,8 @@ body .is-layout-flow .wp-block-group {
 }
 .sensei-message {
 	margin-top: 60px;
+}
+
+.wp-block-sensei-lms-button-contact-teacher  .wp-block-button__link  {
+	padding: 16px 32px;
 }
