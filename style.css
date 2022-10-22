@@ -260,30 +260,14 @@ a {
 	text-underline-offset: .15em
 }
 
-a:link {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:focus {
-	text-decoration: underline dotted;
-}
-
-a:active {
-	text-decoration: none;
-	background-color: var(--wp--preset--color--secondary);
-}
 /* Reduce the default vertical distance between elements when inside a layout flow */
 body .is-layout-flow > * + * {
-    margin-block-start: 0.5rem;
+		margin-block-start: 0.5rem;
 }
 
 /* Increase the default vertical distance between elements when inside a layout flow */
 body .is-layout-flow .wp-block-group {
-   margin-block-end: 5rem;
+	margin-block-end: 5rem;
 }
 
 /*
