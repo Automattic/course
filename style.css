@@ -46,6 +46,18 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	border-color: var(--wp--preset--color--secondary);
 }
 
+.wp-block-button.is-style-secondary>.wp-block-button__link {
+	background-color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--primary); 
+	padding: 16px 32px;
+	cursor: pointer;
+}
+
+.wp-block-button.is-style-secondary>.wp-block-button__link:not(.has-background):hover {
+	background-color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--background);
+}
+
 /**
  * Currently table styles are only available with 'wp-block-styles' theme support (block css) thus the following needs to be included
  * since 'wp-block-styles' aren't used for this theme.
@@ -136,11 +148,19 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 * z index needed to be added, featured tag comes on top otherwise.
 */
 header {
-	position: sticky;
-	top: -1px;;
+	position: relative;
 	z-index: 1111;
-	background-color: var(--wp--preset--color--background);
 	padding: var(--wp--custom--header-padding) 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header:not(.no-stick){
+	position: sticky;
+	top: -1px;
+}
+header:not(.no-background) {
+	background-color: var(--wp--preset--color--background);
 }
 
 /* No background color needed as per design when the navbar is being sticky on top */
@@ -330,4 +350,37 @@ body .is-layout-flow .wp-block-group {
 .wp-block-button .wp-block-button__link.is-style-outline {
 	padding-right: 4.5rem;
 	padding-left: 4.5rem;
+}
+
+/*
+*  Page with transparent menu style
+*/
+.landing-page__cover:not(.block-editor-block-list__layout) {
+	margin-bottom: 20px !important;
+}
+
+.landing-page__header {
+	color: var(--wp--preset--color--tertiary);
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.landing-page__header a {
+	color: currentColor;
+}
+
+/* Remove space from the blockquote and the inner p with the style is applied */
+.wp-block-pullquote.is-style-no-spacing *:is(blockquote, p) {
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .landing-page__header {
+		padding-left: clamp(1.31rem, 9.88vw + -1.16rem, 6.25rem);
+		padding-right: clamp(1.31rem, 9.88vw + -1.16rem, 6.25rem);
+	}
+}
+.sensei-message {
+	margin-top: 60px;
 }
