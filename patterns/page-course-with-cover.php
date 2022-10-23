@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Course Landing Page
+ * Title: Course Landing Page with cover featured image
  * Slug: course/landing-page
  * Categories: sensei-lms
  * Block Types: sensei-lms/post-content
