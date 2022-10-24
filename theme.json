@@ -263,13 +263,6 @@
 				}
 			},
 			"core/group": {
-				"elements": {
-					"h2": {
-						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--league-gothic)"
-						}
-					}
-				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
 				}
