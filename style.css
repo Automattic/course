@@ -331,3 +331,10 @@ body .is-layout-flow .wp-block-group {
 	padding-right: 4.5rem;
 	padding-left: 4.5rem;
 }
+
+/*
+* Sensei Blocks
+*/
+.wp-block-sensei-lms-course-overview a {
+	text-decoration: underline;
+}
