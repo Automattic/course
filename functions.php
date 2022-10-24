@@ -68,20 +68,6 @@ function course_theme_init() {
 			'label' => __( 'Button', 'course' ),
 		)
 	);
-	register_block_style(
-		'core/group',
-		array(
-			'name'  => 'group-left-border',
-			'label' => __( 'Left Border', 'course' ),
-		)
-	);
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'course-image-border',
-			'label' => __( 'Image Border', 'course' ),
-		)
-	);
 
 	$block_pattern_categories = array(
 		'sensei-lms' => array( 'label' => __( 'Sensei LMS', 'course' ) )
