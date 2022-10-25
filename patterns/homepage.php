@@ -40,12 +40,12 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"},"blockGap":"0"}},"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group has-tertiary-color has-primary-background-color has-text-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|tertiary","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--tertiary);border-left-width:1px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"fontFamily":"league-gothic"} -->
-<h3 class="has-league-gothic-font-family" style="text-transform:uppercase">COURSE LIST</h3>
+<h3 class="has-league-gothic-font-family" style="text-transform:uppercase"><?php esc_html_e( 'COURSE LIST', 'course' ); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}}},"fontSize":"xx-small","fontFamily":"system"} -->
-<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="http://test.test">Explore all courses</a></p>
+<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="http://test.test"><?php esc_html_e( 'Explore all courses', 'course' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
