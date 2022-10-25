@@ -382,7 +382,8 @@
 			},
 			"core/post-content": {
 				"typography": {
-					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)"
+					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
+					"letterSpacing": "-0.01em"
 				},
 				"elements": {
 					"link": {
