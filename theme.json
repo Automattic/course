@@ -137,7 +137,7 @@
 				},
 				{
 					"name": "Small",
-					"size": "clamp(1.25rem, 2vw + 1.5rem, 1.5rem)",
+					"size": "clamp(1.313rem, 1.188rem + 0.416vw, 1.5rem)",
 					"slug": "small"
 				},
 				{
@@ -159,6 +159,11 @@
 					"name": "XX Large",
 					"size": "clamp(3rem, 5.03vw + 0.24rem, 4rem)",
 					"slug": "xx-large"
+				},
+				{
+					"name": "2.5X Large",
+					"size": "clamp(4rem, calc(4rem + ((1vw - 0.3rem) * 2.6389)), 5.1875rem)",
+					"slug": "2-5x-large"
 				},
 				{
 					"name": "3X Large",
@@ -371,6 +376,18 @@
 							"typography": {
 								"textDecoration": "underline"
 							}
+						}
+					}
+				}
+			},
+			"core/post-content": {
+				"typography": {
+					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
 						}
 					}
 				}
