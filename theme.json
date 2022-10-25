@@ -539,7 +539,7 @@
 					"fontSize": "var(--wp--preset--font-size--button-link)",
 					"fontWeight": "400",
 					"letterSpacing": "0.05em",
-					"textTransform": "uppercase",
+					"textTransform": "uppercase"
 				},
 				":hover": {
 					"outline": {
