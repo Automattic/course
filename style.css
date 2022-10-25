@@ -256,7 +256,8 @@ body.page-template-homepage {
 }
 
 /* Add responsive padding inside the groups of homepage pattern */
-.course-homepage-pattern-parent-group > .wp-block-group {
+.course-homepage-pattern-parent-group > .wp-block-group,
+.page-template-homepage footer > .wp-block-group {
 	padding-left: clamp(20px, calc(1.25rem + ((1vw - 4.8px) * 11.1111)), 100px);
 	padding-right: clamp(20px, calc(1.25rem + ((1vw - 4.8px) * 11.1111)), 100px);
 }
