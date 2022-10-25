@@ -262,7 +262,7 @@ a {
 
 /* Reduce the default vertical distance between elements when inside a layout flow */
 body .is-layout-flow > * + * {
-		margin-block-start: 0.5rem;
+	margin-block-start: 0.5rem;
 }
 
 /* Increase the default vertical distance between elements when inside a layout flow */
