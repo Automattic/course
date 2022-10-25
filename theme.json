@@ -176,9 +176,9 @@
 					"slug": "nav-medium"
 				},
 				{
-					"name": "Navbar Button Link",
+					"name": "Button Link",
 					"size": "1.3125rem",
-					"slug": "nav-button-link"
+					"slug": "button-link"
 				}
 			]
 		}
@@ -244,8 +244,8 @@
 							"textTransform": "uppercase",
 							"fontWeight": "400",
 							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-							"fontSize": "var(--wp--preset--font-size--nav-button-link)",
-							"lineHeight": "var(--wp--preset--font-size--nav-button-link)"
+							"fontSize": "var(--wp--preset--font-size--button-link)",
+							"lineHeight": "var(--wp--preset--font-size--button-link)"
 						}
 					}
 				}
@@ -516,14 +516,8 @@
 		},
 		"elements": {
 			"button": {
-				"spacing": {
-					"padding": {
-						"left": "4.5rem",
-						"right": "4.5rem"
-					}
-				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--nav-button-link)",
+					"fontSize": "var(--wp--preset--font-size--button-link)",
 					"textTransform": "uppercase",
 					"fontWeight": "400",
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)"

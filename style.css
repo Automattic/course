@@ -91,7 +91,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
  /* The navigation item that looks like a button in the design has a different front size and the button is rounded */
  .wp-block-navigation .wp-block-navigation__responsive-container .wp-block-navigation-link.is-style-navigation-link-button a {
-	font-size: var(--wp--preset--font-size--nav-button-link);
+	font-size: var(--wp--preset--font-size--button-link);
 	border-radius: 8px;
 }
 
@@ -167,8 +167,8 @@ header:not(.is-being-sticky) {
 	background-color: var(--wp--preset--color--primary);
 	text-transform: uppercase;
 	font-family: var(--wp--preset--font-family--league-gothic);
-	font-size: var(--wp--preset--font-size--nav-button-link);
-	line-height: var(--wp--preset--font-size--nav-button-link);
+	font-size: var(--wp--preset--font-size--button-link);
+	line-height: var(--wp--preset--font-size--button-link);
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit]:hover {
