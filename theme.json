@@ -516,13 +516,6 @@
 		},
 		"elements": {
 			"button": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--button-link)",
-					"textTransform": "uppercase",
-					"fontWeight": "400",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"letterSpacing": "0.05em",
-				},
 				"border": {
 					"color": "var(--wp--preset--color--primary)",
 					"radius": "8px",
@@ -540,6 +533,13 @@
 						"bottom": "0.5856em",
 						"left": "1.5238em"
 					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--button-link)",
+					"fontWeight": "400",
+					"letterSpacing": "0.05em",
+					"textTransform": "uppercase",
 				},
 				":hover": {
 					"outline": {
