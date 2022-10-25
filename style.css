@@ -328,8 +328,8 @@ body .is-layout-flow .wp-block-group {
 */
 .wp-block-button.is-style-outline>.wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
-	padding-right: 4.5rem;
-	padding-left: 4.5rem;
+	border-width: 1px;
+	padding: 0.5856em 1.5238em;
 }
 
 /*
