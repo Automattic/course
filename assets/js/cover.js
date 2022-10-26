@@ -10,7 +10,6 @@ function domReady (callback) {
 
 
 function moveToTop() {
-  console.log('moveToTop')
   const shouldMoveTheCover = document.querySelector(".move-cover");
   if (!shouldMoveTheCover) return false;
 
@@ -19,13 +18,11 @@ function moveToTop() {
   const covers = Array.from(elementsToStick);
   const lastCover = covers[covers.length - 1];
 
-  console.log({ covers });
   senseiMessages.map(element => {
     lastCover.parentElement.insertBefore(element, lastCover.nextSibling)
   });
   
   covers.map(element => {
-    console.log(element.offsetTop);
     element.style.marginTop = `-${element.offsetTop}px`
   });
 
