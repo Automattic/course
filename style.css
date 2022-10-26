@@ -292,6 +292,12 @@ body .is-layout-flow .wp-block-group {
 	fill: #ffffff;
 }
 
+/* Buttons */
+.wp-block-button__link:focus {
+	outline: var(--wp--preset--color--primary) dashed;
+	outline-offset: 1px;
+}
+
 /*
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
