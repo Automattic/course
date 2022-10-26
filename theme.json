@@ -602,9 +602,25 @@
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
 				},
-				":hover": {
+				"typography": {
+					"textDecoration": "none"
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)"
+					},
 					"typography": {
 						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
 					}
 				}
 			}
