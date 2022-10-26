@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
-<div class="wp-block-group alignfull" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:spacer -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"100px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
+<div class="wp-block-group alignfull" style="padding-top:20px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -24,11 +24,7 @@
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"8px"}},"fontSize":"x-small","fontFamily":"league-gothic"} -->
 <div class="wp-block-button has-custom-font-size has-league-gothic-font-family has-x-small-font-size"><a class="wp-block-button__link has-primary-background-color has-background wp-element-button" style="border-radius:8px">START LEARNING NOW</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:spacer {"height":"10px"} -->
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+<!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:pattern {"slug":"course/course-list-homepage"} /-->
