@@ -280,3 +280,9 @@ body.page-template-homepage {
 	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 4px;
 }
+
+/* Remove extra spacings from between top level blocks in homepage pattern */
+body.page-template-homepage .wp-block-post-content > *,
+.is-root-container.is-layout-constrained.wp-block-post-content > * {
+	margin-block-start: 0px;
+}
