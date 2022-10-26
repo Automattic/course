@@ -7,12 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"backgroundColor":"primary","textColor":"foreground","layout":{"type":"constrained","contentSize":"1000px"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-primary-background-color has-text-color has-background" style="padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"10px"} -->
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|tertiary","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"backgroundColor":"primary","textColor":"foreground","layout":{"type":"constrained","contentSize":"1000px"}} -->
+<div class="wp-block-group alignfull has-foreground-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-bottom:80px"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|tertiary","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--tertiary);border-left-width:1px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"textColor":"tertiary"} -->
 <h3 class="has-tertiary-color has-text-color" style="text-transform:uppercase">What students say</h3>
 <!-- /wp:heading --></div>
@@ -38,9 +34,5 @@
 <p class="has-system-font-family has-xx-small-font-size">Founder at BeautifulWriting.com</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->

@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"primary","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"background","textColor":"primary","layout":{"type":"constrained","contentSize":"1000px"}} -->
 <div class="wp-block-group alignfull has-primary-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-bottom:20px"><!-- wp:spacer {"height":"10px"} -->
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
