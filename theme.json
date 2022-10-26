@@ -263,13 +263,6 @@
 				}
 			},
 			"core/group": {
-				"elements": {
-					"h2": {
-						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--league-gothic)"
-						}
-					}
-				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
 				}
@@ -300,6 +293,15 @@
 					}
 				}
 			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid var(--wp--preset--color--tertiary)"
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"elements": {
 					"link": {
@@ -310,6 +312,18 @@
 							"typography": {
 								"textDecoration": "underline"
 							}
+						}
+					}
+				}
+			},
+			"core/post-featured-image": {
+				"elements": {
+					"link": {
+						"border": {
+							"color": "var(--wp--preset--color--tertiary)",
+							"width": "1px",
+							"style": "solid",
+							"radius": "4px"
 						}
 					}
 				}
