@@ -451,6 +451,14 @@
 					}
 				}
 			},
+			"core/post-excerpt": {
+				"spacing": {
+					"margin": {
+						"top": "0px",
+						"bottom": "0px"
+					}
+				}
+			},
 			"core/post-title": {
 				"spacing": {
 					"margin": {

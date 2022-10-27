@@ -7,12 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"100px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
-<div class="wp-block-group alignfull" style="padding-top:20px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"textColor":"primary","fontSize":"3-2x-large"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"116px","right":"20px","bottom":"115px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
+<div class="wp-block-group alignfull" style="padding-top:116px;padding-right:20px;padding-bottom:115px;padding-left:20px"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"textColor":"primary","fontSize":"3-2x-large"} -->
 <p class="has-text-align-center has-primary-color has-text-color has-3-2-x-large-font-size" style="line-height:1;text-transform:uppercase">grow your writing Skills with Course</p>
 <!-- /wp:paragraph -->
 
@@ -34,3 +30,4 @@
 <!-- wp:pattern {"slug":"course/newsletter-homepage"} /-->
 
 <!-- wp:pattern {"slug":"course/testimonial-homepage"} /-->
+
