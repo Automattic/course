@@ -8,23 +8,25 @@ function domReady (callback) {
   window.addEventListener('load', handler, false)
 }
 
-
+// It is forcing the block core/media-text variation to be under the menu
+//  Please check 
+// 
 function moveToTop() {
-  const shouldMoveTheCover = document.querySelector(".move-cover");
-  if (!shouldMoveTheCover) return false;
-
-  const elementsToStick = document.querySelectorAll(".stick-on-top");
+  const elementsToStick = document.querySelectorAll(".is-style-page-header");
   const senseiMessages = Array.from(document.querySelectorAll(".sensei-message"));
   const covers = Array.from(elementsToStick);
   const lastCover = covers[covers.length - 1];
 
-  senseiMessages.map(element => {
-    lastCover.parentElement.insertBefore(element, lastCover.nextSibling)
-  });
   
-  covers.map(element => {
-    element.style.marginTop = `-${element.offsetTop}px`
-  });
+  if (covers.length > 0) {
+    senseiMessages.map(element => {
+      lastCover.parentElement.insertBefore(element, lastCover.nextSibling)
+    });
+
+    covers.map(element => {
+      element.style.marginTop = `-${element.offsetTop}px`
+    });
+  }
 
 }
 
