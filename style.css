@@ -282,9 +282,8 @@ a {
 
 /* Reduce the default vertical distance between elements when inside a layout flow */
 body .is-layout-flow > * + * {
-    margin-block-start: 0.5rem;
+	margin-block-start: 0.5rem;
 }
-
 
 /*
  * Search styles
@@ -351,7 +350,6 @@ body .is-layout-flow > * + * {
 /*
 *  Page with transparent menu style
 */
-
 .landing-page__header {
 	color: var(--wp--preset--color--tertiary);
 }
@@ -389,5 +387,13 @@ body .is-layout-flow > * + * {
 
 
 .wp-block-sensei-lms-button-contact-teacher  .wp-block-button__link  {
-	padding: 16px 32px;
+	padding: 1rem 2rem;
 }
+
+/*
+* Sensei Blocks
+*/
+.wp-block-sensei-lms-course-overview a {
+	text-decoration: underline;
+}
+
