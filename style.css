@@ -290,3 +290,18 @@ body.page-template-homepage .wp-block-post-content > *,
 .is-root-container.is-layout-constrained.wp-block-post-content > * {
 	margin-block-start: 0px;
 }
+
+/* Center the contents inside post author block */
+.wp-block-sensei-lms-course-list .wp-block-post-author * {
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 100%;
+}
+
+/* Remove extra spacings from different blocks */
+.wp-block-sensei-lms-course-list .wp-block-post-excerpt p,
+.wp-block-sensei-lms-course-list .wp-block-group,
+.wp-block-cover .wp-block-group {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
