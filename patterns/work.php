@@ -27,7 +27,7 @@
     <!-- /wp:group -->
 
     <!-- wp:image {"id":4618,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-    <figure class="wp-block-image size-full is-style-default"><img src="http://sensei.test/wp-content/uploads/2022/10/Video.png" alt="" class="wp-image-4618" /></figure>
+    <figure class="wp-block-image size-full is-style-default"><img src="/wp-content/themes/sensei-theme/assets/images/placeholder-4.png" alt="" class="wp-image-4618" /></figure>
     <!-- /wp:image -->
   </div>
   <!-- /wp:group -->
