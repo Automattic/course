@@ -39,6 +39,16 @@
 					"color": "#f8f5f3",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#FFF7BC",
+					"name": "Button Border - Active",
+					"slug": "button-border-active"
+				},
+				{
+					"color": "#009F8D",
+					"name": "Button Border - Hover",
+					"slug": "button-border-hover"
 				}
 			]
 		},
@@ -48,19 +58,7 @@
 			"replyColumnGap": "2.349rem",
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
-			"commentGapMedium" : "1.25rem",
-			"button": {
-				":active": {
-					"border": {
-						"color": "#FFF7BC"
-					}
-				},
-				":hover": {
-					"border": {
-						"color": "#009F8D"
-					}
-				}
-			}
+			"commentGapMedium" : "1.25rem"
 		},
 		"layout": {
 			"contentSize": "1000px",
@@ -555,7 +553,7 @@
 				},
 				":active": {
 					"border": {
-						"color": "var(--wp--custom--button--active--border--color)"
+						"color": "var(--wp--preset--color--button-border-active)"
 					},
 					"color": {
 						"background": "var(--wp--preset--color--secondary)",
@@ -570,7 +568,7 @@
 				},
 				":hover": {
 					"border": {
-						"color": "var(--wp--custom--button--hover--border--color)"
+						"color": "var(--wp--preset--color--button-border-hover)"
 					},
 					"color": {
 						"background": "var(--wp--preset--color--primary)",
