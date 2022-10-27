@@ -386,6 +386,12 @@ body.page-template-homepage {
 	border-radius: 2px;
 }
 
+/* Remove extra spacings from course list block */
+.wp-block-sensei-lms-course-list .wp-block-post {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
 /* Add border around author image in Post Author block */
 .wp-block-post-author__avatar img {
 	border: 1px solid var(--wp--preset--color--tertiary);
@@ -395,5 +401,15 @@ body.page-template-homepage {
 /* Remove extra spacings from between top level blocks in homepage pattern */
 body.page-template-homepage .wp-block-post-content > *,
 .is-root-container.is-layout-constrained.wp-block-post-content > * {
+	margin-block-start: 0px;
+}
+
+/* Remove default spacings so that we can use our own spacings */
+body .is-layout-flow > * {
+	margin-block-end: 0;
+	margin-bottom: 0;
+}
+
+body .is-layout-constrained > * + * {
 	margin-block-start: 0px;
 }

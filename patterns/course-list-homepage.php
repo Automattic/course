@@ -6,8 +6,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","left":"20px","right":"20px"},"blockGap":"0px"}},"backgroundColor":"primary","layout":{"type":"constrained","contentSize":"1000px"}} -->
-<div class="wp-block-group alignfull has-primary-background-color has-background" style="padding-top:80px;padding-right:20px;padding-left:20px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"40px","left":"0px"},"blockGap":"0"}},"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","left":"20px","right":"20px","bottom":"80px"},"blockGap":"0px"}},"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"constrained","contentSize":"1000px"}} -->
+<div class="wp-block-group alignfull has-tertiary-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-right:20px;padding-bottom:80px;padding-left:20px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"40px","left":"0px"},"blockGap":"0"}},"backgroundColor":"primary","textColor":"tertiary","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group has-tertiary-color has-primary-background-color has-text-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:40px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px"}},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|tertiary","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
 <div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--tertiary);border-left-width:1px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium","fontFamily":"league-gothic"} -->
 <h3 class="has-league-gothic-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase">COURSE LIST</h3>
@@ -15,14 +15,14 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}}},"fontSize":"xx-small","fontFamily":"system"} -->
-<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="<?php echo class_exists( 'Sensei_Course' ) ? Sensei_Course::get_courses_page_url() : '#'; ?>">Explore all courses</a></p>
+<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="http://sentest.test/courses-overview-1/">Explore all courses</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:query {"query":{"offset":0,"postType":"course","order":"desc","orderBy":"date","author":"","search":"","sticky":"","perPage":"2","inherit":false},"displayLayout":{"type":"list"},"className":"wp-block-sensei-lms-course-list wp-block-sensei-lms-course-list\u002d\u002dis-list-view","layout":{"inherit":true}} -->
 <div class="wp-block-query wp-block-sensei-lms-course-list wp-block-sensei-lms-course-list--is-list-view"><!-- wp:post-template {"align":"full"} -->
-<!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"20px","margin":{"bottom":"0px"}}},"textColor":"tertiary"} -->
-<div class="wp-block-columns are-vertically-aligned-top has-tertiary-color has-text-color" style="margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"30%","layout":{"inherit":true}} -->
+<!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":"20px","margin":{"bottom":"40px"}}},"textColor":"tertiary"} -->
+<div class="wp-block-columns are-vertically-aligned-top has-tertiary-color has-text-color" style="margin-bottom:40px"><!-- wp:column {"verticalAlignment":"top","width":"30%","layout":{"inherit":true}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:30%"><!-- wp:post-featured-image {"isLink":true,"width":"","height":"350px","align":"center","style":{"border":{"width":"1px","radius":"4px"}}} /--></div>
 <!-- /wp:column -->
 

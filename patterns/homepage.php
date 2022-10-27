@@ -7,13 +7,13 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"116px","right":"20px","bottom":"115px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
-<div class="wp-block-group alignfull" style="padding-top:116px;padding-right:20px;padding-bottom:115px;padding-left:20px"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"textColor":"primary","fontSize":"3-2x-large"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-3-2-x-large-font-size" style="line-height:1;text-transform:uppercase">grow your writing Skills with Course</p>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"116px","right":"20px","bottom":"117px","left":"20px"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
+<div class="wp-block-group alignfull" style="padding-top:116px;padding-right:20px;padding-bottom:117px;padding-left:20px"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":".9"}},"textColor":"primary","fontSize":"3-2x-large"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-3-2-x-large-font-size" style="line-height:.9;text-transform:uppercase">grow your writing Skills with Course</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"-1%"}},"textColor":"primary","fontSize":"small","fontFamily":"eb-garamond"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-eb-garamond-font-family has-small-font-size" style="letter-spacing:-1%">Writing is powerful! Allows you to articulate and explain yourself to others. When done well, it allows you to tell stories that could fascinate millions.</p>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"-1%","lineHeight":"1.3"},"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"textColor":"primary","fontSize":"small","fontFamily":"eb-garamond"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-eb-garamond-font-family has-small-font-size" style="padding-top:40px;padding-bottom:40px;letter-spacing:-1%;line-height:1.3">Writing is powerful! Allows you to articulate and explain yourself to others. When done well, it allows you to tell stories that could fascinate millions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
