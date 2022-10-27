@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Homepage
+ * Title: Home Page
  * Slug: course/homepage
  * Inserter: yes
  * Categories: sensei-lms
