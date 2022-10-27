@@ -68,6 +68,23 @@ function course_theme_init() {
 			'label' => __( 'Button', 'course' ),
 		)
 	);
+
+	register_block_style(
+		'sensei-lms/button-take-course',
+		array(
+			'name'  => 'secondary',
+			'label' => __('Secondary', 'course'),
+		)
+	);
+
+	// Style to enable move a page header to the top
+	register_block_style(
+		'core/media-text',
+		array(
+			'name'  => 'page-header',
+			'label' => __('Page Header', 'course'),
+		)
+	);
 }
 
 add_action( 'init', 'course_theme_init' );

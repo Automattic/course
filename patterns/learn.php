@@ -5,8 +5,8 @@
  * Slug: course/learn
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|40","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50"}},"backgroundColor":"primary","textColor":"white","className":"has-system-font-family","layout":{"type":"constrained","contentSize":"660px","wideSize":"1200px"}} -->
-<div class="wp-block-group has-system-font-family has-white-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|40","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"primary","textColor":"white","className":"has-system-font-family","layout":{"type":"constrained","contentSize":"660px","wideSize":"1200px"}} -->
+<div class="wp-block-group has-system-font-family has-white-color has-primary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
   <!-- wp:heading {"textColor":"white"} -->
   <h2 class="has-white-color has-text-color">What you will learn</h2>
   <!-- /wp:heading -->

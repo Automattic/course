@@ -152,7 +152,6 @@ header {
 	position: relative;
 	z-index: 1111;
 	padding: var(--wp--custom--header-padding) 0px;
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -286,10 +285,6 @@ body .is-layout-flow > * + * {
     margin-block-start: 0.5rem;
 }
 
-/* Increase the default vertical distance between elements when inside a layout flow */
-body .is-layout-flow .wp-block-group {
-   margin-block-end: 5rem;
-}
 
 /*
  * Search styles
@@ -356,14 +351,9 @@ body .is-layout-flow .wp-block-group {
 /*
 *  Page with transparent menu style
 */
-.landing-page__cover:not(.block-editor-block-list__layout) {
-	margin-bottom: 20px !important;
-}
 
 .landing-page__header {
 	color: var(--wp--preset--color--tertiary);
-	max-width: 1000px;
-	margin: 0 auto;
 }
 
 .landing-page__header a {
@@ -376,15 +366,27 @@ body .is-layout-flow .wp-block-group {
 	margin: 0;
 }
 
+
+.wp-block-media-text .wp-block-media-text__content {
+	padding: 0;
+}
+
+.landing-page-navigation{
+	padding-left: 0;
+	padding-right: 0;
+}
+
 @media only screen and (max-width: 1200px) {
-  .landing-page__header {
-		padding-left: clamp(1.31rem, 9.88vw + -1.16rem, 6.25rem);
-		padding-right: clamp(1.31rem, 9.88vw + -1.16rem, 6.25rem);
+	.wp-block-media-text .wp-block-media-text__content {
+		padding-left: 20px;
+	}
+
+	.landing-page-navigation{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
-.sensei-message {
-	margin-top: 60px;
-}
+
 
 .wp-block-sensei-lms-button-contact-teacher  .wp-block-button__link  {
 	padding: 16px 32px;
