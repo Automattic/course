@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Homepage Newsletter
+ * Title: Newsletter
  * Slug: course/newsletter-homepage
  * Inserter: yes
  */

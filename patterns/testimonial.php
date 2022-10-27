@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Homepage Testimonial
- * Slug: course/testimonial-homepage
+ * Title: Testimonial
+ * Slug: course/testimonial
  * Inserter: yes
  */
 ?>

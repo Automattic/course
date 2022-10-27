@@ -23,11 +23,11 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:pattern {"slug":"course/course-list-homepage"} /-->
+<!-- wp:pattern {"slug":"course/course-list"} /-->
 
 <!-- wp:pattern {"slug":"course/blog-posts"} /-->
 
 <!-- wp:pattern {"slug":"course/newsletter-homepage"} /-->
 
-<!-- wp:pattern {"slug":"course/testimonial-homepage"} /-->
+<!-- wp:pattern {"slug":"course/testimonial"} /-->
 

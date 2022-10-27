@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Homepage Course List
- * Slug: course/course-list-homepage
+ * Title: Course List
+ * Slug: course/course-list
  * Inserter: yes
  */
 ?>
