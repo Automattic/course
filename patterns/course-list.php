@@ -15,7 +15,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}}},"fontSize":"xx-small","fontFamily":"system"} -->
-<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="http://sentest.test/courses-overview-1/">Explore all courses</a></p>
+<p class="has-link-color has-system-font-family has-xx-small-font-size"><a href="<?php echo class_exists( 'Sensei_Course' ) ? Sensei_Course::get_courses_page_url() : '#'; ?>">Explore all courses</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
