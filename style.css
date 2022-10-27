@@ -340,19 +340,19 @@ body .is-layout-flow .wp-block-group {
 }
 
 /* Remove extra space from group blocks insidehomepage pattern */
-body.page-template-homepage .wp-block-post-content .wp-block-group,
-body.page-template-homepage footer .wp-block-group {
+body.page-template-page-no-title .wp-block-post-content .wp-block-group,
+body.page-template-page-no-title footer .wp-block-group {
 	margin-block-end: 0;
 }
 
 /* Make the content full width */
-body.page-template-homepage {
+body.page-template-page-no-title {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
 /* For the full width template, add some padding to the header */
-.page-template-homepage header {
+.page-template-page-no-title header {
 	padding-left: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
 	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
 }
@@ -368,8 +368,8 @@ body.page-template-homepage {
 }
 
 /* Add responsive padding inside the groups of homepage pattern */
-.page-template-homepage .wp-block-post-content > .wp-block-group,
-.page-template-homepage footer > .wp-block-group {
+.page-template-page-no-title .wp-block-post-content > .wp-block-group,
+.page-template-page-no-title footer > .wp-block-group {
 	padding-left: clamp(1px, calc(0.0625rem + ((1vw - 4.8px) * 10.9722)), 80px);
 	padding-right: clamp(1px, calc(0.0625rem + ((1vw - 4.8px) * 10.9722)), 80px);;
 }
@@ -399,7 +399,7 @@ body.page-template-homepage {
 }
 
 /* Remove extra spacings from between top level blocks in homepage pattern */
-body.page-template-homepage .wp-block-post-content > *,
+body.page-template-page-no-title .wp-block-post-content > *,
 .is-root-container.is-layout-constrained.wp-block-post-content > * {
 	margin-block-start: 0px;
 }
