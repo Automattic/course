@@ -15,7 +15,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"fontSize":"xx-small","fontFamily":"system"} -->
-<p class="has-system-font-family has-xx-small-font-size"><a href="http://test.test">Visit the blog</a></p>
+<p class="has-system-font-family has-xx-small-font-size"><a href="#">Visit the blog</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
