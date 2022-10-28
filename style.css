@@ -403,7 +403,23 @@ body .is-layout-flow > * + * {
 	border: none;
 }
 
-.wp-block-quote.is-style-plain cite {
+.wp-block-quote.is-style-plain, .wp-block-pullquote.is-style-plain {
+	padding-top: 8px;
+	padding-bottom: 0px;
+}
+
+.wp-block-quote.is-style-plain cite, .wp-block-pullquote.is-style-plain cite { 
 	display: inline-block;
 	letter-spacing: 0.02em;
+	margin-top: 40px;
+}
+
+
+.wp-block-pullquote.is-style-plain blockquote { 
+	margin: 0;
+}
+
+.wp-block-pullquote.is-style-plain blockquote p { 
+	margin-bottom: 1.25rem;
+	margin: 0;
 }

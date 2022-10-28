@@ -17,8 +17,8 @@
     su Spotify, Spreaker, Apple Podcast e su tutte le principali app gratuite per l’ascolto dei Podcast.</p>
   <!-- /wp:paragraph -->
 
-  <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"1.25rem"}}}} -->
-  <div class="wp-block-columns" style="margin-top:1.25rem">
+  <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"var:preset|spacing|60"}}}} -->
+  <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)">
     <!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-column" style="flex-basis:50%">
       <!-- wp:image {"id":1309,"sizeSlug":"full","linkDestination":"none"} -->
@@ -33,32 +33,25 @@
   </div>
   <!-- /wp:columns -->
 
-  <!-- wp:group {"layout":{"type":"constrained"}} -->
-  <div class="wp-block-group">
-    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}}} -->
-    <div class="wp-block-columns" style="margin-top:0;margin-bottom:0">
-      <!-- wp:column {"width":"307px","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}}} -->
-      <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:307px"></div>
-      <!-- /wp:column -->
+  <!-- wp:columns -->
+  <div class="wp-block-columns">
+    <!-- wp:column {"width":"%"} -->
+    <div class="wp-block-column"></div>
+    <!-- /wp:column -->
 
-      <!-- wp:column {"width":"306px","style":{"spacing":{"padding":{"left":"5rem"}}}} -->
-      <div class="wp-block-column" style="padding-left:5rem;flex-basis:306px">
-        <!-- wp:group {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"top":"0","bottom":"0","left":"1.25rem"},"margin":{"top":"1.25rem","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top","justifyContent":"right"}} -->
-        <div class="wp-block-group" style="border-left-width:1px;margin-top:1.25rem;margin-bottom:0;padding-top:0;padding-bottom:0;padding-left:1.25rem">
-          <!-- wp:quote {"align":"left","style":{"typography":{"letterSpacing":"-0.01em"}},"className":"is-style-plain"} -->
-          <blockquote class="wp-block-quote has-text-align-left is-style-plain" style="letter-spacing:-0.01em">
-            <!-- wp:paragraph {"align":"left","style":{"typography":{"letterSpacing":"-1%"},"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"small"} -->
-            <p class="has-text-align-left has-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;letter-spacing:-1%">Blog managed by Prof Jean M. Bichè, Chair of Professor of Creative Writing at Université Sacré-Cœur Paris.</p>
-            <!-- /wp:paragraph --><cite>The Author</cite>
-          </blockquote>
-          <!-- /wp:quote -->
-        </div>
-        <!-- /wp:group -->
-      </div>
-      <!-- /wp:column -->
+    <!-- wp:column {"width":"56%"} -->
+    <div class="wp-block-column" style="flex-basis:56%">
+      <!-- wp:quote {"align":"left","className":"is-style-quote-no-spacing is-style-default"} -->
+      <blockquote class="wp-block-quote has-text-align-left is-style-quote-no-spacing is-style-default">
+        <!-- wp:paragraph {"align":"left"} -->
+        <p class="has-text-align-left">Blog managed by Prof Jean M. Bichè, Chair of Professor of Creative Writing
+          at Université Sacré-Cœur Paris.</p>
+        <!-- /wp:paragraph --><cite>The Author</cite>
+      </blockquote>
+      <!-- /wp:quote -->
     </div>
-    <!-- /wp:columns -->
+    <!-- /wp:column -->
   </div>
-  <!-- /wp:group -->
+  <!-- /wp:columns -->
 </div>
 <!-- /wp:group -->

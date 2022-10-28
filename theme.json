@@ -443,6 +443,11 @@
 				},
 				"elements": {
 						"cite": {
+							"spacing": {
+								"margin": {
+									"top": "0"
+								}
+							},
 							"typography": {
 								"fontStyle": "normal",
 								"fontSize": "var(--wp--preset--font-size--xx-small)",
