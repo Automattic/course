@@ -338,16 +338,6 @@ body .is-layout-flow > * + * {
 }
 
 /*
-* Control the hover stylings of outline block style.
-* Unnecessary once block styles are configurable via theme.json
-*/
-.wp-block-button.is-style-outline>.wp-block-button__link,
-.wp-block-button .wp-block-button__link.is-style-outline {
-	/* padding-right: 4.5rem; */
-	/* padding-left: 4.5rem; */
-}
-
-/*
 *  Page with transparent menu style
 */
 .landing-page__header {

@@ -12,15 +12,15 @@
     <!-- wp:group {"layout":{"type":"constrained","contentSize":"660px"}} -->
     <div class="wp-block-group">
       <!-- wp:heading {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"var:preset|spacing|50"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"textColor":"background"} -->
-      <h2 class="has-background-color has-text-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo __('Course Lessons', 'course') ?></h2>
+      <h2 class="has-background-color has-text-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:var(--wp--preset--spacing--50)">COURSE LESSONS</h2>
       <!-- /wp:heading -->
 
       <!-- wp:sensei-lms/course-outline {"className":"is-style-default"} -->
-      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 1"} /-->
+      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 1", "draft": true} /-->
 
-      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 2"} /-->
+      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 2", "draft": true} /-->
 
-      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 3"} /-->
+      <!-- wp:sensei-lms/course-outline-lesson {"title":"Lesson 3", "draft": true} /-->
       <!-- /wp:sensei-lms/course-outline -->
 
       <!-- wp:group {"style":{"spacing":{"padding":{"left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
