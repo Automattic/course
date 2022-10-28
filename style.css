@@ -397,3 +397,8 @@ body .is-layout-flow > * + * {
 	text-decoration: underline;
 }
 
+.wp-block-quote.is-style-plain {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
