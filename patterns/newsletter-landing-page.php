@@ -3,6 +3,7 @@
  * Title: Newsletter
  * Slug: course/newsletter-homepage
  * Inserter: yes
+ * Categories: sensei-lms
  */
 ?>
 

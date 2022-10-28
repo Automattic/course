@@ -3,6 +3,7 @@
  * Title: Course List
  * Slug: course/course-list
  * Inserter: yes
+ * Categories: sensei-lms
  */
 ?>
 

@@ -3,6 +3,7 @@
  * Title: Testimonial
  * Slug: course/testimonial
  * Inserter: yes
+ * Categories: sensei-lms
  */
 ?>
 
