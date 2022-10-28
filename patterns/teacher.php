@@ -18,21 +18,25 @@
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
+    <!-- wp:column {"verticalAlignment":"center"} -->
     <div class="wp-block-column is-vertically-aligned-center">
-      <!-- wp:group {"layout":{"type":"constrained"}} -->
+      <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
       <div class="wp-block-group">
-        <!-- wp:heading {"style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"500"}},"fontFamily":"system"} -->
-        <h2 class="has-system-font-family" style="font-style:normal;font-weight:500;text-transform:none">Meet Jeff</h2>
+        <!-- wp:heading {"style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"600","lineHeight":"1"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"primary","fontFamily":"system"} -->
+        <h2 class="has-primary-color has-text-color has-system-font-family" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600;line-height:1;text-transform:none">Meet Jeff</h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
         <p>Curabitur pellentesque lorem vel fermentum suscipit. Vivamus pretium arcu lectus, in volutpat mi condimentum.</p>
         <!-- /wp:paragraph -->
 
-        <!-- wp:sensei-lms/button-contact-teacher {"className":"is-style-default"} -->
-        <div class="wp-block-sensei-lms-button-contact-teacher is-style-default wp-block-sensei-button wp-block-button has-text-align-left"><a class="wp-block-button__link">Contact Teacher</a></div>
-        <!-- /wp:sensei-lms/button-contact-teacher -->
+        <!-- wp:group {"style":{"spacing":{"padding":{"right":"0","bottom":"0","left":"0","top":"1.9rem"}}},"layout":{"type":"default"}} -->
+        <div class="wp-block-group" style="padding-top:1.9rem;padding-right:0;padding-bottom:0;padding-left:0">
+          <!-- wp:sensei-lms/button-contact-teacher {"className":"is-style-default"} -->
+          <div class="wp-block-sensei-lms-button-contact-teacher is-style-default wp-block-sensei-button wp-block-button has-text-align-left"><a class="wp-block-button__link">Contact Teacher</a></div>
+          <!-- /wp:sensei-lms/button-contact-teacher -->
+        </div>
+        <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
     </div>
