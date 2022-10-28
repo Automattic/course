@@ -18,7 +18,7 @@
       <div class="wp-block-column is-vertically-aligned-center" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%">
         <!-- wp:group {"className":"landing-page-navigation","layout":{"type":"constrained"}} -->
         <div class="wp-block-group landing-page-navigation">
-          <!-- wp:post-title {"style":{"typography":{"textTransform":"uppercase"}},"textColor":"background","fontSize":"3x-large"} /-->
+          <!-- wp:post-title {"style":{"typography":{"textTransform":"uppercase","lineHeight":0.9}},"textColor":"background","fontSize":"3x-large"} /-->
 
           <!-- wp:sensei-lms/button-take-course {"className":"is-style-secondary"} -->
           <div class="wp-block-sensei-lms-button-take-course is-style-secondary wp-block-sensei-button wp-block-button has-text-align-left"><button class="wp-block-button__link">Take Course</button></div>
