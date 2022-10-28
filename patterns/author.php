@@ -45,8 +45,8 @@
       <div class="wp-block-column" style="padding-left:5rem;flex-basis:306px">
         <!-- wp:group {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"top":"0","bottom":"0","left":"1.25rem"},"margin":{"top":"1.25rem","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top","justifyContent":"right"}} -->
         <div class="wp-block-group" style="border-left-width:1px;margin-top:1.25rem;margin-bottom:0;padding-top:0;padding-bottom:0;padding-left:1.25rem">
-          <!-- wp:quote {"align":"left","style":{"typography":{"letterSpacing":"-1%"}},"className":"is-style-plain"} -->
-          <blockquote class="wp-block-quote has-text-align-left is-style-plain" style="letter-spacing:-1%">
+          <!-- wp:quote {"align":"left","style":{"typography":{"letterSpacing":"-0.01em"}},"className":"is-style-plain"} -->
+          <blockquote class="wp-block-quote has-text-align-left is-style-plain" style="letter-spacing:-0.01em">
             <!-- wp:paragraph {"align":"left","style":{"typography":{"letterSpacing":"-1%"},"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"small"} -->
             <p class="has-text-align-left has-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;letter-spacing:-1%">Blog managed by Prof Jean M. Bichè, Chair of Professor of Creative Writing at Université Sacré-Cœur Paris.</p>
             <!-- /wp:paragraph --><cite>The Author</cite>

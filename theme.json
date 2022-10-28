@@ -460,10 +460,16 @@
 				},
 				"elements": {
 					"cite": {
+						"spacing": {
+							"margin": {
+								"top": "2.5rem"
+							}
+						},
 						"typography": {
 							"fontStyle": "normal",
 							"fontSize": "var(--wp--preset--font-size--xx-small)",
-							"fontFamily": "var(--wp--preset--font-family--system)"
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"textDecoration": "underline"
 						}
 					}
 				},

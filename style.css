@@ -402,3 +402,8 @@ body .is-layout-flow > * + * {
 	padding: 0;
 	border: none;
 }
+
+.wp-block-quote.is-style-plain cite {
+	display: inline-block;
+	letter-spacing: 0.02em;
+}
