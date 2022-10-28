@@ -8,8 +8,8 @@
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"0","bottom":"var:preset|spacing|80","left":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"660px","wideSize":"1200px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--80);padding-left:0">
-  <!-- wp:heading {"style":{"typography":{"letterSpacing":"-0.01em"},"spacing":{"margin":{"bottom":"1.25rem"}}},"fontFamily":"system"} -->
-  <h2 class="has-system-font-family" style="margin-bottom:1.25rem;letter-spacing:-0.01em"><strong>Heading Two</strong></h2>
+  <!-- wp:heading {"style":{"typography":{"letterSpacing":"-0.01em","fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"1.25rem"}}},"textColor":"primary","fontFamily":"system"} -->
+  <h2 class="has-primary-color has-text-color has-system-font-family" style="margin-bottom:1.25rem;font-style:normal;font-weight:600;letter-spacing:-0.01em">Heading Two</h2>
   <!-- /wp:heading -->
 
   <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
@@ -17,8 +17,8 @@
     su Spotify, Spreaker, Apple Podcast e su tutte le principali app gratuite per l’ascolto dei Podcast.</p>
   <!-- /wp:paragraph -->
 
-  <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"var:preset|spacing|60"}}}} -->
-  <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)">
+  <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"1.25rem"}}}} -->
+  <div class="wp-block-columns" style="margin-top:1.25rem">
     <!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-column" style="flex-basis:50%">
       <!-- wp:image {"id":1309,"sizeSlug":"full","linkDestination":"none"} -->
@@ -37,8 +37,8 @@
   <div class="wp-block-group">
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}}} -->
     <div class="wp-block-columns" style="margin-top:0;margin-bottom:0">
-      <!-- wp:column {"width":"300px","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}}} -->
-      <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:300px"></div>
+      <!-- wp:column {"width":"307px","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}}} -->
+      <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:307px"></div>
       <!-- /wp:column -->
 
       <!-- wp:column {"width":"306px","style":{"spacing":{"padding":{"left":"5rem"}}}} -->
