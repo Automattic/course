@@ -39,6 +39,16 @@
 					"color": "#f8f5f3",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#FFF7BC",
+					"name": "Button Border - Active",
+					"slug": "button-border-active"
+				},
+				{
+					"color": "#009F8D",
+					"name": "Button Border - Hover",
+					"slug": "button-border-hover"
 				}
 			]
 		},
@@ -176,9 +186,9 @@
 					"slug": "nav-medium"
 				},
 				{
-					"name": "Navbar Button Link",
+					"name": "Button Link",
 					"size": "1.3125rem",
-					"slug": "nav-button-link"
+					"slug": "button-link"
 				}
 			]
 		}
@@ -244,8 +254,8 @@
 							"textTransform": "uppercase",
 							"fontWeight": "400",
 							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-							"fontSize": "var(--wp--preset--font-size--nav-button-link)",
-							"lineHeight": "var(--wp--preset--font-size--nav-button-link)"
+							"fontSize": "var(--wp--preset--font-size--button-link)",
+							"lineHeight": "var(--wp--preset--font-size--button-link)"
 						}
 					}
 				}
@@ -516,35 +526,35 @@
 		},
 		"elements": {
 			"button": {
-				"spacing": {
-					"padding": {
-						"left": "4.5rem",
-						"right": "4.5rem"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--nav-button-link)",
-					"textTransform": "uppercase",
-					"fontWeight": "400",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
-				},
 				"border": {
-					"radius": "0.5rem"
+					"color": "transparent",
+					"radius": "8px",
+					"style": "solid",
+					"width": "1px"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--background)"
 				},
-				":hover": {
-					"outline": {
-						"color": "red"
-					},
-					"color": {
-						"background": "var(--wp--preset--color--primary)",
-						"text": "var(--wp--preset--color--secondary)"
+				"spacing": {
+					"padding": {
+						"top": "0.5856em",
+						"right": "1.5238em",
+						"bottom": "0.5856em",
+						"left": "1.5238em"
 					}
 				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--button-link)",
+					"fontWeight": "400",
+					"letterSpacing": "0.05em",
+					"textTransform": "uppercase"
+				},
 				":active": {
+					"border": {
+						"color": "var(--wp--preset--color--button-border-active)"
+					},
 					"color": {
 						"background": "var(--wp--preset--color--secondary)",
 						"text": "var(--wp--preset--color--primary)"
@@ -554,6 +564,15 @@
 					"color": {
 						"background": "var(--wp--preset--color--primary)",
 						"text": "var(--wp--preset--color--background)"
+					}
+				},
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--button-border-hover)"
+					},
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				}
 			},

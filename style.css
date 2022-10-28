@@ -36,16 +36,6 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	padding-left: var(--wp--preset--spacing--50);
 }
 
-/*
-* Control the hover stylings of outline block style.
-* Unnecessary once block styles are configurable via theme.json
-*/
-.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
-	background-color: var(--wp--preset--color--secondary);
-	color: var(--wp--preset--color--background);
-	border-color: var(--wp--preset--color--secondary);
-}
-
 /**
  * Currently table styles are only available with 'wp-block-styles' theme support (block css) thus the following needs to be included
  * since 'wp-block-styles' aren't used for this theme.
@@ -91,7 +81,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
  /* The navigation item that looks like a button in the design has a different front size and the button is rounded */
  .wp-block-navigation .wp-block-navigation__responsive-container .wp-block-navigation-link.is-style-navigation-link-button a {
-	font-size: var(--wp--preset--font-size--nav-button-link);
+	font-size: var(--wp--preset--font-size--button-link);
 	border-radius: 8px;
 }
 
@@ -167,8 +157,8 @@ header:not(.is-being-sticky) {
 	background-color: var(--wp--preset--color--primary);
 	text-transform: uppercase;
 	font-family: var(--wp--preset--font-family--league-gothic);
-	font-size: var(--wp--preset--font-size--nav-button-link);
-	line-height: var(--wp--preset--font-size--nav-button-link);
+	font-size: var(--wp--preset--font-size--button-link);
+	line-height: var(--wp--preset--font-size--button-link);
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit]:hover {
@@ -292,44 +282,37 @@ body .is-layout-flow .wp-block-group {
 	fill: #ffffff;
 }
 
+/* Buttons */
+.wp-block-button__link:focus {
+	outline: var(--wp--preset--color--primary) dashed;
+	outline-offset: 1px;
+}
+
 /*
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
 */
 .wp-block-buttons .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):active {
 	background-color: var(--wp--preset--color--secondary);
-	border-color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--button-border-active);
 	color: var(--wp--preset--color--primary);
 }
 
-/*
-* Control the hover stylings of outline block style.
-* Unnecessary once block styles are configurable via theme.json
-*/
 .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
 	background-color: var(--wp--preset--color--primary);
+	border-color: var(--wp--preset--color--button-border-hover);
 	color: var(--wp--preset--color--secondary);
-	border-color: var(--wp--preset--color--primary);
 }
 
-/*
-* Control the hover stylings of outline block style.
-* Unnecessary once block styles are configurable via theme.json
-*/
 .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):focus {
-	background-color: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--background);
 	border-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--primary);
 }
 
-/*
-* Control the hover stylings of outline block style.
-* Unnecessary once block styles are configurable via theme.json
-*/
 .wp-block-button.is-style-outline>.wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
-	padding-right: 4.5rem;
-	padding-left: 4.5rem;
+	border-width: 1px;
+	padding: 0.5856em 1.5238em;
 }
 
 /*
@@ -337,4 +320,9 @@ body .is-layout-flow .wp-block-group {
 */
 .wp-block-sensei-lms-course-overview a {
 	text-decoration: underline;
+}
+
+.wp-block-sensei-lms-course-list .sensei-cta a:hover,
+.wp-block-sensei-lms-course-list .sensei-cta a:focus {
+	text-decoration: none;
 }
