@@ -9,6 +9,16 @@
 				"post"
 			],
 			"title": "Blank"
+		},
+		{
+			"name": "page-with-transparent-menu",
+			"postTypes": [
+				"page",
+				"post",
+				"course",
+				"lesson"
+			],
+			"title": "Page using transparent menu"
 		}
 	],
 	"settings": {
@@ -62,7 +72,7 @@
 		},
 		"layout": {
 			"contentSize": "1000px",
-			"wideSize": "1000px"
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"units": [
@@ -461,6 +471,11 @@
 				},
 				"elements": {
 						"cite": {
+							"spacing": {
+								"margin": {
+									"top": "0"
+								}
+							},
 							"typography": {
 								"fontStyle": "normal",
 								"fontSize": "var(--wp--preset--font-size--xx-small)",
@@ -478,10 +493,16 @@
 				},
 				"elements": {
 					"cite": {
+						"spacing": {
+							"margin": {
+								"top": "2.5rem"
+							}
+						},
 						"typography": {
 							"fontStyle": "normal",
 							"fontSize": "var(--wp--preset--font-size--xx-small)",
-							"fontFamily": "var(--wp--preset--font-family--system)"
+							"fontFamily": "var(--wp--preset--font-family--system)",
+							"textDecoration": "underline"
 						}
 					}
 				},
@@ -514,6 +535,14 @@
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
+				}
+			},
+			"core/image": {
+				"border": {
+					"color": "var(--wp--preset--color--foreground)",
+					"radius": "0.25rem",
+					"style": "solid",
+					"width": "2px"
 				}
 			},
 			"core/site-title": {
@@ -663,11 +692,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "2.5rem",
-			"padding": {
-				"left": "clamp(1.25rem, ((2vw - 0.75rem) * 10) , 6.25rem)",
-				"right": "clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem)"
-			}
+			"blockGap": "2.5rem"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
