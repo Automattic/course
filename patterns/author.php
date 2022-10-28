@@ -8,8 +8,8 @@
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|30","bottom":"var:preset|spacing|80","left":"var:preset|spacing|30"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"660px","wideSize":"1200px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--30)">
-  <!-- wp:heading -->
-  <h2>Heading Two</h2>
+  <!-- wp:heading {"style":{"typography":{"letterSpacing":"-0.01em"},"spacing":{"margin":{"bottom":"1.25rem"}}},"fontFamily":"system"} -->
+  <h2 class="has-system-font-family" style="margin-bottom:1.25rem;letter-spacing:-0.01em"><strong>Heading Two</strong></h2>
   <!-- /wp:heading -->
 
   <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
