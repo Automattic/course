@@ -9,6 +9,10 @@
 				"post"
 			],
 			"title": "Blank"
+		},
+		{
+			"name": "page-no-title",
+			"title": "Page - No Title"
 		}
 	],
 	"settings": {
@@ -62,7 +66,7 @@
 		},
 		"layout": {
 			"contentSize": "1000px",
-			"wideSize": "1000px"
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"units": [
@@ -107,6 +111,21 @@
 					"name": "EB Garamond",
 					"fontFamily": "EB Garamond",
 					"slug": "eb-garamond"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Sorts Mill Goudy",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": ["file:./assets/fonts/SortsMillGoudy-Regular.woff2"]
+						}
+					],
+					"fontFamily": "Sorts Mill Goudy",
+					"name": "Sorts Mill Goudy",
+					"slug": "sorts-mill-goudy"
 				},
 				{
 					"fontFace": [
@@ -181,9 +200,19 @@
 					"slug": "3x-large"
 				},
 				{
+					"name": "3.5X Large",
+					"size": "clamp(64px, calc(4rem + ((1vw - 4.8px) * 6.3889)), 110px);",
+					"slug": "3-2x-large"
+				},
+				{
 					"name": "4X Large",
 					"size": "clamp(4rem, 12vw + 1rem, 8.5rem)",
 					"slug": "4x-large"
+				},
+				{
+					"name": "5X Large",
+					"size": "clamp(83px, calc(5.1875rem + ((1vw - 4.8px) * 25.1389)), 264px)",
+					"slug": "5x-large"
 				},
 				{
 					"name": "Navbar Medium",
@@ -350,6 +379,11 @@
 					}
 				}
 			},
+			"core/group": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
+				}
+			},
 			"core/list": {
 				"spacing": {
 					"padding": {
@@ -376,6 +410,15 @@
 					}
 				}
 			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline solid var(--wp--preset--color--tertiary)"
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"elements": {
 					"link": {
@@ -386,6 +429,18 @@
 							"typography": {
 								"textDecoration": "underline"
 							}
+						}
+					}
+				}
+			},
+			"core/post-featured-image": {
+				"elements": {
+					"link": {
+						"border": {
+							"color": "var(--wp--preset--color--tertiary)",
+							"width": "1px",
+							"style": "solid",
+							"radius": "4px"
 						}
 					}
 				}
@@ -421,6 +476,14 @@
 								"textDecoration": "underline"
 							}
 						}
+					}
+				}
+			},
+			"core/post-excerpt": {
+				"spacing": {
+					"margin": {
+						"top": "0px",
+						"bottom": "0px"
 					}
 				}
 			},
@@ -660,13 +723,6 @@
 						"textDecoration": "underline"
 					}
 				}
-			}
-		},
-		"spacing": {
-			"blockGap": "2.5rem",
-			"padding": {
-				"left": "clamp(1.25rem, ((2vw - 0.75rem) * 10) , 6.25rem)",
-				"right": "clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem)"
 			}
 		},
 		"typography": {
