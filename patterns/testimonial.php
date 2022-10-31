@@ -14,7 +14,7 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":"20px","padding":{"top":"40px"}}},"textColor":"tertiary"} -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"35px","left":"35px"},"padding":{"top":"40px"}}},"textColor":"tertiary"} -->
 <div class="wp-block-columns has-tertiary-color has-text-color" style="padding-top:40px"><!-- wp:column {"verticalAlignment":"bottom","width":"41%"} -->
 <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:41%"><!-- wp:image {"id":2150,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px","width":"1px"}}} -->
 <figure class="wp-block-image size-full has-custom-border"><img src="/wp-content/themes/sensei-theme/assets/images/course-theme-testimonial.png" alt="" class="wp-image-2150" style="border-width:1px;border-radius:8px"/></figure>
