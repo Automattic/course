@@ -8,27 +8,32 @@
 ?>
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop "} -->
-<div class="wp-block-comments wp-block-comments-query-loop"><!-- wp:comments-title {"level":3} /-->
+<div class="wp-block-comments wp-block-comments-query-loop">
+<!-- wp:comments-title {"showPostTitle":false,"showCommentsCount":false,"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} /-->
 
 <!-- wp:comment-template -->
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"0.5em"}}} -->
-<div class="wp-block-group"><!-- wp:avatar {"size":40,"style":{"spacing":{"margin":{"top":"0.5em"}}}} /-->
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:avatar {"size":40,"style":{"border":{"radius":"24px","width":"1px"}}} /-->
 
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:comment-author-name /-->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:comment-author-name /-->
 
-<!-- wp:group {"layout":{"type":"flex"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"0.5em"}}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"0.5em"}},"layout":{"type":"flex","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group" style="margin-top:0px;margin-bottom:0px"><!-- wp:comment-date {"format":"F j, Y \\a\\t g:i a"} /-->
 
 <!-- wp:comment-edit-link /--></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:comment-content {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} /-->
+
+<!-- wp:comment-reply-link /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:comment-content /-->
-
-<!-- wp:comment-reply-link /--></div>
+<!-- wp:spacer {"height":"5rem"} -->
+<div style="height:5rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:group -->
 <!-- /wp:comment-template -->
 
