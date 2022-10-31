@@ -611,7 +611,8 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"letterSpacing": "0.01em"
 				}
 			}
 			
