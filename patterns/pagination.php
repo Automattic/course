@@ -13,7 +13,7 @@
 
   <!-- wp:query-pagination-numbers /-->
 
-  <!-- wp:query-pagination-next {"label":"NEXT"} /-->
+  <!-- wp:query-pagination-next {"label":"next"} /-->
   <!-- /wp:query-pagination -->
 </div>
 <!-- /wp:group -->
