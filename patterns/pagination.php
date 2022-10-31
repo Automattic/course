@@ -3,7 +3,7 @@
 /**
  * Title: Default Pagination 
  * Slug: course/pagination
- * Inserter: yes
+ * Inserter: no
  */
 ?>
 
