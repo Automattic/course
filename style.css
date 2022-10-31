@@ -345,41 +345,6 @@ body.page-template-page-no-title {
 	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
 }
 
-/* Course actions buttons style fix for frontend */
-.wp-block-sensei-lms-course-list button {
-	width: 100%;
-}
-
-/* Remove extra margin from feature images inside course list block */
-.wp-block-sensei-lms-course-list .wp-block-post-template .wp-block-post-featured-image {
-	margin-bottom: 0px;
-}
-
-/* Add responsive padding inside the groups of homepage pattern */
-.page-template-page-no-title .wp-block-post-content > .wp-block-group,
-.page-template-page-no-title footer > .wp-block-group {
-	padding-left: clamp(1px, calc(0.0625rem + ((1vw - 4.8px) * 10.9722)), 80px);
-	padding-right: clamp(1px, calc(0.0625rem + ((1vw - 4.8px) * 10.9722)), 80px);;
-}
-
-/* Featuerd label style */
-.wp-block-sensei-lms-course-list .featured-image-wrapper .sensei-lms-featured-badge,
-.featured-course-wrapper__featured-image .course-list-featured-label__featured-image {
-	font-family: var(--wp--preset--font-family--system);
-	font-size: var(--wp--preset--font-size--tiny);
-	background-color: var(--wp--preset--color--primary);
-	text-transform: uppercase;
-	padding: 3px 6px;
-	line-height: 1rem;
-	border-radius: 2px;
-}
-
-/* Remove extra spacings from course list block */
-.wp-block-sensei-lms-course-list .wp-block-post {
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-}
-
 /* Add border around author image in Post Author block */
 .wp-block-post-author__avatar img {
 	border: 1px solid var(--wp--preset--color--tertiary);
