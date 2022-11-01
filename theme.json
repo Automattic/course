@@ -379,11 +379,6 @@
 					}
 				}
 			},
-			"core/group": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
-				}
-			},
 			"core/list": {
 				"spacing": {
 					"padding": {
