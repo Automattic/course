@@ -367,7 +367,7 @@ body .is-layout-constrained > * + * {
 	margin-block-start: 0px;
 }
 
-body.post-template-default .sidebar-newsletter-gap {
+body .sidebar-newsletter-gap {
 	height: var(--wp--custom--sidebar-newsletter-gap);
 }
 

@@ -746,6 +746,9 @@
 				}
 			}
 		},
+		"spacing": {
+			"blockGap": "2.5rem"
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
 			"fontSize": "var(--wp--preset--font-size--small)",
