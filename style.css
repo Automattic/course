@@ -366,3 +366,32 @@ body .is-layout-flow > * {
 body .is-layout-constrained > * + * {
 	margin-block-start: 0px;
 }
+footer .wp-block-column .wp-block-spacer {
+	height: 20px;
+}
+
+footer .wp-block-column a,
+footer .wp-block-column p,
+footer .wp-block-column h3 {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+	footer .wp-block-columns.course-footer-links-vertical-space {
+		margin-bottom: 44px;
+	}
+
+	footer .wp-block-column, footer .wp-block-group.is-layout-flex {
+		flex-direction: column;
+		align-items: baseline;
+		gap: 10px;
+	}
+}
+footer h1.wp-block-site-title a {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+footer div.course-negative-space-footer {
+	position: relative;
+}
