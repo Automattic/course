@@ -576,11 +576,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"textTransform": "uppercase",
-					"fontWeight": "400",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
-					"fontSize": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)",
-					"lineHeight": "clamp(1.25rem, 800vw - 298.75rem, 1.75rem)"
+					"textTransform": "uppercase"
 				},
 				"elements": {
 					"link": {
