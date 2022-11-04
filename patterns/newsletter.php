@@ -15,8 +15,8 @@
       <p><?php echo esc_html__('Our latest updates in your e-mail.', 'course'); ?></p>
       <!-- /wp:paragraph -->
 
-      <!-- wp:paragraph -->
-      <p><a href="#"><?php echo esc_html__('Sign up', 'course'); ?></a></p>
+      <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"1.25rem"}}}} -->
+      <p style="padding-top:1.25rem"><a href="#"><?php echo esc_html__('Sign up', 'course'); ?></a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
