@@ -2,7 +2,7 @@
 /**
  * Title: Default footer
  * Slug: course/footer
- * Categories: footer
+ * Inserter: no
  * Block Types: core/template-part/footer
  */
 ?>

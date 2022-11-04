@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Newsletter
- * Slug: course/newsletter-homepage
+ * Title: Mailing List
+ * Slug: course/mailing-list
  * Inserter: yes
  * Categories: sensei-lms
  */

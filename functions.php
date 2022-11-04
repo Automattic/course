@@ -91,3 +91,15 @@ function course_theme_init() {
 }
 
 add_action( 'init', 'course_theme_init' );
+
+/**
+ * Register Sensei LMS block patterns category.
+ */
+function register_block_patterns_category() {
+	register_block_pattern_category(
+		'sensei-lms',
+		[ 'label' => 'Sensei LMS' ]
+	);
+}
+
+add_action( 'init', 'register_block_patterns_category' );
