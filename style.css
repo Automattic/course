@@ -3,16 +3,16 @@ Theme Name: Course
 Theme URI: https://github.com/Automattic/sensei-theme
 Author: Automattic
 Author URI: https://automattic.com/
-Description: Sensei starter theme
+Description: Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too.
 Requires at least: 6.1
-Tested up to: 5.9
-Requires PHP: 5.7
-Version: 0.0.1
+Tested up to: 6.1
+Requires PHP: 7.2
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: 
 Text Domain: course
-Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+Tags: lms, eLearning, teach, online courses, sensei
 *//*
  * Font smoothing
  */
@@ -271,6 +271,7 @@ body .is-layout-flow .wp-block-group {
 .wp-block-search__input {
 	background-color: var(--wp--preset--color--background);
 	padding: 1.063rem;
+	border-color: var(--wp--preset--color--primary);
 }
 
 /* Add the search icon only when there is no text inside the search button */
@@ -365,6 +366,23 @@ body .is-layout-flow > * {
 
 body .is-layout-constrained > * + * {
 	margin-block-start: 0px;
+}
+
+/* Design for search box in 404 page template sidebar */
+.course-search-sidebar button {
+	padding: clamp(12px, calc(0.75rem + ((1vw - 4.8px) * 0.5556)), 16px);
+	color: var(--wp--preset--color--tertiary);
+	vertical-align: center;
+}
+
+.course-search-sidebar button svg {
+	height: 32px;
+	width: 32px;
+	vertical-align: bottom;
+}
+
+.course-search-sidebar input.wp-block-search__input {
+	line-height: 100%;
 }
 
 body .sidebar-newsletter-gap {
