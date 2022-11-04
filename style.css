@@ -384,3 +384,14 @@ body .is-layout-constrained > * + * {
 .course-search-sidebar input.wp-block-search__input {
 	line-height: 100%;
 }
+
+body .sidebar-newsletter-gap {
+	height: var(--wp--custom--sidebar-newsletter-gap);
+}
+
+@media screen and (min-width: 782px) {
+	.sticky-newsletter-sidebar {
+		position: sticky;
+		top: 116px;
+	}
+}
