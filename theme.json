@@ -436,7 +436,7 @@
 			"core/post-featured-image": {
 				"border": {
 					"color": "var(--wp--preset--color--foreground)",
-					"radius": "0.25rem",
+					"radius": "4px",
 					"style": "solid",
 					"width": "1px"
 				}
