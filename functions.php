@@ -20,19 +20,30 @@ if ( ! function_exists( 'course_support' ) ) :
 	 */
 	function course_support() {
 
-		add_theme_support('sensei-learning-mode');
-		
+		add_theme_support( 'sensei-learning-mode' );
+
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 		add_editor_style( 'learning-mode.css' );
-
 	}
 
 endif;
 
 add_action( 'after_setup_theme', 'course_support' );
 
-if ( ! function_exists( 'course_scripts' ) ) :
+function lesson_icons($icon, $status)
+{
+	$path = '/assets/images/learning-mode/lesson-status/' . $status . '.svg';
+	if (file_exists(get_template_directory() .  $path)) {
+		return '<img src="' . get_template_directory_uri() . $path . '" />';
+	}
+	return $icon;
+}
+
+add_filter( 'sensei_learning_mode_lesson_status_icon', 'lesson_icons', 10, 2);
+
+
+if (!function_exists( 'course_scripts' )) :
 
 	/**
 	 * Enqueue scripts and styles.
