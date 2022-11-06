@@ -62,7 +62,23 @@
 			"replyColumnGap": "2.349rem",
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
-			"commentGapMedium" : "1.25rem"
+			"commentGapMedium" : "1.25rem",
+			"button": {
+				"radius": "0.5rem",
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontWeight": "400",
+					"letterSpacing": "0.05em"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.5856em",
+						"right": "1.5238em",
+						"bottom": "0.5856em",
+						"left": "1.5238em"
+					}
+				}
+			}
 		},
 		"layout": {
 			"contentSize": "1000px",
@@ -279,7 +295,7 @@
 					 },
 					"button": {
 						"border": {
-							"radius": "8px"
+							"radius": "var(--wp--custom--button--radius)"
 						},
 						"color": {
 							"background": "var(--wp--preset--color--primary)"
@@ -528,6 +544,40 @@
 						}
 				}
 			},
+			"sensei-lms/course-title" : {
+				"typography": {
+					"textTransform": "uppercase",
+					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"sensei-lms/course-navigation" : {
+				"spacing": {
+					"padding": {
+						"top": "5rem"
+					}
+				}
+			},
+			"sensei-lms/course-theme-course-progress-bar": {
+				"color": {
+					"background": "#ffffff"
+				}
+			},
+			"sensei-lms/course-theme-course-progress-counter" : {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"letterSpacing": "0.02em"
+				}
+			},
+			"sensei-lms/exit-course" : {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"textDecoration": "underline",
+					"letterSpacing": "0.02em"
+				}
+			},
 			"core/quote": {
 				"spacing": {
 					"padding": {
@@ -604,7 +654,7 @@
 			"button": {
 				"border": {
 					"color": "transparent",
-					"radius": "8px",
+					"radius": "var(--wp--custom--button--radius)",
 					"style": "solid",
 					"width": "1px"
 				},
@@ -614,17 +664,17 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "0.5856em",
-						"right": "1.5238em",
-						"bottom": "0.5856em",
-						"left": "1.5238em"
+						"top": "var(--wp--custom--button--spacing--padding--top)",
+						"right": "var(--wp--custom--button--spacing--padding--right)",
+						"bottom": "var(--wp--custom--button--spacing--padding--bottom)",
+						"left": "var(--wp--custom--button--spacing--padding--left)"
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--custom--button--typography--font-family)",
 					"fontSize": "var(--wp--preset--font-size--button-link)",
-					"fontWeight": "400",
-					"letterSpacing": "0.05em",
+					"fontWeight": "var(--wp--custom--button--typography--font-weight)",
+					"letterSpacing": "var(--wp--custom--button--typography--letter-spacing)",
 					"textTransform": "uppercase"
 				},
 				":active": {
