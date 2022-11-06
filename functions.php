@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Course functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Course
- * @since Course 1.0
+ * @since   Course 1.0
  */
 
 
@@ -61,9 +62,9 @@ if (!function_exists( 'course_scripts' )) :
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
-		
+
 		wp_register_style(
-			'course-learning-mode',
+			'course-sensei-learning-mode',
 			get_stylesheet_directory_uri() . '/learning-mode.css',
 			array(),
 			wp_get_theme()->get(
@@ -75,11 +76,10 @@ if (!function_exists( 'course_scripts' )) :
 		wp_enqueue_style( 'course-style' );
 
 		// TODO: Only Load it if the the page is using learning mode
-		wp_enqueue_style('sensei-learning-mode');
+		wp_enqueue_style( 'course-sensei-learning-mode' );
 
 		// Enqueque theme scripts.
 		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
-
 	}
 
 endif;
