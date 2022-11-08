@@ -20,7 +20,7 @@ msgstr ""
 msgid "Automattic"
 msgstr ""
 
-#: ../../../../../Projects/sensei-theme/functions.php:68
+#: ../../../../../Projects/course/functions.php:68
 msgid "Button"
 msgstr ""
 
@@ -33,28 +33,28 @@ msgid "https://automattic.com/"
 msgstr ""
 
 #. URI of the theme
-msgid "https://github.com/Automattic/sensei-theme"
+msgid "https://github.com/Automattic/course"
 msgstr ""
 
 #. WordPress link.
-#: ../../../../../Projects/sensei-theme/patterns/footer.php:22
+#: ../../../../../Projects/course/patterns/footer.php:22
 msgid "https://wordpress.org"
 msgstr ""
 
-#: ../../../../../Projects/sensei-theme/patterns/404.php:15
+#: ../../../../../Projects/course/patterns/404.php:15
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
-#: ../../../../../Projects/sensei-theme/patterns/404.php:11
+#: ../../../../../Projects/course/patterns/404.php:11
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: ../../../../../Projects/sensei-theme/patterns/footer.php:24
+#: ../../../../../Projects/course/patterns/footer.php:24
 #, php-format
 msgid "Proudly Powered by %1$s"
 msgstr ""
 
-#: ../../../../../Projects/sensei-theme/patterns/search.php:10
+#: ../../../../../Projects/course/patterns/search.php:10
 msgid "Search"
 msgstr ""
 
