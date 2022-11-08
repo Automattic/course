@@ -235,6 +235,12 @@
 	},
 	"styles": {
 		"blocks": {
+			"sensei-lms/course-categories": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system)",
+					"textTransform": "uppercase"
+				}
+			},
 			"core/code": {
 				"border": {
 					"color": "var(--wp--preset--color--foreground)",
