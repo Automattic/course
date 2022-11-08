@@ -316,18 +316,6 @@ body .is-layout-flow .wp-block-group {
 	padding: 0.5856em 1.5238em;
 }
 
-/*
-* Sensei Blocks
-*/
-.wp-block-sensei-lms-course-overview a {
-	text-decoration: underline;
-}
-
-.wp-block-sensei-lms-course-list .sensei-cta a:hover,
-.wp-block-sensei-lms-course-list .sensei-cta a:focus {
-	text-decoration: none;
-}
-
 /* Remove extra space from group blocks insidehomepage pattern */
 body.page-template-page-no-title .wp-block-post-content .wp-block-group,
 body.page-template-page-no-title footer .wp-block-group {
@@ -424,4 +412,21 @@ footer h1.wp-block-site-title a {
 
 footer div.course-negative-space-footer {
 	position: relative;
+}
+
+/*
+* Sensei-specific styles
+*/
+.wp-block-sensei-lms-course-overview a {
+	text-decoration: underline;
+}
+
+.wp-block-sensei-lms-course-list .sensei-cta a:hover,
+.wp-block-sensei-lms-course-list .sensei-cta a:focus {
+	text-decoration: none;
+}
+
+.sensei-lms-featured-badge {
+	font-family: var(--wp--preset--font-family--system);
+	text-transform: uppercase;
 }
