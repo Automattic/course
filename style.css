@@ -426,7 +426,7 @@ footer div.course-negative-space-footer {
 	text-decoration: none;
 }
 
-.sensei-lms-featured-badge {
+.sensei-lms-course-list-featured-label__text {
 	font-family: var(--wp--preset--font-family--system);
 	text-transform: uppercase;
 }
