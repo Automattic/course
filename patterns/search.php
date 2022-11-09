@@ -2,7 +2,7 @@
 /**
  * Title: Default Search 
  * Slug: course/search
- * Inserter: yes
+ * Inserter: no
  */
 ?>
 

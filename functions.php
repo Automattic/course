@@ -60,6 +60,26 @@ endif;
 
 add_action( 'wp_enqueue_scripts', 'course_scripts' );
 
+if ( ! function_exists( 'course_common_scripts' ) ) :
+
+	/**
+	 * Enqueue scripts and styles common for front and editor.
+	 *
+	 * @since Course 1.0
+	 *
+	 * @return void
+	 */
+	function course_common_scripts() {
+
+		// Enqueque scripts.
+		wp_enqueue_script( 'course-footer', get_template_directory_uri() . '/assets/js/footer.js', [], wp_get_theme()->get( 'Version' ), true );
+
+	}
+
+endif;
+
+add_action( 'enqueue_block_assets', 'course_common_scripts' );
+
 function course_theme_init() {
 	register_block_style(
 		'core/navigation-link',
@@ -71,3 +91,15 @@ function course_theme_init() {
 }
 
 add_action( 'init', 'course_theme_init' );
+
+/**
+ * Register Sensei LMS block patterns category.
+ */
+function register_block_patterns_category() {
+	register_block_pattern_category(
+		'sensei-lms',
+		[ 'label' => 'Sensei LMS' ]
+	);
+}
+
+add_action( 'init', 'register_block_patterns_category' );
