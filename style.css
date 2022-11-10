@@ -1,6 +1,6 @@
 /*
 Theme Name: Course
-Theme URI: https://github.com/Automattic/sensei-theme
+Theme URI: https://github.com/Automattic/course
 Author: Automattic
 Author URI: https://automattic.com/
 Description: Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too.
@@ -318,8 +318,15 @@ body .is-layout-flow .wp-block-group {
 }
 
 /*
-* Sensei Blocks
-*/
+ * Pagination styles
+ */
+.wp-block-query-pagination .wp-block-query-pagination-numbers > *:not(:last-child) {
+	margin-right: clamp(1.44rem, 1.91vw + 0.97rem, 2.5rem);
+}
+
+.wp-block-query-pagination .page-numbers.current {
+	text-decoration: underline;
+}
 .wp-block-sensei-lms-course-overview a {
 	text-decoration: underline;
 }
@@ -329,7 +336,7 @@ body .is-layout-flow .wp-block-group {
 	text-decoration: none;
 }
 
-/* Remove extra space from group blocks insidehomepage pattern */
+/* Remove extra space from group blocks inside homepage pattern */
 body.page-template-page-no-title .wp-block-post-content .wp-block-group,
 body.page-template-page-no-title footer .wp-block-group {
 	margin-block-end: 0;
