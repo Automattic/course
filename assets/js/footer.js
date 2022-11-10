@@ -23,6 +23,11 @@ function calculateTextSize() {
 domReady( () => {
   footerSiteTitleText = document.querySelector( "footer .wp-block-site-title a" );
   footerTextContainer = document.querySelector("footer .course-negative-space-footer" );
+
+  if ( ! footerSiteTitleText || ! footerTextContainer ) {
+    return;
+  }
+
   calculateTextSize();
 
   addEventListener( 'resize', () => {
