@@ -89,7 +89,7 @@ Tags: lms, eLearning, teach, online courses, sensei
 .wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-link.is-style-navigation-link-button a {
 	background-color: var(--wp--preset--color--foreground);
 	color: var(--wp--preset--color--background);
-	padding: 17.5px 32px;
+	padding: 15.5px 32px;
 	border: 1px solid var(--wp--preset--color--primary);
 }
 
@@ -130,12 +130,13 @@ header {
 	top: -1px;;
 	z-index: 1111;
 	background-color: var(--wp--preset--color--background);
-	padding: var(--wp--custom--header-padding) 0px;
+	padding: calc( var(--wp--custom--header-padding) - 12px) 0px;
 }
 
 /* No background color needed as per design when the navbar is being sticky on top */
 header:not(.is-being-sticky) {
 	background-color: transparent;
+	padding: var(--wp--custom--header-padding) 0px;
 }
 
 .wp-block-post-comments-form p {
@@ -399,7 +400,7 @@ body .sidebar-newsletter-gap {
 @media screen and (min-width: 782px) {
 	.sticky-newsletter-sidebar {
 		position: sticky;
-		top: 116px;
+		top: 120px;
 	}
 }
 
