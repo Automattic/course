@@ -334,12 +334,6 @@ body.page-template-page-wide-width footer .wp-block-group {
 	margin-block-end: 0;
 }
 
-/* Make the content wide width */
-body.page-template-page-wide-width {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 /* For the full width template, add some padding to the header */
 .page-template-page-wide-width header {
 	padding-left: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
