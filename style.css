@@ -327,14 +327,6 @@ body .is-layout-flow .wp-block-group {
 .wp-block-query-pagination .page-numbers.current {
 	text-decoration: underline;
 }
-.wp-block-sensei-lms-course-overview a {
-	text-decoration: underline;
-}
-
-.wp-block-sensei-lms-course-list .sensei-cta a:hover,
-.wp-block-sensei-lms-course-list .sensei-cta a:focus {
-	text-decoration: none;
-}
 
 /* Remove extra space from group blocks inside homepage pattern */
 body.page-template-page-no-title .wp-block-post-content .wp-block-group,
@@ -432,4 +424,27 @@ footer h1.wp-block-site-title a {
 
 footer div.course-negative-space-footer {
 	position: relative;
+}
+
+/*
+* Sensei-specific styles
+*/
+.wp-block-sensei-lms-course-overview a {
+	text-decoration: underline;
+}
+
+.wp-block-sensei-lms-course-list .sensei-cta a:hover,
+.wp-block-sensei-lms-course-list .sensei-cta a:focus {
+	text-decoration: none;
+}
+
+/* The first 3 CSS selectors can be removed after allowing enough time (let's say 1 month)for sites
+ * to update to the Sensei LMS plugin version containing the changes to the CSS class names.
+ */
+.course-list-featured-label__featured-image,
+.course-list-featured-label__course-categories,
+.sensei-lms-featured-badge,
+.sensei-lms-course-list-featured-label__text {
+	font-family: var(--wp--preset--font-family--system);
+	text-transform: uppercase;
 }
