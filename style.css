@@ -326,14 +326,6 @@ body .is-layout-flow .wp-block-group {
 .wp-block-query-pagination .page-numbers.current {
 	text-decoration: underline;
 }
-.wp-block-sensei-lms-course-overview a {
-	text-decoration: underline;
-}
-
-.wp-block-sensei-lms-course-list .sensei-cta a:hover,
-.wp-block-sensei-lms-course-list .sensei-cta a:focus {
-	text-decoration: none;
-}
 
 /* Remove extra space from group blocks inside homepage pattern */
 body.page-template-page-no-title .wp-block-post-content .wp-block-group,
