@@ -54,31 +54,13 @@ if ( ! function_exists( 'course_scripts' ) ) :
 		// Enqueque theme scripts.
 		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
 
-	}
-
-endif;
-
-add_action( 'wp_enqueue_scripts', 'course_scripts' );
-
-if ( ! function_exists( 'course_common_scripts' ) ) :
-
-	/**
-	 * Enqueue scripts and styles common for front and editor.
-	 *
-	 * @since Course 1.0
-	 *
-	 * @return void
-	 */
-	function course_common_scripts() {
-
-		// Enqueque scripts.
 		wp_enqueue_script( 'course-footer', get_template_directory_uri() . '/assets/js/footer.js', [], wp_get_theme()->get( 'Version' ), true );
 
 	}
 
 endif;
 
-add_action( 'enqueue_block_assets', 'course_common_scripts' );
+add_action( 'wp_enqueue_scripts', 'course_scripts' );
 
 function course_theme_init() {
 	register_block_style(
