@@ -445,6 +445,12 @@ footer div.course-negative-space-footer {
 	text-decoration: none;
 }
 
+/* The first 3 CSS selectors can be removed after allowing enough time (let's say 1 month)for sites
+ * to update to the Sensei LMS plugin version containing the changes to the CSS class names.
+ */
+.course-list-featured-label__featured-image,
+.course-list-featured-label__course-categories,
+.sensei-lms-featured-badge,
 .sensei-lms-course-list-featured-label__text {
 	font-family: var(--wp--preset--font-family--system);
 	text-transform: uppercase;
