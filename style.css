@@ -418,12 +418,6 @@ body.page-template-page-wide-width footer .wp-block-group {
 	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
 }
 
-/* Remove extra spacings from between top level blocks in homepage pattern */
-body.page-template-page-wide-width .wp-block-post-content > *,
-.is-root-container.is-layout-constrained.wp-block-post-content > * {
-	margin-block-start: 0px;
-}
-
 /*
 * Sensei-specific styles
 */
