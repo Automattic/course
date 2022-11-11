@@ -20,15 +20,15 @@
 <!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"eb-garamond"} -->
 <div class="wp-block-group has-eb-garamond-font-family"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><a href="#"><?php echo esc_html__('Instagram', 'course');?></a></p>
+<p class="has-small-font-size"><a href="https://www.instagram.com/"><?php echo esc_html__('Instagram', 'course');?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Youtube', 'course');?></a></p>
+<p><a href="https://youtube.com"><?php echo esc_html__('Youtube', 'course');?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Spotify', 'course');?></a></p>
+<p><a href="https://spotify.com"><?php echo esc_html__('Spotify', 'course');?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
