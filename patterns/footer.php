@@ -13,22 +13,22 @@
 <div class="wp-block-column" style="line-height:1.3;flex-basis:81.7%"><!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"blockGap":{"top":"10px","left":"20px"}}},"className":"course-footer-links-vertical-space"} -->
 <div class="wp-block-columns course-footer-links-vertical-space" style="border-left-width:1px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center","width":"128px"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"className":"has-gothic-font-family","fontSize":"medium"} -->
-<h3 class="has-gothic-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__('social', 'course');?></h3>
+<h3 class="has-gothic-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Social', 'course' );?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"eb-garamond"} -->
 <div class="wp-block-group has-eb-garamond-font-family"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><a href="https://www.instagram.com/"><?php echo esc_html__('Instagram', 'course');?></a></p>
+<p class="has-small-font-size"><a href="https://www.instagram.com/"><?php echo esc_html__( 'Instagram', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://youtube.com"><?php echo esc_html__('Youtube', 'course');?></a></p>
+<p><a href="https://youtube.com"><?php echo esc_html__( 'YouTube', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://spotify.com"><?php echo esc_html__('Spotify', 'course');?></a></p>
+<p><a href="https://spotify.com"><?php echo esc_html__( 'Spotify', 'course' );?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -37,26 +37,26 @@
 <!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"margin":{"bottom":"20px","top":"20px"},"blockGap":{"top":"10px","left":"20px"}}}} -->
 <div class="wp-block-columns" style="border-left-width:1px;margin-top:20px;margin-bottom:20px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center","width":"128px"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium"} -->
-<h3 class="has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__('pages', 'course');?></h3>
+<h3 class="has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Pages', 'course' );?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"border":{"width":"0px","style":"none"},"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"eb-garamond"} -->
 <div class="wp-block-group has-eb-garamond-font-family" style="border-style:none;border-width:0px"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><a href="#"><?php echo esc_html__('About', 'course');?></a></p>
+<p class="has-small-font-size"><a href="#"><?php echo esc_html__( 'About', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Video', 'course');?></a></p>
+<p><a href="#"><?php echo esc_html__( 'Video', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Episodes', 'course');?></a></p>
+<p><a href="#"><?php echo esc_html__( 'Episodes', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('All Posts', 'course');?></a></p>
+<p><a href="#"><?php echo esc_html__( 'All Posts', 'course' );?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -66,11 +66,11 @@
 <!-- wp:column {"width":"14.5%"} -->
 <div class="wp-block-column" style="flex-basis:14.5%"><!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Terms', 'course');?></a></p>
+<p><a href="#"><?php echo esc_html__( 'Terms', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__('Privacy', 'course');?></a></p>
+<p><a href="#"><?php echo esc_html__( 'Privacy', 'course' );?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
