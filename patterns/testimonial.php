@@ -9,8 +9,8 @@
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"120px","right":"20px","left":"20px"},"blockGap":"0px"}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained","contentSize":"1000px"}} -->
 <div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-right:20px;padding-bottom:120px;padding-left:20px"><!-- wp:group {"style":{"spacing":{"padding":{"left":"20px","bottom":"0px"}},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|tertiary","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--tertiary);border-left-width:1px;padding-bottom:0px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1","letterSpacing":"0.01em"}},"fontSize":"medium","fontFamily":"league-gothic"} -->
-<h3 class="has-league-gothic-font-family has-medium-font-size" style="letter-spacing:0.01em;line-height:1;text-transform:uppercase">What students say</h3>
+<div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--tertiary);border-left-width:1px;padding-bottom:0px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1","letterSpacing":"0.01em"},"spacing":{"padding":{"top":"0px"}}},"fontSize":"medium","fontFamily":"league-gothic"} -->
+<h3 class="has-league-gothic-font-family has-medium-font-size" style="padding-top:0px;letter-spacing:0.01em;line-height:1;text-transform:uppercase">What students say</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
