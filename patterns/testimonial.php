@@ -33,7 +33,7 @@
             <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"40px"}},"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"x-large","fontFamily":"league-gothic"} -->
             <h2 class="has-league-gothic-font-family has-x-large-font-size" style="margin-bottom:40px;line-height:1;text-transform:uppercase"><?php
                 echo wp_kses(
-                    __('“I always wanted to write, and<br>thanks to Cours, I got it right. My<br>writing is clearer, and I can finally get my message across.”', 'course'),
+                    __( '“I always wanted to write, and<br>thanks to Cours, I got it right. My<br>writing is clearer, and I can finally get my message across.”', 'course' ),
                     [
                         'br' => []
                     ]
