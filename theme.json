@@ -417,15 +417,6 @@
 					}
 				}
 			},
-			"core/paragraph": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline solid var(--wp--preset--color--tertiary)"
-						}
-					}
-				}
-			},
 			"core/post-author-name": {
 				"elements": {
 					"link": {
