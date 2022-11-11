@@ -83,21 +83,22 @@
 
 <p class="has-text-align-center has-background-background-color has-background has-system-font-family has-xx-small-font-size" style="padding-top:80px;padding-bottom:80px;letter-spacing:0.02em">
 <?php
-    /* Translators: WordPress link. */
-    $wordpress_link_underlined = '<a href="' . esc_url( __( 'https://wordpress.org', 'course' ) ) . '" rel="nofollow"><span style="text-decoration: underline;">WordPress</span></a>';
-
-    /* Translators: Sensei link. */
-    $sensei_link = '<a href="' . esc_url( __( 'https://senseilms.com/', 'course' ) ) . '" rel="nofollow">Sensei</a>';
-
-    /* Translators: Name of the theme. */
-    $theme_name_underlined = '<span style="text-decoration: underline;">' . esc_html__('Course Theme', 'course') .'</span>';
-
-    echo sprintf(
-        esc_html__( '%1$s by %2$s, Powered by %3$s.', 'course' ),
-        $theme_name_underlined,
-        $sensei_link,
-        $wordpress_link_underlined
-    );
+	echo sprintf(
+		wp_kses(
+			__( 'Course Theme by <a href="%1$s" rel="nofollow"><span style="text-decoration: underline;">Sensei</span></a>, Powered by <a href="%2$s" rel="nofollow"><span style="text-decoration: underline;">WordPress</span></a>.', 'course' ),
+			[
+				'a' => [
+					'href' => [],
+					'rel' => []
+				],
+				'span' => [
+					'style' => []
+				]
+			]
+		),
+		'https://senseilms.com',
+		'https://wordpress.org'
+	);
 ?>
 </p>
 <!-- /wp:paragraph --></div>
