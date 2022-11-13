@@ -417,20 +417,6 @@
 					}
 				}
 			},
-			"core/post-author-name": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
-				}
-			},
 			"core/post-featured-image": {
 				"border": {
 					"color": "var(--wp--preset--color--foreground)",
