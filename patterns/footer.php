@@ -85,6 +85,7 @@
 <?php
 	echo sprintf(
 		wp_kses(
+			// translators: %1$s is https://senseilms.com, %2$s is https://wordpress.org.
 			__( 'Course Theme by <a href="%1$s" rel="nofollow"><span style="text-decoration: underline;">Sensei</span></a>, Powered by <a href="%2$s" rel="nofollow"><span style="text-decoration: underline;">WordPress</span></a>.', 'course' ),
 			[
 				'a' => [
