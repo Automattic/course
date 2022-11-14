@@ -90,13 +90,13 @@ Tags: lms, eLearning, teach, online courses, sensei
 	background-color: var(--wp--preset--color--foreground);
 	color: var(--wp--preset--color--background);
 	padding: 15.5px 32px;
-	border: 1px solid var(--wp--preset--color--primary);
+	border: 1px solid var(--wp--preset--color--foreground);
 }
 
 /* Navbar button color change on hover */
 .wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-link.is-style-navigation-link-button a:hover {
 	background-color: var(--wp--preset--color--background);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--foreground);
 }
 
 /* Set the font size of the menu items in mobile view, except for the button menu item */
@@ -117,7 +117,7 @@ Tags: lms, eLearning, teach, online courses, sensei
 /* Separate hover behavior for navbar button, applicable when in mobile view, as the colors are separate for mobile view */
 .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-link.is-style-navigation-link-button a:hover {
 	background-color: var(--wp--preset--color--background);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--foreground);
 }
 
 /*
@@ -147,15 +147,15 @@ header:not(.is-being-sticky) {
 
 .wp-block-post-comments-form form.comment-form p input:not([type=submit]),
 .wp-block-post-comments-form form.comment-form textarea {
-	border: 1px solid var(--wp--preset--color--primary);
+	border: 1px solid var(--wp--preset--color--foreground);
 	border-radius: 8px;
 	background-color: var(--wp--preset--color--background);
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit] {
-	border: 1px solid var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--foreground);
+	border: 1px solid var(--wp--preset--color--foreground);
 	border-radius: 8px;
-	background-color: var(--wp--preset--color--primary);
 	text-transform: uppercase;
 	font-family: var(--wp--preset--font-family--league-gothic);
 	font-size: var(--wp--preset--font-size--button-link);
@@ -163,7 +163,7 @@ header:not(.is-being-sticky) {
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit]:hover {
-	color:var(--wp--preset--color--primary);
+	color:var(--wp--preset--color--foreground);
 	background-color: transparent;
 }
 
@@ -272,7 +272,7 @@ body .is-layout-flow .wp-block-group {
 .wp-block-search__input {
 	background-color: var(--wp--preset--color--background);
 	padding: 1.063rem;
-	border-color: var(--wp--preset--color--primary);
+	border-color: var(--wp--preset--color--foreground);
 }
 
 /* Add the search icon only when there is no text inside the search button */
@@ -286,7 +286,7 @@ body .is-layout-flow .wp-block-group {
 
 /* Buttons */
 .wp-block-button__link:focus {
-	outline: var(--wp--preset--color--primary) dashed;
+	outline: var(--wp--preset--color--foreground) dashed;
 	outline-offset: 1px;
 }
 
@@ -294,24 +294,24 @@ body .is-layout-flow .wp-block-group {
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
 */
-.wp-block-buttons .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):active {
+.wp-block-buttons .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
 	background-color: var(--wp--preset--color--secondary);
 	border-color: var(--wp--preset--color--button-border-active);
 	color: var(--wp--preset--color--primary);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover {
 	background-color: var(--wp--preset--color--primary);
 	border-color: var(--wp--preset--color--button-border-hover);
 	color: var(--wp--preset--color--secondary);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):focus {
-	border-color: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--primary);
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):focus {
+	border-color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--foreground);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link,
+.wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
 	border-width: 1px;
 	padding: 0.5856em 1.5238em;
