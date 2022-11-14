@@ -63,7 +63,7 @@
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
 			"commentGapMedium" : "1.25rem",
-			"sidebarNewsletterGap": "clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem)"
+			"courseNewsletterGap": "clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem)"
 		},
 		"layout": {
 			"contentSize": "1000px",
@@ -271,7 +271,7 @@
 				"elements": {
 					"link": {
 						"typography": {
-							"textDecoration": "none"
+							"textDecoration": "underline"
 						}
 					}
 				},
@@ -283,12 +283,12 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system)"
 				},
-				 "elements": {
-					 "heading": {
-						 "typography": {
-							 "fontSize": "var(--wp--preset--font-size--nav-medium)"
-						 }
-					 },
+				"elements": {
+					"heading": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--nav-medium)"
+						}
+					},
 					"button": {
 						"border": {
 							"radius": "8px"

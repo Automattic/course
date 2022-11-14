@@ -17,8 +17,8 @@
       <p><?php echo esc_html__( 'Our latest updates in your e-mail.', 'course' ); ?></p>
       <!-- /wp:paragraph -->
 
-      <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"1.25rem"}}}} -->
-      <p style="padding-top:1.25rem"><a href="#"><?php echo esc_html__( 'Sign up', 'course' ); ?></a></p>
+      <!-- wp:paragraph {"className":"course-newsletter-sign-up","style":{"spacing":{"padding":{"top":"1.25rem"}}}} -->
+      <p class="course-newsletter-sign-up" style="padding-top:1.25rem"><a href="#"><?php echo esc_html__( 'Sign up', 'course' ); ?></a></p>
       <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
