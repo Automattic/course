@@ -361,17 +361,19 @@ body .is-layout-constrained > * + * {
 	line-height: 100%;
 }
 
-body .sidebar-newsletter-gap {
-	height: var(--wp--custom--sidebar-newsletter-gap);
+/* Newsletter */
+body .course-newsletter-gap {
+	height: var(--wp--custom--course-newsletter-gap);
 }
 
 @media screen and (min-width: 782px) {
-	.sticky-newsletter-sidebar {
+	.course-newsletter-sidebar {
 		position: sticky;
 		top: 120px;
 	}
 }
 
+/* Footer */
 footer .wp-block-column .wp-block-spacer {
 	height: 20px;
 }

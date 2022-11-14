@@ -63,7 +63,7 @@
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
 			"commentGapMedium" : "1.25rem",
-			"sidebarNewsletterGap": "clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem)"
+			"courseNewsletterGap": "clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem)"
 		},
 		"layout": {
 			"contentSize": "1000px",
