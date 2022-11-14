@@ -366,6 +366,14 @@ body .course-newsletter-gap {
 	height: var(--wp--custom--course-newsletter-gap);
 }
 
+.course-newsletter-sign-up {
+	font-family: var(--wp--preset--font-family--system);
+	font-size: var(--wp--preset--font-size--xx-small);
+	letter-spacing: 0.02em;
+	line-height: 100%;
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 782px) {
 	.course-newsletter-sidebar {
 		position: sticky;
