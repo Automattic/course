@@ -13,10 +13,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: 
 Text Domain: course
 Tags: lms, eLearning, teach, online courses, sensei
-*//*
+*/
+
+/*
  * Font smoothing
  */
-
  body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -28,7 +29,6 @@ Tags: lms, eLearning, teach, online courses, sensei
  * spacing defined above. This behavior may be built into
  * the Block Editor in the future.
  */
-
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding-top: var(--wp--preset--spacing--50);
 	padding-bottom: var(--wp--preset--spacing--50);
