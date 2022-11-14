@@ -1,63 +1,287 @@
-#, fuzzy
+# Copyright (C) 2022 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Course\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 18:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: Course 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/course\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.2; wp-6.1-RC1-54506\n"
-"X-Domain: course"
+"POT-Creation-Date: 2022-11-14T16:19:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: course\n"
+
+#. Theme Name of the theme
+msgid "Course"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://senseilms.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too."
+msgstr ""
 
 #. Author of the theme
 msgid "Automattic"
-msgstr ""
-
-#: ../../../../../Projects/course/functions.php:68
-msgid "Button"
-msgstr ""
-
-#. Name of the theme
-msgid "Course"
 msgstr ""
 
 #. Author URI of the theme
 msgid "https://automattic.com/"
 msgstr ""
 
-#. URI of the theme
-msgid "https://github.com/Automattic/course"
+#: functions.php:70
+msgid "Button"
 msgstr ""
 
-#. WordPress link.
-#: ../../../../../Projects/course/patterns/footer.php:22
-msgid "https://wordpress.org"
+#: patterns/404.php:21
+msgid "This page could not be found."
 msgstr ""
 
-#: ../../../../../Projects/course/patterns/404.php:15
-msgid "It looks like nothing was found at this location. Maybe try a search?"
+#: patterns/404.php:21
+msgid "Maybe you should try a search."
 msgstr ""
 
-#: ../../../../../Projects/course/patterns/404.php:11
-msgid "Oops! That page can&rsquo;t be found."
+#: patterns/404.php:24
+#: patterns/search.php:13
+msgid "Search..."
 msgstr ""
 
-#: ../../../../../Projects/course/patterns/footer.php:24
-#, php-format
-msgid "Proudly Powered by %1$s"
+#: patterns/footer.php:16
+msgid "Social"
 msgstr ""
 
-#: ../../../../../Projects/course/patterns/search.php:10
+#: patterns/footer.php:23
+msgid "Instagram"
+msgstr ""
+
+#: patterns/footer.php:27
+msgid "YouTube"
+msgstr ""
+
+#: patterns/footer.php:31
+msgid "Spotify"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "Pages"
+msgstr ""
+
+#: patterns/footer.php:47
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:51
+msgid "Video"
+msgstr ""
+
+#: patterns/footer.php:55
+msgid "Episodes"
+msgstr ""
+
+#: patterns/footer.php:59
+msgid "All Posts"
+msgstr ""
+
+#: patterns/footer.php:69
+msgid "Terms"
+msgstr ""
+
+#: patterns/footer.php:73
+msgid "Privacy"
+msgstr ""
+
+#. translators: %1$s is https://senseilms.com, %2$s is https://wordpress.org.
+#: patterns/footer.php:89
+msgid "Course Theme by <a href=\"%1$s\" rel=\"nofollow\"><span style=\"text-decoration: underline;\">Sensei</span></a>, Powered by <a href=\"%2$s\" rel=\"nofollow\"><span style=\"text-decoration: underline;\">WordPress</span></a>."
+msgstr ""
+
+#: patterns/mailing-list.php:18
+msgid "Keep track of the latest<br>news and lessons.<br>Every week in your inbox."
+msgstr ""
+
+#: patterns/mailing-list.php:29
+msgid "Join Our Mailing List"
+msgstr ""
+
+#: patterns/newsletter.php:13
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/newsletter.php:17
+msgid "Our latest updates in your e-mail."
+msgstr ""
+
+#: patterns/newsletter.php:21
+msgid "Sign up"
+msgstr ""
+
+#: patterns/search.php:10
 msgid "Search"
 msgstr ""
 
-#. Description of the theme
-msgid "Sensei starter theme"
+#: patterns/testimonial.php:16
+msgid "What students say"
+msgstr ""
+
+#: patterns/testimonial.php:36
+msgid "“I always wanted to write, and<br>thanks to Cours, I got it right. My<br>writing is clearer, and I can finally get my message across.”"
+msgstr ""
+
+#: patterns/testimonial.php:49
+msgid "Founder at BeautifulWriting.com"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2.5X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3.5X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "5X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Massive"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Navbar Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Button Link"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "League Gothic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "EB Garamond"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Sorts Mill Goudy"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Button Border - Active"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Button Border - Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Wide Width, No Title"
 msgstr ""
