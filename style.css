@@ -4,13 +4,12 @@ Theme URI: https://senseilms.com
 Author: Automattic
 Author URI: https://automattic.com/
 Description: Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too.
+Version: 1.0.0
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: 
 Text Domain: course
 Tags: lms, eLearning, teach, online courses, sensei
 */
@@ -43,15 +42,18 @@ Tags: lms, eLearning, teach, online courses, sensei
 .wp-block-table thead {
 	border-bottom: 3px solid;
 }
+
 .wp-block-table tfoot {
 	border-top: 3px solid;
 }
+
 .wp-block-table td,
 .wp-block-table th {
 	padding: var(--wp--preset--spacing--30);
 	border: 1px solid;
 	word-break: normal;
 }
+
 .wp-block-table figcaption {
 	font-size: var(--wp--preset--font-size--small);
 	text-align: center;
@@ -139,6 +141,7 @@ header:not(.is-being-sticky) {
 	padding: var(--wp--custom--header-padding) 0px;
 }
 
+/* Comments */
 .wp-block-post-comments-form p {
 	font-size: var(--wp--preset--font-size--tiny);
 	line-height: var(--wp--preset--font-size--x-small);
