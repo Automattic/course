@@ -29,3 +29,27 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+This theme bundles the following third-party resources:
+
+EB Garamond from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/EB+Garamond
+
+Inter from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Inter
+
+League Gothic from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/League+Gothic
+
+Sorts Mill Goudy from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Sorts+Mill+Goudy
+
+Image for Testimonial pattern, Credit Unsplash
+License: Creative Commons Zero, 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://unsplash.com/photos/8youKEwX0vY
+
+Image for theme screenshot, Credit Startup Stock Photos
+License: Creative Commons Zero, 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://startupstockphotos.com/photos/laptop-and-notebook/
