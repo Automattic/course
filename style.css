@@ -267,23 +267,13 @@ body .is-layout-flow .wp-block-group {
  * Search styles
  */
 .wp-block-search__button {
-	color: #ffffff;
-	padding: calc(0.667em + 2px) calc(1.333em + 8px);
+	color: var(--wp--preset--color--background);
 }
 
 .wp-block-search__input {
 	background-color: var(--wp--preset--color--background);
-	padding: 1.063rem;
 	border-color: var(--wp--preset--color--foreground);
-}
-
-/* Add the search icon only when there is no text inside the search button */
-.wp-block-search__button:empty {
-	background-image: url('./assets/images/magnifying-glass-solid.svg');
-	background-repeat: no-repeat;
-	background-size: 30%;
-	background-position: center center;
-	fill: #ffffff;
+	padding: 1.063rem;
 }
 
 /* Buttons */
