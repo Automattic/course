@@ -639,6 +639,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontSize": "var(--wp--custom--typography--font-sizes--button)",
 					"fontWeight": "400",
 					"letterSpacing": "0.05em",
 					"textTransform": "uppercase"
