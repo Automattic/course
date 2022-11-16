@@ -1,18 +1,18 @@
 === Course ===
 Contributors: Automattic
 Requires at least: 6.1
-Tested up to: 5.9
-Requires PHP: 5.7
+Tested up to: 6.1
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Sensei starter theme
+Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too.
 
 == Changelog ==
 
-= 0.0.1 =
+= 1.0.0 =
 * Initial release
 
 == Copyright ==
@@ -29,3 +29,27 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+This theme bundles the following third-party resources:
+
+EB Garamond from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/EB+Garamond
+
+Inter from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Inter
+
+League Gothic from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/League+Gothic
+
+Sorts Mill Goudy from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Sorts+Mill+Goudy
+
+Image for Testimonial pattern, Credit Unsplash
+License: Creative Commons Zero, 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://unsplash.com/photos/8youKEwX0vY
+
+Image for theme screenshot, Credit Startup Stock Photos
+License: Creative Commons Zero, 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://startupstockphotos.com/photos/laptop-and-notebook/

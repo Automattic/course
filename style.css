@@ -1,22 +1,21 @@
 /*
 Theme Name: Course
-Theme URI: https://github.com/Automattic/sensei-theme
 Author: Automattic
 Author URI: https://automattic.com/
-Description: Sensei starter theme
+Description: Course is a flexible and modern theme for anyone wanting to share their knowledge. The theme is built with integration with Sensei LMS and is ideal for Sensei users that are creating or selling courses. Style variations with multiple font and color combinations help you craft the perfect look and feel to show off courses and content. The theme can be used without Sensei too.
+Version: 1.0.0
 Requires at least: 6.1
-Tested up to: 5.9
-Requires PHP: 5.7
-Version: 0.0.1
+Tested up to: 6.1
+Requires PHP: 7.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: 
 Text Domain: course
-Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
-*//*
+Tags: lms, eLearning, teach, online courses, sensei
+*/
+
+/*
  * Font smoothing
  */
-
  body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -28,7 +27,6 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
  * spacing defined above. This behavior may be built into
  * the Block Editor in the future.
  */
-
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding-top: var(--wp--preset--spacing--50);
 	padding-bottom: var(--wp--preset--spacing--50);
@@ -43,15 +41,18 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .wp-block-table thead {
 	border-bottom: 3px solid;
 }
+
 .wp-block-table tfoot {
 	border-top: 3px solid;
 }
+
 .wp-block-table td,
 .wp-block-table th {
 	padding: var(--wp--preset--spacing--30);
 	border: 1px solid;
 	word-break: normal;
 }
+
 .wp-block-table figcaption {
 	font-size: var(--wp--preset--font-size--small);
 	text-align: center;
@@ -89,14 +90,14 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 .wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-link.is-style-navigation-link-button a {
 	background-color: var(--wp--preset--color--foreground);
 	color: var(--wp--preset--color--background);
-	padding: 17.5px 32px;
-	border: 1px solid var(--wp--preset--color--primary);
+	padding: 15.5px 32px;
+	border: 1px solid var(--wp--preset--color--foreground);
 }
 
 /* Navbar button color change on hover */
 .wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-link.is-style-navigation-link-button a:hover {
 	background-color: var(--wp--preset--color--background);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--foreground);
 }
 
 /* Set the font size of the menu items in mobile view, except for the button menu item */
@@ -117,7 +118,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 /* Separate hover behavior for navbar button, applicable when in mobile view, as the colors are separate for mobile view */
 .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-link.is-style-navigation-link-button a:hover {
 	background-color: var(--wp--preset--color--background);
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--foreground);
 }
 
 /*
@@ -130,14 +131,16 @@ header {
 	top: -1px;;
 	z-index: 1111;
 	background-color: var(--wp--preset--color--background);
-	padding: var(--wp--custom--header-padding) 0px;
+	padding: calc( var(--wp--custom--header-padding) - 12px) 0px;
 }
 
 /* No background color needed as per design when the navbar is being sticky on top */
 header:not(.is-being-sticky) {
 	background-color: transparent;
+	padding: var(--wp--custom--header-padding) 0px;
 }
 
+/* Comments */
 .wp-block-post-comments-form p {
 	font-size: var(--wp--preset--font-size--tiny);
 	line-height: var(--wp--preset--font-size--x-small);
@@ -146,15 +149,15 @@ header:not(.is-being-sticky) {
 
 .wp-block-post-comments-form form.comment-form p input:not([type=submit]),
 .wp-block-post-comments-form form.comment-form textarea {
-	border: 1px solid var(--wp--preset--color--primary);
+	border: 1px solid var(--wp--preset--color--foreground);
 	border-radius: 8px;
 	background-color: var(--wp--preset--color--background);
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit] {
-	border: 1px solid var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--foreground);
+	border: 1px solid var(--wp--preset--color--foreground);
 	border-radius: 8px;
-	background-color: var(--wp--preset--color--primary);
 	text-transform: uppercase;
 	font-family: var(--wp--preset--font-family--league-gothic);
 	font-size: var(--wp--preset--font-size--button-link);
@@ -162,7 +165,7 @@ header:not(.is-being-sticky) {
 }
 
 .wp-block-post-comments-form form.comment-form p input[type=submit]:hover {
-	color:var(--wp--preset--color--primary);
+	color:var(--wp--preset--color--foreground);
 	background-color: transparent;
 }
 
@@ -264,27 +267,18 @@ body .is-layout-flow .wp-block-group {
  * Search styles
  */
 .wp-block-search__button {
-	color: #ffffff;
-	padding: calc(0.667em + 2px) calc(1.333em + 8px);
+	color: var(--wp--preset--color--background);
 }
 
 .wp-block-search__input {
 	background-color: var(--wp--preset--color--background);
+	border-color: var(--wp--preset--color--foreground);
 	padding: 1.063rem;
-}
-
-/* Add the search icon only when there is no text inside the search button */
-.wp-block-search__button:empty {
-	background-image: url('./assets/images/magnifying-glass-solid.svg');
-	background-repeat: no-repeat;
-	background-size: 30%;
-	background-position: center center;
-	fill: #ffffff;
 }
 
 /* Buttons */
 .wp-block-button__link:focus {
-	outline: var(--wp--preset--color--primary) dashed;
+	outline: var(--wp--preset--color--foreground) dashed;
 	outline-offset: 1px;
 }
 
@@ -292,69 +286,44 @@ body .is-layout-flow .wp-block-group {
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
 */
-.wp-block-buttons .wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):active {
+.wp-block-buttons .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
 	background-color: var(--wp--preset--color--secondary);
 	border-color: var(--wp--preset--color--button-border-active);
 	color: var(--wp--preset--color--primary);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover {
 	background-color: var(--wp--preset--color--primary);
 	border-color: var(--wp--preset--color--button-border-hover);
 	color: var(--wp--preset--color--secondary);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):focus {
-	border-color: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--primary);
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):focus {
+	border-color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--foreground);
 }
 
-.wp-block-button.is-style-outline>.wp-block-button__link,
+.wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
 	border-width: 1px;
 	padding: 0.5856em 1.5238em;
 }
 
 /*
-* Sensei Blocks
-*/
-.wp-block-sensei-lms-course-overview a {
+ * Pagination styles
+ */
+.wp-block-query-pagination .wp-block-query-pagination-numbers > *:not(:last-child) {
+	margin-right: clamp(1.44rem, 1.91vw + 0.97rem, 2.5rem);
+}
+
+.wp-block-query-pagination .page-numbers.current {
 	text-decoration: underline;
-}
-
-.wp-block-sensei-lms-course-list .sensei-cta a:hover,
-.wp-block-sensei-lms-course-list .sensei-cta a:focus {
-	text-decoration: none;
-}
-
-/* Remove extra space from group blocks insidehomepage pattern */
-body.page-template-page-no-title .wp-block-post-content .wp-block-group,
-body.page-template-page-no-title footer .wp-block-group {
-	margin-block-end: 0;
-}
-
-/* Make the content full width */
-body.page-template-page-no-title {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-/* For the full width template, add some padding to the header */
-.page-template-page-no-title header {
-	padding-left: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
-	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
 }
 
 /* Add border around author image in Post Author block */
 .wp-block-post-author__avatar img {
 	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 4px;
-}
-
-/* Remove extra spacings from between top level blocks in homepage pattern */
-body.page-template-page-no-title .wp-block-post-content > *,
-.is-root-container.is-layout-constrained.wp-block-post-content > * {
-	margin-block-start: 0px;
 }
 
 /* Remove default spacings so that we can use our own spacings */
@@ -365,4 +334,111 @@ body .is-layout-flow > * {
 
 body .is-layout-constrained > * + * {
 	margin-block-start: 0px;
+}
+
+/* Design for search box in 404 page template sidebar */
+.course-search-sidebar button {
+	padding: clamp(12px, calc(0.75rem + ((1vw - 4.8px) * 0.5556)), 16px);
+	color: var(--wp--preset--color--tertiary);
+	vertical-align: center;
+}
+
+.course-search-sidebar button svg {
+	height: 32px;
+	width: 32px;
+	vertical-align: bottom;
+}
+
+.course-search-sidebar input.wp-block-search__input {
+	line-height: 100%;
+}
+
+/* Newsletter */
+body .course-newsletter-gap {
+	height: var(--wp--custom--course-newsletter-gap);
+}
+
+.course-newsletter-sign-up {
+	font-family: var(--wp--preset--font-family--system);
+	font-size: var(--wp--preset--font-size--xx-small);
+	letter-spacing: 0.02em;
+	line-height: 100%;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 782px) {
+	.course-newsletter-sidebar {
+		position: sticky;
+		top: 120px;
+	}
+}
+
+/* Footer */
+footer .wp-block-column .wp-block-spacer {
+	height: 20px;
+}
+
+footer .wp-block-column a,
+footer .wp-block-column p,
+footer .wp-block-column h3 {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+	footer .wp-block-columns.course-footer-links-vertical-space {
+		margin-bottom: 44px;
+	}
+
+	footer .wp-block-column, footer .wp-block-group.is-layout-flex {
+		flex-direction: column;
+		align-items: baseline;
+		gap: 10px;
+	}
+}
+footer h1.wp-block-site-title a {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+footer div.course-negative-space-footer {
+	position: relative;
+}
+
+/*
+ * "Wide Width, No Title" page template
+ */
+
+/* Remove extra space from group blocks */
+body.page-template-page-wide-width .wp-block-post-content .wp-block-group,
+body.page-template-page-wide-width footer .wp-block-group {
+	margin-block-end: 0;
+}
+
+/* Add some padding to the header */
+.page-template-page-wide-width header {
+	padding-left: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
+	padding-right: clamp(1.25rem,((2vw - 0.75rem) * 10) , 6.25rem);
+}
+
+/*
+* Sensei-specific styles
+*/
+.wp-block-sensei-lms-course-overview a {
+	text-decoration: underline;
+}
+
+.wp-block-sensei-lms-course-list .sensei-cta a:hover,
+.wp-block-sensei-lms-course-list .sensei-cta a:focus {
+	text-decoration: none;
+}
+
+/* The first 3 CSS selectors can be removed after allowing enough time (let's say 1 month)for sites
+ * to update to the Sensei LMS plugin version containing the changes to the CSS class names.
+ */
+.course-list-featured-label__featured-image,
+.course-list-featured-label__course-categories,
+.sensei-lms-featured-badge,
+.sensei-lms-course-list-featured-label__text {
+	font-family: var(--wp--preset--font-family--system);
+	text-transform: uppercase;
 }
