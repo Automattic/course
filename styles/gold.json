@@ -60,12 +60,12 @@
 						{
 							"fontFamily": "Arvo",
 							"fontWeight": "400",
-							"src": [ "file:./assets/fonts/noto-sans/Arvo-Regular.ttf" ]
+							"src": [ "file:./assets/fonts/arvo/Arvo-Regular.ttf" ]
 						},
 						{
 							"fontFamily": "Arvo",
 							"fontWeight": "700",
-							"src": [ "file:./assets/fonts/noto-sans/Arvo-Bold.ttf" ]
+							"src": [ "file:./assets/fonts/arvo/Arvo-Bold.ttf" ]
 						}
 					]
 				},
