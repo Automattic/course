@@ -79,9 +79,9 @@
 <!-- wp:site-title {"textAlign":"center","style":{"typography":{"lineHeight":"1","letterSpacing":"0.02em"},"spacing":{"padding":{"top":"40px"}}},"fontFamily":"sorts-mill-goudy"} /-->
 
 <!-- wp:group {"align":"full","style":{"border":{"top":{"width":"1px"}}},"backgroundColor":"background","className":"course-negative-space-footer","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group alignfull course-negative-space-footer has-background-background-color has-background" style="border-top-width:1px"><!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"backgroundColor":"background","fontSize":"x-small","fontFamily":"system"} -->
+<div class="wp-block-group alignfull course-negative-space-footer has-background-background-color has-background" style="border-top-width:1px"><!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"backgroundColor":"background","fontSize":"x-small"} -->
 
-<p class="has-text-align-center has-background-background-color has-background has-system-font-family has-x-small-font-size" style="padding-top:80px;padding-bottom:80px;letter-spacing:0.02em">
+<p class="has-text-align-center has-background-background-color has-background has-x-small-font-size" style="padding-top:80px;padding-bottom:80px;letter-spacing:0.02em">
 <?php
 	echo sprintf(
 		wp_kses(
