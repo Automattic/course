@@ -702,14 +702,13 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontFamily": "var(--wp--preset--font-family--secondary)",
 					"fontWeight": "400",
 					"lineHeight": "100%"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--secondary)",
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"fontWeight": "400",
 					"textTransform": "uppercase"
