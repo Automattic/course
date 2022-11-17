@@ -30,14 +30,9 @@
 
         <!-- wp:column {"verticalAlignment":"bottom"} -->
         <div class="wp-block-column is-vertically-aligned-bottom">
-            <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"40px"}},"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"x-large","fontFamily":"secondary"} -->
-            <h2 class="has-secondary-font-family has-x-large-font-size" style="margin-bottom:40px;line-height:1;text-transform:uppercase"><?php
-                echo wp_kses(
-                    __( '“I always wanted to write, and<br>thanks to Cours, I got it right. My<br>writing is clearer, and I can finally get my message across.”', 'course' ),
-                    [
-                        'br' => []
-                    ]
-                );
+            <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"40px"}},"typography":{"lineHeight":"1"}},"fontSize":"x-large","fontFamily":"secondary"} -->
+            <h2 class="has-secondary-font-family has-x-large-font-size" style="margin-bottom:40px;line-height:1;"><?php
+                echo esc_html__( '“I always wanted to write, and thanks to Course, I got it right. My writing is clearer, and I can finally get my message across.”', 'course' );
                 ?></h2>
             <!-- /wp:heading -->
 
