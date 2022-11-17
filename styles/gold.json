@@ -236,7 +236,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontWeight": "700"
+					"textTransform": "none"
 				}
 			}
 		},

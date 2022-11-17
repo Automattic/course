@@ -229,14 +229,12 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--secondary)",
-					"fontWeight": "700",
-					"lineHeight": "100%"
+					"fontWeight": "700"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
-					"fontWeight": "700"
+					"textTransform": "none"
 				}
 			}
 		},

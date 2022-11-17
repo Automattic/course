@@ -274,7 +274,6 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"fontWeight": "600",
 					"textTransform": "none"
 				}
