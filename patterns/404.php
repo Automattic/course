@@ -10,8 +10,8 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"20px","left":"20px","bottom":"100px"}}},"layout":{"type":"constrained","contentSize":"1000px","wideSize":"1200px","justifyContent":"left"}} -->
 <div class="wp-block-group" style="padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0px","left":"0px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"70%","style":{"spacing":{"padding":{"right":"20px"}}}} -->
-<div class="wp-block-column" style="padding-right:20px;flex-basis:70%"><!-- wp:heading {"style":{"typography":{"lineHeight":0.9}},"fontSize":"massive"} -->
-<h2 class="has-massive-font-size" style="line-height:0.9">404</h2>
+<div class="wp-block-column" style="padding-right:20px;flex-basis:70%"><!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":0.9}},"fontSize":"xxx-large"} -->
+<h1 class="has-xxx-large-font-size" style="line-height:0.9">404</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

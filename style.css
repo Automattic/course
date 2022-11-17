@@ -82,7 +82,7 @@ Tags: lms, eLearning, teach, online courses, sensei
 
  /* The navigation item that looks like a button in the design has a different front size and the button is rounded */
  .wp-block-navigation .wp-block-navigation__responsive-container .wp-block-navigation-link.is-style-navigation-link-button a {
-	font-size: var(--wp--preset--font-size--button-link);
+	font-size: var(--wp--custom--typography--font-sizes--button);
 	border-radius: 8px;
 }
 
@@ -140,33 +140,14 @@ header:not(.is-being-sticky) {
 	padding: var(--wp--custom--header-padding) 0px;
 }
 
-/* Comments */
-.wp-block-post-comments-form p {
-	font-size: var(--wp--preset--font-size--tiny);
-	line-height: var(--wp--preset--font-size--x-small);
-	text-transform: uppercase;
-}
-
+/*
+ * Comments
+ */
 .wp-block-post-comments-form form.comment-form p input:not([type=submit]),
 .wp-block-post-comments-form form.comment-form textarea {
 	border: 1px solid var(--wp--preset--color--foreground);
 	border-radius: 8px;
 	background-color: var(--wp--preset--color--background);
-}
-
-.wp-block-post-comments-form form.comment-form p input[type=submit] {
-	background-color: var(--wp--preset--color--foreground);
-	border: 1px solid var(--wp--preset--color--foreground);
-	border-radius: 8px;
-	text-transform: uppercase;
-	font-family: var(--wp--preset--font-family--league-gothic);
-	font-size: var(--wp--preset--font-size--button-link);
-	line-height: var(--wp--preset--font-size--button-link);
-}
-
-.wp-block-post-comments-form form.comment-form p input[type=submit]:hover {
-	color:var(--wp--preset--color--foreground);
-	background-color: transparent;
 }
 
 .wp-block-post-comments-form .comment-form-cookies-consent label {
@@ -245,6 +226,7 @@ header:not(.is-being-sticky) {
 .wp-block-comments-query-loop .comment > div > div > .is-vertical {
 	gap: 0;
 }
+
 /*
  * Link styles
  */
@@ -354,13 +336,13 @@ body .is-layout-constrained > * + * {
 }
 
 /* Newsletter */
-body .course-newsletter-gap {
-	height: var(--wp--custom--course-newsletter-gap);
+.course-newsletter-gap {
+	height: clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem);
 }
 
 .course-newsletter-sign-up {
 	font-family: var(--wp--preset--font-family--system);
-	font-size: var(--wp--preset--font-size--xx-small);
+	font-size: var(--wp--preset--font-size--x-small);
 	letter-spacing: 0.02em;
 	line-height: 100%;
 	text-decoration: underline;
@@ -441,4 +423,13 @@ body.page-template-page-wide-width footer .wp-block-group {
 .sensei-lms-course-list-featured-label__text {
 	font-family: var(--wp--preset--font-family--system);
 	text-transform: uppercase;
+}
+
+/*
+ * Style Variations
+ */
+
+/* Workaround for https://github.com/WordPress/gutenberg/issues/35480. */
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
+	color: var(--wp--preset--color--primary);
 }
