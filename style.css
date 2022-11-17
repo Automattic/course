@@ -336,8 +336,8 @@ body .is-layout-constrained > * + * {
 }
 
 /* Newsletter */
-body .course-newsletter-gap {
-	height: var(--wp--custom--course-newsletter-gap);
+.course-newsletter-gap {
+	height: clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem);
 }
 
 .course-newsletter-sign-up {

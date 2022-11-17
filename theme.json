@@ -68,8 +68,7 @@
 			"replyColumnGap": "2.349rem",
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
-			"commentGapMedium" : "1.25rem",
-			"courseNewsletterGap": "clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem)"
+			"commentGapMedium" : "1.25rem"
 		},
 		"layout": {
 			"contentSize": "1000px",
