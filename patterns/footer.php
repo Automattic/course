@@ -12,14 +12,14 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"81.7%","style":{"typography":{"lineHeight":"1.3"}}} -->
 <div class="wp-block-column" style="line-height:1.3;flex-basis:81.7%"><!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"blockGap":{"top":"10px","left":"20px"}}},"className":"course-footer-links-vertical-space"} -->
 <div class="wp-block-columns course-footer-links-vertical-space" style="border-left-width:1px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center","width":"128px"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium","fontFamily":"league-gothic"} -->
-<h3 class="has-league-gothic-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Social', 'course' );?></h3>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium","fontFamily":"secondary"} -->
+<h3 class="has-secondary-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Social', 'course' );?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"eb-garamond"} -->
-<div class="wp-block-group has-eb-garamond-font-family"><!-- wp:paragraph -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"primary"} -->
+<div class="wp-block-group has-primary-font-family"><!-- wp:paragraph -->
 <p><a href="https://www.instagram.com/"><?php echo esc_html__( 'Instagram', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
@@ -36,14 +36,14 @@
 
 <!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"margin":{"bottom":"20px","top":"20px"},"blockGap":{"top":"10px","left":"20px"}}}} -->
 <div class="wp-block-columns" style="border-left-width:1px;margin-top:20px;margin-bottom:20px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center","width":"128px"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium","fontFamily":"league-gothic"} -->
-<h3 class="has-league-gothic-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Pages', 'course' );?></h3>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"medium","fontFamily":"secondary"} -->
+<h3 class="has-secondary-font-family has-medium-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Pages', 'course' );?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"border":{"width":"0px","style":"none"},"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"eb-garamond"} -->
-<div class="wp-block-group has-eb-garamond-font-family" style="border-style:none;border-width:0px"><!-- wp:paragraph -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"border":{"width":"0px","style":"none"},"spacing":{"blockGap":"20px"}},"layout":{"type":"flex","flexWrap":"wrap"},"fontFamily":"primary"} -->
+<div class="wp-block-group has-primary-font-family" style="border-style:none;border-width:0px"><!-- wp:paragraph -->
 <p><a href="#"><?php echo esc_html__( 'About', 'course' );?></a></p>
 <!-- /wp:paragraph -->
 
