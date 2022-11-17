@@ -227,6 +227,19 @@
 				}
 			}
 		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--secondary)",
+					"fontWeight": "700"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontWeight": "700"
+				}
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--primary)"
 		}
