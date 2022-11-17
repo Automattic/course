@@ -55,7 +55,7 @@
 				{
 					"fontFamily": "Noto, sans-serif",
 					"name": "Noto Sans",
-					"slug": "primary",
+					"slug": "body",
 					"fontFace": [
 						{
 							"fontFamily": "Noto",
@@ -77,7 +77,7 @@
 				{
 					"fontFamily": "\"Lora\", sans-serif",
 					"name": "Lora",
-					"slug": "secondary",
+					"slug": "heading",
 					"fontFace": [
 						{
 							"fontFamily": "Lora",
@@ -247,7 +247,7 @@
 				"elements": {
 					"link": {
 						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--primary)",
+							"fontFamily": "var(--wp--preset--font-family--body)",
 							"letterSpacing": "-0.01em",
 							"lineHeight": "100%",
 							"textTransform": "uppercase"
@@ -269,7 +269,7 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--secondary)"
+					"fontFamily": "var(--wp--preset--font-family--heading)"
 				}
 			},
 			"h1": {
@@ -295,7 +295,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)"
+			"fontFamily": "var(--wp--preset--font-family--body)"
 		}
 	}
 }

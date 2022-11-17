@@ -55,7 +55,7 @@
 				{
 					"fontFamily": "Inter",
 					"name": "Inter",
-					"slug": "primary",
+					"slug": "body",
 					"fontFace": [
 						{
 							"fontFamily": "Inter",
@@ -78,7 +78,7 @@
 				{
 					"fontFamily": "\"Syne\", sans-serif",
 					"name": "Syne",
-					"slug": "secondary",
+					"slug": "heading",
 					"fontFace": [
 						{
 							"fontFamily": "Syne",
@@ -228,7 +228,7 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--secondary)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontWeight": "700"
 				}
 			},
@@ -239,7 +239,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)"
+			"fontFamily": "var(--wp--preset--font-family--body)"
 		}
 	}
 }
