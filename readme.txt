@@ -32,6 +32,9 @@ GNU General Public License for more details.
 
 This theme bundles the following third-party resources:
 
+Arvo from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Arvo
+
 EB Garamond from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 https://fonts.google.com/specimen/EB+Garamond
 
@@ -41,8 +44,20 @@ https://fonts.google.com/specimen/Inter
 League Gothic from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 https://fonts.google.com/specimen/League+Gothic
 
+Lora from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Lora
+
+Montserrat from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Montserrat
+
+Noto Sans from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/noto/specimen/Noto+Sans
+
 Sorts Mill Goudy from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 https://fonts.google.com/specimen/Sorts+Mill+Goudy
+
+Syne from Google Fonts, Open Font License (https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+https://fonts.google.com/specimen/Syne
 
 Image for Testimonial pattern, Credit Unsplash
 License: Creative Commons Zero, 1.0
