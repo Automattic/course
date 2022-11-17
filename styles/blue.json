@@ -144,6 +144,26 @@
 							"src": ["file:./assets/fonts/SortsMillGoudy-Regular.woff2"]
 						}
 					]
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": ["file:./assets/fonts/inter.woff2"]
+						}
+					],
+					"fontFamily": "Inter",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
+					"name": "System",
+					"slug": "system"
 				}
 			],
 			"fontSizes": [
