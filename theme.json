@@ -88,21 +88,48 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
+					"fontFamily": "EB Garamond",
+					"name": "EB Garamond",
+					"slug": "primary",
 					"fontFace": [
 						{
-							"fontDisplay": "block",
 							"fontFamily": "EB Garamond",
-							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"fontWeight": "400",
 							"fontStyle": "normal",
-							"fontWeight": "200 800",
-							"src": ["file:./assets/fonts/ebgaramond-regular.woff2"]
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/EBGaramond-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/EBGaramond-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf" ]
 						}
-					],
-					"name": "EB Garamond",
-					"fontFamily": "EB Garamond",
-					"slug": "primary"
+					]
 				},
 				{
+					"fontFamily": "\"League Gothic\", serif",
+					"name": "League Gothic",
+					"slug": "secondary",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
@@ -114,10 +141,7 @@
 								"file:./assets/fonts/leaguegothic-regular-variablefont_wdth-webfont.woff2"
 							]
 						}
-					],
-					"fontFamily": "\"League Gothic\", serif",
-					"name": "League Gothic",
-					"slug": "secondary"
+					]
 				},
 				{
 					"fontFace": [
