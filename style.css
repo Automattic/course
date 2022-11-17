@@ -342,7 +342,7 @@ body .is-layout-constrained > * + * {
 
 .course-newsletter-sign-up {
 	font-family: var(--wp--preset--font-family--system);
-	font-size: var(--wp--preset--font-size--xx-small);
+	font-size: var(--wp--preset--font-size--x-small);
 	letter-spacing: 0.02em;
 	line-height: 100%;
 	text-decoration: underline;
