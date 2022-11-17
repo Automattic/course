@@ -98,7 +98,7 @@
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/EBGaramond-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "EB Garamond",
@@ -106,7 +106,7 @@
 							"fontWeight": "700",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/EBGaramond-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "EB Garamond",
@@ -114,7 +114,7 @@
 							"fontWeight": "400",
 							"fontStyle": "italic",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "EB Garamond",
@@ -122,7 +122,7 @@
 							"fontWeight": "700",
 							"fontStyle": "italic",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf" ]
 						}
 					]
 				},
