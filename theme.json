@@ -159,19 +159,27 @@
 					"slug": "sorts-mill-goudy"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 800",
-							"src": ["file:./assets/fonts/inter.woff2"]
-						}
-					],
 					"fontFamily": "Inter",
 					"name": "Inter",
-					"slug": "inter"
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontDisplay": "block",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/Inter-VariableFont_slnt,wght.ttf" ]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/Inter-VariableFont_slnt,wght.ttf" ]
+						}
+					]
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
