@@ -458,6 +458,12 @@
 								"top": "20px"
 							}
 						}
+					},
+					"h2": {
+						"typography": {
+							"fontWeight": "590",
+							"letterSpacing": "-0.01em"
+						}
 					}
 				}
 			},
@@ -502,6 +508,9 @@
 				}
 			},
 			"core/post-title": {
+				"typography": {
+					"fontSize": "calc(1.75*var(--wp--preset--font-size--x-large))"
+				},
 				"spacing": {
 					"margin": {
 						"bottom": "0"
