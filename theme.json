@@ -591,7 +591,7 @@
 			"sensei-lms/exit-course" : {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system)",
-					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"fontSize": "var(--wp--preset--font-size-x-small)",
 					"textDecoration": "underline",
 					"letterSpacing": "0.02em"
 				}
