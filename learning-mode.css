@@ -271,3 +271,7 @@ body {
 .sensei-lms-course-navigation + .wp-block-spacer {
   display: none;
 }
+
+.sensei-quiz-pagination {
+  order: 1;
+}
