@@ -208,3 +208,20 @@ body {
   font-size: 11px;
   text-transform: uppercase;
 }
+
+.sensei-course-theme__sidebar .sensei-course-theme-course-progress-bar {
+  border: 1px solid;
+  padding: 2px;
+  border-radius: 6px;
+  background-color: transparent;
+  height: auto;
+}
+
+.sensei-course-theme__sidebar .sensei-course-theme-course-progress-bar-inner {
+  border-radius: 4px;
+  height: 8px;
+}
+
+.sensei-course-theme .sensei-course-theme__video-container {
+  border-radius: 4px;
+}
