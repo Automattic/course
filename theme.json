@@ -567,7 +567,7 @@
 			"sensei-lms/course-navigation" : {
 				"spacing": {
 					"padding": {
-						"top": "5rem"
+						"top": "1rem"
 					}
 				}
 			},
