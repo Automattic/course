@@ -275,3 +275,8 @@ body {
 .sensei-quiz-pagination {
   order: 1;
 }
+
+.sensei-course-theme__header {
+  background-color: var(--wp--preset--color--background) !important;
+  color: var(--wp--preset--color--primary) !important;
+}
