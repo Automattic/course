@@ -41,12 +41,12 @@
                 ?></h2>
             <!-- /wp:heading -->
 
-            <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1","letterSpacing":"0.02em"}},"fontSize":"xx-small","fontFamily":"system"} -->
-            <p class="has-system-font-family has-xx-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:0.02em;line-height:1">Christopher Brown</p>
+            <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1","letterSpacing":"0.02em"}},"fontSize":"x-small","fontFamily":"system"} -->
+            <p class="has-system-font-family has-x-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:0.02em;line-height:1">Christopher Brown</p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1","letterSpacing":"0.02em"},"spacing":{"padding":{"top":"10px"}}},"fontSize":"xx-small","fontFamily":"system"} -->
-            <p class="has-system-font-family has-xx-small-font-size" style="padding-top:10px;letter-spacing:0.02em;line-height:1"><?php echo esc_html__( 'Founder at BeautifulWriting.com', 'course' ); ?></p>
+            <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1","letterSpacing":"0.02em"},"spacing":{"padding":{"top":"10px"}}},"fontSize":"x-small","fontFamily":"system"} -->
+            <p class="has-system-font-family has-x-small-font-size" style="padding-top:10px;letter-spacing:0.02em;line-height:1"><?php echo esc_html__( 'Founder at BeautifulWriting.com', 'course' ); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->

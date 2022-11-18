@@ -9,8 +9,8 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"1.25rem"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group">
-      <!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
-      <h2 class="has-medium-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Newsletter', 'course' ); ?></h2>
+      <!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium","fontFamily":"league-gothic"} -->
+      <h2 class="has-league-gothic-font-family has-medium-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Newsletter', 'course' ); ?></h2>
       <!-- /wp:heading -->
 
       <!-- wp:paragraph -->
