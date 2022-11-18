@@ -230,3 +230,22 @@ body {
 .sensei-course-theme.sensei-video-lesson .sensei-course-theme__sidebar.sensei-course-theme__secondary-sidebar {
   border-width: 0px;
 }
+
+.sensei-course-theme:not(.learning-mode-full-width) .sensei-course-theme__header > * {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0px !important;
+}
+
+.sensei-course-theme:not(.learning-mode-full-width) .sensei-course-theme__header.sensei-course-theme__frame:not(.learning-mode-full-width-header) {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sensei-course-theme:not(.learning-mode-full-width) .wp-site-blocks > * {
+  max-width: 1200px;
+  margin: auto;
+}
