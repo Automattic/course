@@ -186,3 +186,7 @@ body {
 .sensei-course-theme-lesson-actions {
   flex-direction: row-reverse;
 }
+
+.sensei-lms-course-navigation-lesson__link {
+  align-items: baseline;
+}
