@@ -43,11 +43,22 @@ body {
 	text-decoration: none;
 }
 
-.sensei-lms-course-navigation-module__summary{
+.sensei-lms-course-navigation-lesson__extra {
+	font-size: 1rem;
+    font-family: var(--wp--preset--font-family--system);
+    line-height: 100%;
+    font-weight: normal;
+    opacity: 1;
+    letter-spacing: 0.02em;
+}
+
+.sensei-lms-course-navigation-module__summary {
 	font-family: var(--wp--preset--font-family--system);
 	font-size: 11px;
 	font-weight: 400;
-	margin-top: 9px;
+	margin-top: 6px;
+  line-height: 16px;
+  opacity: 1;
 }
 
 .sensei-lms-course-navigation-module__header{
