@@ -181,3 +181,8 @@ body {
   width: 20px;
   height: 20px;
 }
+
+.sensei-course-theme__main-content > div.wp-block-group:last-child,
+.sensei-course-theme-lesson-actions {
+  flex-direction: row-reverse;
+}
