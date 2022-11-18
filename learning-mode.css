@@ -194,3 +194,17 @@ body {
 .wp-block-sensei-lms-button-contact-teacher {
   display: none;
 }
+
+.sensei-course-theme .sensei-course-theme__video-container::after {
+  --sidebar-width: 280px;
+}
+
+.sensei-course-theme .sensei-course-theme__video-container .sensei-course-theme-lesson-video .wp-block-video {
+  border: 1px solid var(--wp--preset--color--primary);
+  border-radius: 4px;
+}
+
+.sensei-course-theme .sensei-course-theme__video-container .sensei-course-theme-course-progress {
+  font-size: 11px;
+  text-transform: uppercase;
+}
