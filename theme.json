@@ -583,6 +583,11 @@
 					"letterSpacing": "0.02em"
 				}
 			},
+			"sensei-lms/course-theme-lesson-module": {
+				"typography": {
+					"fontSize": "0px"
+				}
+			},
 			"sensei-lms/exit-course" : {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system)",
