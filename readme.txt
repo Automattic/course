@@ -12,6 +12,9 @@ Course is a flexible and modern theme for anyone wanting to share their knowledg
 
 == Changelog ==
 
+= 1.0.1 =
+* Use built-in search icon for search block.
+
 = 1.0.0 =
 * Initial release
 
