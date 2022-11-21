@@ -2,24 +2,20 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Course 1.0.1\n"
+"Project-Id-Version: Course 1.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/course\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-11-14T16:19:17+00:00\n"
+"POT-Creation-Date: 2022-11-21T16:15:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: course\n"
 
 #. Theme Name of the theme
 msgid "Course"
-msgstr ""
-
-#. Theme URI of the theme
-msgid "https://senseilms.com"
 msgstr ""
 
 #. Description of the theme
@@ -128,27 +124,17 @@ msgstr ""
 msgid "What students say"
 msgstr ""
 
-#: patterns/testimonial.php:36
-msgid "“I always wanted to write, and<br>thanks to Cours, I got it right. My<br>writing is clearer, and I can finally get my message across.”"
+#: patterns/testimonial.php:35
+msgid "“I always wanted to write, and thanks to Course, I got it right. My writing is clearer, and I can finally get my message across.”"
 msgstr ""
 
-#: patterns/testimonial.php:49
+#: patterns/testimonial.php:44
 msgid "Founder at BeautifulWriting.com"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
 msgid "Tiny"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "XX small"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Extra small"
 msgstr ""
 
 #: theme.json
@@ -168,62 +154,27 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Extra large"
+msgid "Extra Large"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "XX Large"
+msgid "Huge"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "2.5X Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "3X Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "3.5X Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "4X Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "5X Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Massive"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Navbar Medium"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Button Link"
-msgstr ""
-
-#: theme.json
-msgctxt "Font family name"
-msgid "League Gothic"
+msgid "Gigantic"
 msgstr ""
 
 #: theme.json
 msgctxt "Font family name"
 msgid "EB Garamond"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "League Gothic"
 msgstr ""
 
 #: theme.json
