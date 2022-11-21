@@ -12,8 +12,12 @@ Course is a flexible and modern theme for anyone wanting to share their knowledg
 
 == Changelog ==
 
+= 1.1.0 =
+* New: Add style variations [#101](https://github.com/Automattic/course/pull/101)
+* Fix: Spacing issues for posts and pages [#103](https://github.com/Automattic/course/pull/103)
+
 = 1.0.1 =
-* Use built-in search icon for search block.
+* Tweak: Use built-in search icon for search block [#99](https://github.com/Automattic/course/pull/99)
 
 = 1.0.0 =
 * Initial release
