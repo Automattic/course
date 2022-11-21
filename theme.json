@@ -447,16 +447,16 @@
 				}
 			},
 			"core/post-content": {
-				"typography": {
-					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
-					"letterSpacing": "-0.01em"
-				},
 				"spacing": {
 					"blockGap": "20px",
 					"padding": {
-						"top": "20px",
-						"bottom": "20px"
+						"top": "1.25rem",
+						"bottom": "1.25rem"
 					}
+				},
+				"typography": {
+					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
+					"letterSpacing": "-0.01em"
 				},
 				"elements": {
 					"link": {
