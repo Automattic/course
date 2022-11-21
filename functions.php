@@ -32,18 +32,6 @@ endif;
 
 add_action( 'after_setup_theme', 'course_support' );
 
-function lesson_icons($icon, $status)
-{
-	$path = '/assets/images/learning-mode/lesson-status/' . $status . '.svg';
-	if (file_exists(get_template_directory() .  $path)) {
-		return '<img src="' . get_template_directory_uri() . $path . '" />';
-	}
-	return $icon;
-}
-
-add_filter( 'sensei_learning_mode_lesson_status_icon', 'lesson_icons', 10, 2);
-
-
 if (!function_exists( 'course_scripts' )) :
 
 	/**
@@ -81,7 +69,7 @@ if (!function_exists( 'course_scripts' )) :
 		// Enqueque theme scripts.
 		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
 		wp_enqueue_script( 'course-footer', get_template_directory_uri() . '/assets/js/footer.js', [], wp_get_theme()->get( 'Version' ), true );
-	}
+    }
 
 endif;
 
@@ -110,3 +98,22 @@ function course_register_block_patterns_category() {
 }
 
 add_action( 'init', 'course_register_block_patterns_category' );
+
+function update_learning_mode_lesson_status_icons( $icon, $status )
+{
+    $icon_file_name = $status;
+
+    if ( in_array( $status, [ 'in-progress', 'ungraded', 'failed' ] ) ) {
+        $icon_file_name = 'completed';
+    }
+
+    $path = '/assets/icons/' . $icon_file_name . '.svg';
+
+    if ( file_exists( get_template_directory() . $path ) ) {
+        return '<img class="sensei-lms-course-navigation-lesson__status ' . esc_attr( $status ) . '" src="' .esc_url( get_template_directory_uri() . $path ) . '"/>';
+    }
+
+    return $icon;
+}
+
+add_filter( 'sensei_learning_mode_lesson_status_icon', 'update_learning_mode_lesson_status_icons', 10, 2 );
