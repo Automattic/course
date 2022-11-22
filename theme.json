@@ -73,7 +73,7 @@
 			"button": {
 				"radius": "0.5rem",
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontWeight": "400",
 					"letterSpacing": "0.05em"
 				},
@@ -105,6 +105,48 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
+					"fontFamily": "EB Garamond",
+					"name": "EB Garamond",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"League Gothic\", serif",
+					"name": "League Gothic",
+					"slug": "heading",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
@@ -116,25 +158,7 @@
 								"file:./assets/fonts/leaguegothic-regular-variablefont_wdth-webfont.woff2"
 							]
 						}
-					],
-					"fontFamily": "\"League Gothic\", serif",
-					"name": "League Gothic",
-					"slug": "league-gothic"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "EB Garamond",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 800",
-							"src": ["file:./assets/fonts/ebgaramond-regular.woff2"]
-						}
-					],
-					"name": "EB Garamond",
-					"fontFamily": "EB Garamond",
-					"slug": "eb-garamond"
+					]
 				},
 				{
 					"fontFace": [
@@ -152,19 +176,27 @@
 					"slug": "sorts-mill-goudy"
 				},
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 800",
-							"src": ["file:./assets/fonts/inter.woff2"]
-						}
-					],
 					"fontFamily": "Inter",
 					"name": "Inter",
-					"slug": "inter"
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontDisplay": "block",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/Inter-VariableFont_slnt,wght.ttf" ]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontDisplay": "block",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/Inter-VariableFont_slnt,wght.ttf" ]
+						}
+					]
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", \"Roboto\", \"Oxygen-Sans\", \"Ubuntu\", \"Cantarell\", \"Helvetica Neue\", sans-serif;",
@@ -306,7 +338,7 @@
 						},
 						"typography": {
 							"textTransform": "uppercase",
-							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"fontFamily": "var(--wp--preset--font-family--heading)",
 							"fontSize": "var(--wp--custom--typography--font-sizes--button)",
 							"lineHeight": "100%"
 						}
@@ -339,7 +371,7 @@
 				"typography": {
 					"fontSize": "var(--wp--custom--typography--font-sizes--normal)",
 					"lineHeight": "160%",
-					"fontFamily": "var(--wp--preset--font-family--eb-garamond)"
+					"fontFamily": "var(--wp--preset--font-family--body)"
 				},
 				"spacing": {
 					"padding": {
@@ -412,12 +444,12 @@
 							"textTransform": "uppercase",
 							"fontWeight": "400",
 							"textDecoration": "none",
-							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"fontFamily": "var(--wp--preset--font-family--heading)",
 							"lineHeight": "1.5rem"
 						},
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "none"
 							}
 						}
 					}
@@ -432,16 +464,16 @@
 				}
 			},
 			"core/post-content": {
-				"typography": {
-					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
-					"letterSpacing": "-0.01em"
-				},
 				"spacing": {
 					"blockGap": "20px",
 					"padding": {
-						"top": "20px",
-						"bottom": "20px"
+						"top": "1.25rem",
+						"bottom": "1.25rem"
 					}
+				},
+				"typography": {
+					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
+					"letterSpacing": "-0.01em"
 				},
 				"elements": {
 					"link": {
@@ -498,7 +530,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
+					"fontFamily": "var(--wp--preset--font-family--body)",
 					"lineHeight": "1.3"
 				}
 			},
@@ -519,7 +551,7 @@
 				"elements": {
 					"link": {
 						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+							"fontFamily": "var(--wp--preset--font-family--heading)",
 							"textDecoration": "none"
 						},
 						":hover": {
@@ -542,7 +574,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "400",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontStyle": "normal",
 					"textTransform": "uppercase"
 				},
@@ -560,7 +592,7 @@
 			"sensei-lms/course-title" : {
 				"typography": {
 					"textTransform": "uppercase",
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
@@ -644,7 +676,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"textTransform": "uppercase"
 				},
 				"elements": {
@@ -670,7 +702,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"letterSpacing": "0.01em"
 				}
@@ -702,10 +734,10 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--custom--button--typography--font-family)",
-					"fontSize": "var(--wp--preset--font-size--button-link)",
-					"fontWeight": "var(--wp--custom--button--typography--font-weight)",
-					"letterSpacing": "var(--wp--custom--button--typography--letter-spacing)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontSize": "var(--wp--custom--typography--font-sizes--button)",
+					"fontWeight": "400",
+					"letterSpacing": "0.05em",
 					"textTransform": "uppercase"
 				},
 				":active": {
@@ -735,16 +767,14 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontWeight": "400",
 					"lineHeight": "100%"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)",
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
-					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			},
@@ -804,7 +834,7 @@
 			"blockGap": "2.5rem"
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--eb-garamond)",
+			"fontFamily": "var(--wp--preset--font-family--body)",
 			"fontSize": "var(--wp--custom--typography--font-sizes--normal)",
 			"lineHeight": "1.838rem"
 		}

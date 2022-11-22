@@ -34,7 +34,7 @@ body {
 }
 
 .sensei-lms-course-navigation-module__title {
-	font-family: var(--wp--preset--font-family--league-gothic);
+	font-family: var(--wp--preset--font-family--heading);
 	font-size: var(--wp--preset--font-size--medium);
 	line-height: 100%;
 	letter-spacing: 0.01em;
