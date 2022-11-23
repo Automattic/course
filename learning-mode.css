@@ -280,3 +280,7 @@ body {
   background-color: var(--wp--preset--color--background) !important;
   color: var(--wp--preset--color--primary) !important;
 }
+
+.sensei-lms-course-navigation-lesson {
+  align-items: center;
+}
