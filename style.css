@@ -433,9 +433,3 @@ body.page-template-page-wide-width footer .wp-block-group {
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
 	color: var(--wp--preset--color--primary);
 }
-
-.sensei-lms-course-navigation-lesson__status.in-progress,
-.sensei-lms-course-navigation-lesson__status.ungraded,
-.sensei-lms-course-navigation-lesson__status.failed {
-	opacity: 0.2;
-}

@@ -98,22 +98,3 @@ function course_register_block_patterns_category() {
 }
 
 add_action( 'init', 'course_register_block_patterns_category' );
-
-function update_learning_mode_lesson_status_icons( $icon, $status )
-{
-    $icon_file_name = $status;
-
-    if ( in_array( $status, [ 'in-progress', 'ungraded', 'failed' ] ) ) {
-        $icon_file_name = 'completed';
-    }
-
-    $path = '/assets/icons/' . $icon_file_name . '.svg';
-
-    if ( file_exists( get_template_directory() . $path ) ) {
-        return '<img class="sensei-lms-course-navigation-lesson__status ' . esc_attr( $status ) . '" src="' .esc_url( get_template_directory_uri() . $path ) . '"/>';
-    }
-
-    return $icon;
-}
-
-add_filter( 'sensei_learning_mode_lesson_status_icon', 'update_learning_mode_lesson_status_icons', 10, 2 );
