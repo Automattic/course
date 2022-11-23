@@ -168,7 +168,6 @@ body {
 .sensei-course-theme-lesson-actions .sensei-course-theme__link:focus {
   outline: dashed 1px var(--sensei-primary-color);
   margin: -1px;
-  padding: 9px 12px;
 }
 .sensei-course-theme-lesson-actions .sensei-course-theme__button.has-icon,
 .sensei-course-theme-lesson-actions .sensei-course-theme__link.has-icon {
