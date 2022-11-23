@@ -284,3 +284,7 @@ body {
 .sensei-lms-course-navigation-lesson {
   align-items: center;
 }
+
+.sensei-course-theme .sensei-course-theme__header {
+  padding-bottom: 10px;
+}
