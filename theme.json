@@ -479,6 +479,11 @@
 					"link": {
 						"typography": {
 							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
 						}
 					},
 					"heading": {
