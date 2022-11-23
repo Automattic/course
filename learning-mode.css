@@ -182,11 +182,6 @@ body {
   height: 20px;
 }
 
-.sensei-course-theme__main-content > div.wp-block-group:last-child,
-.sensei-course-theme-lesson-actions {
-  flex-direction: row-reverse;
-}
-
 .sensei-lms-course-navigation-lesson__link {
   align-items: baseline;
 }
@@ -270,10 +265,6 @@ body {
 
 .sensei-lms-course-navigation + .wp-block-spacer {
   display: none;
-}
-
-.sensei-quiz-pagination {
-  order: 1;
 }
 
 .sensei-course-theme__header {
