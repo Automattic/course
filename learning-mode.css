@@ -19,7 +19,7 @@ body {
 }
 
 .sensei-course-theme__sidebar {
-	--sidebar-width: 280px;
+	--sensei-ui-sidebar-width: 290px;
 }
 
 .sensei-course-theme__frame.sensei-course-theme__header {
@@ -196,7 +196,7 @@ body {
 }
 
 .sensei-course-theme .sensei-course-theme__video-container::after {
-  --sidebar-width: 280px;
+  --sensei-ui-sidebar-width: 290px;
 }
 
 .sensei-course-theme .sensei-course-theme__video-container .sensei-course-theme-lesson-video .wp-block-video {
