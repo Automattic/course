@@ -114,23 +114,6 @@
 					]
 				},
 				{
-					"fontFamily": "\"League Gothic\", serif",
-					"name": "League Gothic",
-					"slug": "league-gothic",
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "League Gothic",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 800",
-							"src": [
-								"file:./assets/fonts/leaguegothic-regular-variablefont_wdth-webfont.woff2"
-							]
-						}
-					]
-				},
-				{
 					"fontFamily": "Sorts Mill Goudy",
 					"name": "Sorts Mill Goudy",
 					"slug": "sorts-mill-goudy",
@@ -258,11 +241,6 @@
 			"core/post-content": {
 				"typography": {
 					"lineHeight": "132%"
-				}
-			},
-			"core/site-title": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--league-gothic)"
 				}
 			}
 		},
