@@ -1,5 +1,5 @@
-:root {
-	--lm-header-height: 116px;
+:root, .sensei-course-theme  {
+  --sensei-lm-header-height: 116px;
 	--border-color: var(--wp--preset--color--primary);
 }
 
