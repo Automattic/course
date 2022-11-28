@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Course functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Course
- * @since Course 1.0
+ * @since   Course 1.0
  */
 
 
@@ -20,16 +21,18 @@ if ( ! function_exists( 'course_support' ) ) :
 	 */
 	function course_support() {
 
+		add_theme_support( 'sensei-learning-mode' );
+
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
-
+		add_editor_style( 'learning-mode.css' );
 	}
 
 endif;
 
 add_action( 'after_setup_theme', 'course_support' );
 
-if ( ! function_exists( 'course_scripts' ) ) :
+if (!function_exists( 'course_scripts' )) :
 
 	/**
 	 * Enqueue scripts and styles.
@@ -48,15 +51,25 @@ if ( ! function_exists( 'course_scripts' ) ) :
 			wp_get_theme()->get( 'Version' )
 		);
 
+		wp_register_style(
+			'course-sensei-learning-mode',
+			get_stylesheet_directory_uri() . '/learning-mode.css',
+			array(),
+			wp_get_theme()->get(
+				'Version'
+			)
+		);
+
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'course-style' );
 
+		// TODO: Only Load it if the the page is using learning mode
+		wp_enqueue_style( 'course-sensei-learning-mode' );
+
 		// Enqueque theme scripts.
 		wp_enqueue_script( 'course-header', get_template_directory_uri() . '/assets/js/header.js', [], wp_get_theme()->get( 'Version' ), true );
-
 		wp_enqueue_script( 'course-footer', get_template_directory_uri() . '/assets/js/footer.js', [], wp_get_theme()->get( 'Version' ), true );
-
-	}
+    }
 
 endif;
 
