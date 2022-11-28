@@ -121,15 +121,7 @@ Tags: lms, eLearning, teach, online courses, sensei
 	color: var(--wp--preset--color--foreground);
 }
 
-/*
-* The header becomes sticky once scrolled to top, the color and paddings change.
-* -1px is added instead of zero to easily determine when it's being sticky using js.
-* z index needed to be added, featured tag comes on top otherwise.
-*/
 header.wp-block-template-part {
-	position: sticky;
-	top: -1px;;
-	z-index: 1111;
 	background-color: var(--wp--preset--color--background);
 	padding: calc( var(--wp--custom--header-padding) - 12px) 0px;
 }
