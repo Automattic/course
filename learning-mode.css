@@ -272,6 +272,11 @@ body {
   color: var(--wp--preset--color--primary) !important;
 }
 
+.learning-mode-full-width .wp-block-sensei-lms-course-theme-course-progress-counter {
+    font-size: var(--wp--preset--font-size--x-small);
+    opacity: 1;
+    color: var(--wp--preset--color--primary) !important;
+}
 .sensei-lms-course-navigation-lesson {
   align-items: baseline;
 }
