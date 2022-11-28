@@ -1,32 +1,41 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"sensei-theme","tagName":"header"} /-->
 
-<!-- wp:query {"tagName":"main","layout":{"inherit":true}} -->
-<main class="wp-block-query">
-	<!-- wp:post-template -->
-	<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}}} -->
-	<div class="wp-block-group">
-		<!-- wp:post-title {"isLink":true} /-->
-		<!-- wp:post-featured-image {"isLink":true} /-->
-		<!-- wp:post-excerpt /-->
-		<!-- wp:template-part {"slug":"post-meta"} /-->
-		<!-- wp:spacer {"height":40} -->
-		<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-	</div>
-	<!-- /wp:group -->
-	<!-- /wp:post-template -->
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"20px","left":"20px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-right:20px;padding-left:20px">
+  <!-- wp:query {"queryId":0,"query":{"perPage":2,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","layout":{"inherit":true}} -->
+  <main class="wp-block-query">
+    <!-- wp:post-template -->
+    <!-- wp:group {"style":{"spacing":{"blockGap":"20px"}}} -->
+    <div class="wp-block-group">
+      <!-- wp:post-featured-image {"isLink":true} /-->
+
+      <!-- wp:template-part {"slug":"post-meta","theme":"sensei-theme"} /-->
+
+      <!-- wp:post-title {"isLink":true} /-->
+
+      <!-- wp:post-author {"showBio":false} /-->
+
+      <!-- wp:post-excerpt /-->
+
+      <!-- wp:spacer {"height":"40px"} -->
+      <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+      <!-- /wp:spacer -->
+    </div>
+    <!-- /wp:group -->
+    <!-- /wp:post-template -->
+
     <!-- wp:group {"layout":{"inherit":false,"type":"constrained"}} -->
     <div class="wp-block-group">
       <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
-    
       <!-- wp:query-pagination-numbers /-->
-    
+
       <!-- wp:query-pagination-next {"label":"next"} /-->
       <!-- /wp:query-pagination -->
     </div>
     <!-- /wp:group -->
-	</main>
-	<!-- /wp:query -->
-	
-	<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
-	
+  </main>
+  <!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"sensei-theme","tagName":"footer"} /-->
