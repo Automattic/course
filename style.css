@@ -304,7 +304,7 @@ body .is-layout-flow .wp-block-group {
 
 /* Add border around author image in Post Author block */
 .wp-block-post-author__avatar img {
-	border: 1px solid var(--wp--preset--color--tertiary);
+	border: 1px solid var(--wp--preset--color--primary);
 	border-radius: 4px;
 }
 
@@ -433,3 +433,10 @@ body.page-template-page-wide-width footer .wp-block-group {
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
 	color: var(--wp--preset--color--primary);
 }
+
+.wp-block-post-terms.taxonomy-category > a {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--tertiary);
+  padding: 4px;
+}
+
