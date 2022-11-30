@@ -321,7 +321,7 @@ a {
 
 /* Newsletter */
 .course-newsletter-gap {
-	height: clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem);
+	height: clamp(0rem, -3.975rem + 8.134vw, calc(114px - var(--wp--style--block-gap) * 2));
 }
 
 .course-newsletter-sign-up {
