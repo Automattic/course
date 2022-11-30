@@ -268,7 +268,7 @@ body .is-layout-flow .wp-block-group {
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
 */
-.wp-block-buttons .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
 	background-color: var(--wp--preset--color--secondary);
 	border-color: var(--wp--preset--color--button-border-active);
 	color: var(--wp--preset--color--primary);
@@ -287,8 +287,12 @@ body .is-layout-flow .wp-block-group {
 
 .wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
+	background-color: transparent;
+	border-color: currentcolor;
 	border-width: 1px;
+	color: currentcolor;
 	padding: 0.5856em 1.5238em;
+	text-decoration: none;
 }
 
 /*
