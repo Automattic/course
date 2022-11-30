@@ -235,16 +235,6 @@ a {
 	text-underline-offset: .15em
 }
 
-/* Reduce the default vertical distance between elements when inside a layout flow */
-body .is-layout-flow > * + * {
-	margin-block-start: 0px;
-}
-
-/* Remove the default vertical distance between elements when inside a layout flow */
-body .is-layout-flow .wp-block-group {
-	margin-block-end: 0px;
-}
-
 /*
  * Search styles
  */
@@ -310,16 +300,6 @@ body .is-layout-flow .wp-block-group {
 .wp-block-post-author__avatar img {
 	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 4px;
-}
-
-/* Remove default spacings so that we can use our own spacings */
-body .is-layout-flow > * {
-	margin-block-end: 0;
-	margin-bottom: 0;
-}
-
-body .is-layout-constrained > * + * {
-	margin-block-start: 0px;
 }
 
 /* Design for search box in 404 page template sidebar */
