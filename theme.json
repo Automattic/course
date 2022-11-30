@@ -12,11 +12,11 @@
 		},
 		{
 			"name": "single-course",
-			"title": "Wide Width, No Title"
+			"title": "Wide Width, Title"
 		},
     {
-			"name": "wide-width-title",
-			"title": "Wide Width, Title",
+			"name": "wide-no-title",
+			"title": "Wide Width, No Title",
         "postTypes": [
 				"page",
         "post",
