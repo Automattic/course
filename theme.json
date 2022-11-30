@@ -15,6 +15,15 @@
 			"title": "Wide Width, No Title"
 		},
     {
+			"name": "wide-width-title",
+			"title": "Wide Width, Title",
+        "postTypes": [
+				"page",
+        "post",
+				"course"
+			]
+		},
+    {
 			"name": "single-column-no-title",
 			"title": "Single Column, No Title",
         "postTypes": [
