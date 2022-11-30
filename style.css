@@ -377,6 +377,11 @@ footer .wp-block-column h3 {
 		gap: 10px;
 	}
 }
+
+footer h1.wp-block-site-title {
+	overflow: hidden;
+}
+
 footer h1.wp-block-site-title a {
 	display: inline-block;
 	white-space: nowrap;

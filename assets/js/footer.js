@@ -8,23 +8,25 @@ function domReady (callback) {
   window.addEventListener( 'load', handler, false)
 }
 
+let footerSiteTitle = null;
 let footerSiteTitleText = null;
-let footerTextContainer = null;
 
 function calculateTextSize() {
   const parentContainerWidth = footerSiteTitleText.parentNode.clientWidth;
   const currentTextWidth = footerSiteTitleText.scrollWidth;
   const currentFontSize = parseInt( window.getComputedStyle( footerSiteTitleText ).fontSize );
+  // No smaller than 16px and no larger than 500px.
   const newValue = Math.min( Math.max( 16, ( parentContainerWidth / currentTextWidth ) * currentFontSize ), 500 )
-  footerSiteTitleText.style.setProperty( 'font-size', newValue +'px');
-  footerTextContainer.style.setProperty( 'margin-block-start', ( -1 * newValue * 0.39 ) +'px');
+
+  footerSiteTitleText.style.setProperty( 'font-size', newValue + 'px' );
+  footerSiteTitle.style.height = footerSiteTitleText.offsetHeight * 0.65 + 'px';
 }
 
 domReady( () => {
+  footerSiteTitle = document.querySelector( 'footer .wp-block-site-title' );
   footerSiteTitleText = document.querySelector( "footer .wp-block-site-title a" );
-  footerTextContainer = document.querySelector("footer .course-negative-space-footer" );
 
-  if ( ! footerSiteTitleText || ! footerTextContainer ) {
+  if ( ! footerSiteTitle || ! footerSiteTitleText ) {
     return;
   }
 
