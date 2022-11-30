@@ -13,6 +13,24 @@
 		{
 			"name": "single-course",
 			"title": "Wide Width, No Title"
+		},
+    {
+			"name": "single-column-no-title",
+			"title": "Single Column, No Title",
+        "postTypes": [
+				"page",
+        "post",
+				"course"
+			]
+		},
+     {
+			"name": "single-column-title",
+			"title": "Single Column, Title",
+        "postTypes": [
+				"page",
+        "post",
+				"course"
+			]
 		}
 	],
 	"settings": {
