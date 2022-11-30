@@ -122,14 +122,8 @@ Tags: lms, eLearning, teach, online courses, sensei
 }
 
 header.wp-block-template-part {
-	background-color: var(--wp--preset--color--background);
-	padding: calc( var(--wp--custom--header-padding) - 12px) 0px;
-}
-
-/* No background color needed as per design when the navbar is being sticky on top */
-header.wp-block-template-part:not(.is-being-sticky) {
 	background-color: transparent;
-	padding: var(--wp--custom--header-padding) 0px;
+	padding: 2.75rem 0px;
 }
 
 /*

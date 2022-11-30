@@ -91,7 +91,6 @@
 				}
 			},
 			"navMobileGap": "2.5rem",
-			"headerPadding": "1.25rem",
 			"replyColumnGap": "2.349rem",
 			"commentGap" : "5rem",
 			"commentGapSmall" : "10px",
