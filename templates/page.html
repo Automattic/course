@@ -1,16 +1,27 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"course","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-<main class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-  <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"inherit":true,"type":"constrained","contentSize":"1000px"}} -->
-  <div class="wp-block-group"
-    style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-    <!-- wp:post-title {"level":1,"align":"wide","style":{"spacing":{"margin":{"bottom":"5rem"}}}} /-->
+<!-- wp:group {"style":{"spacing":{"margin":{"left":"20px","right":"20px"}}},"layout":{"type":"constrained","contentSize":"1000px"}} -->
+<div class="wp-block-group" style="margin-right:20px;margin-left:20px">
+
+  <!-- wp:group {"layout":{"inherit":true,"type":"constrained","contentSize":"666px","justifyContent":"left"}} -->
+  <div class="wp-block-group">
+    <!-- wp:post-title {"level":1,"style":{"typography":{"textTransform":"uppercase"}}} /-->
   </div>
   <!-- /wp:group -->
 
-  <!-- wp:post-content {"lock":{"move":true,"remove":true},"layout":{"inherit":true}} /-->
-</main>
+  <!-- wp:group {"tagName":"main","lock":{"move":false,"remove":false},"style":{"spacing":{"margin":{"top":"2.5rem"}}},"layout":{"type":"constrained","contentSize":"666px","justifyContent":"left"}} -->
+  <main class="wp-block-group" style="margin-top:2.5rem">
+
+    <!-- wp:post-featured-image {"align":"full"} /-->
+    <!-- wp:post-content {"lock":{"move":false,"remove":true},"layout":{"inherit":true},"fontFamily":"primary"} /-->
+  </main>
+  <!-- /wp:group -->
+
+  <!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+  <div class="wp-block-group">
+  </div>
+  <!-- /wp:group -->
+</div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"course","tagName":"footer"} /-->
