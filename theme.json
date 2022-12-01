@@ -30,6 +30,15 @@
 			]
 		},
 		{
+			"name": "single-course",
+			"title": "Wide - Title Only",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
 			"name": "wide-featured-no-title",
 			"title": "Wide - Feature Image Only",
 			"postTypes": [
