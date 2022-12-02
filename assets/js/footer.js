@@ -30,7 +30,7 @@ domReady( () => {
 	}
 
 
-	calculateTextSize(footerSiteTitle, footerSiteTitleText);
+	setTimeout(() => calculateTextSize(footerSiteTitle, footerSiteTitleText), 50);
 
 	const inViewport = (entries) => {
 		entries.forEach(entry => {
