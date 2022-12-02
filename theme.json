@@ -6,13 +6,82 @@
 			"name": "blank",
 			"postTypes": [
 				"page",
-				"post"
+				"post",
+				"course"
 			],
 			"title": "Blank"
 		},
 		{
-			"name": "page-wide-width",
-			"title": "Wide Width, No Title"
+			"name": "wide-no-featured-no-title",
+			"title": "Wide - No Featured Image, No Title",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "wide-featured-title",
+			"title": "Wide",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "single-course",
+			"title": "Wide - Title Only",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "wide-featured-no-title",
+			"title": "Wide - Featured Image Only",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "single-column-featured-title",
+			"title": "Single Column",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "single-column-featured-no-title",
+			"title": "Single Column - Featured Image Only",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "single-column-no-featured-title",
+			"title": "Single Column - Title Only",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
+		},
+		{
+			"name": "single-column-no-featured-no-title",
+			"title": "Single Column - No Featured Image, No Title",
+			"postTypes": [
+				"page",
+				"post",
+				"course"
+			]
 		}
 	],
 	"settings": {
