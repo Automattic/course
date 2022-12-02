@@ -24,8 +24,8 @@ function calculateTextSize() {
 }
 
 domReady( () => {
-	footerSiteTitle = document.querySelector( 'footer .wp-block-site-title' );
-	footerSiteTitleText = document.querySelector( 'footer .wp-block-site-title a' );
+	footerSiteTitle = document.querySelector( '.is-giant-title' );
+	footerSiteTitleText = document.querySelector( '.is-giant-title a' );
 
 	if ( ! footerSiteTitle || ! footerSiteTitleText ) {
 		return;

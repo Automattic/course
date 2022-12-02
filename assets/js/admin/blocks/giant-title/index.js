@@ -53,7 +53,7 @@ function init() {
   registerBlockVariation('core/site-title', {
     name: 'course/giant-title',
     title: __('Giant Title'),
-    description: __('Giant, auto scalable site title.', 'sensei-lms'),
+    description: __('Giant version of Site title with an auto resize', 'sensei-lms'),
     attributes: { className: 'is-giant-title' },
     isActive: (blockAttributes, variationAttributes) => blockAttributes?.className?.includes(variationAttributes?.className)
   });
