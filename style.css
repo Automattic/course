@@ -348,6 +348,10 @@ footer .wp-block-column h3 {
 	}
 }
 
+footer.wp-block-template-part  {
+	margin-block-start: 0;
+}
+
 footer h1.wp-block-site-title {
 	overflow: hidden;
 }
