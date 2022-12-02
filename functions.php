@@ -26,11 +26,29 @@ if ( ! function_exists( 'course_support' ) ) :
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 		add_editor_style( 'learning-mode.css' );
-	}
 
+    
+
+	}
+endif;
+
+if (!function_exists('editor_scripts')) :
+  /**
+   * Enqueue Admin Editor Scripts.
+   *
+   * @since x.x.x
+   *
+   * @return void
+   */
+  function editor_scripts() {
+    wp_enqueue_script('giant-title', get_template_directory_uri() . '/assets/js/admin/blocks/giant-title/index.js', [], wp_get_theme()->get('Version'), true);
+  }
 endif;
 
 add_action( 'after_setup_theme', 'course_support' );
+
+add_action('enqueue_block_editor_assets', 'editor_scripts');
+
 
 if (!function_exists( 'course_scripts' )) :
 
