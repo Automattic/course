@@ -221,16 +221,6 @@ a {
 	text-underline-offset: .15em
 }
 
-/* Reduce the default vertical distance between elements when inside a layout flow */
-body .is-layout-flow > * + * {
-	margin-block-start: 0px;
-}
-
-/* Remove the default vertical distance between elements when inside a layout flow */
-body .is-layout-flow .wp-block-group {
-	margin-block-end: 0px;
-}
-
 /*
  * Search styles
  */
@@ -254,7 +244,7 @@ body .is-layout-flow .wp-block-group {
 * Control the hover stylings of outline block style.
 * Unnecessary once block styles are configurable via theme.json
 */
-.wp-block-buttons .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):active {
 	background-color: var(--wp--preset--color--secondary);
 	border-color: var(--wp--preset--color--button-border-active);
 	color: var(--wp--preset--color--primary);
@@ -273,8 +263,12 @@ body .is-layout-flow .wp-block-group {
 
 .wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
+	background-color: transparent;
+	border-color: currentcolor;
 	border-width: 1px;
+	color: currentcolor;
 	padding: 0.5856em 1.5238em;
+	text-decoration: none;
 }
 
 /*
@@ -292,16 +286,6 @@ body .is-layout-flow .wp-block-group {
 .wp-block-post-author__avatar img {
 	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 4px;
-}
-
-/* Remove default spacings so that we can use our own spacings */
-body .is-layout-flow > * {
-	margin-block-end: 0;
-	margin-bottom: 0;
-}
-
-body .is-layout-constrained > * + * {
-	margin-block-start: 0px;
 }
 
 /* Design for search box in 404 page template sidebar */
@@ -323,7 +307,7 @@ body .is-layout-constrained > * + * {
 
 /* Newsletter */
 .course-newsletter-gap {
-	height: clamp(2.5rem, -0.292rem + 9.306vw, 6.688rem);
+	height: clamp(0rem, -3.975rem + 8.134vw, calc(114px - var(--wp--style--block-gap) * 2));
 }
 
 .course-newsletter-sign-up {
