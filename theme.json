@@ -533,10 +533,7 @@
 			},
 			"core/post-content": {
 				"spacing": {
-					"blockGap": "20px",
-					"padding": {
-						"bottom": "1.25rem"
-					}
+					"blockGap": "20px"
 				},
 				"typography": {
 					"lineHeight": "clamp(1.838rem, 1.763rem + 0.249vw, 1.95rem)",
