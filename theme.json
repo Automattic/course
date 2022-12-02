@@ -40,7 +40,7 @@
 		},
 		{
 			"name": "wide-featured-no-title",
-			"title": "Wide - Feature Image Only",
+			"title": "Wide - Featured Image Only",
 			"postTypes": [
 				"page",
 				"post",
