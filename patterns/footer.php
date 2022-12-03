@@ -79,7 +79,7 @@
 <!-- wp:site-title {"textAlign":"center","style":{"typography":{"lineHeight":"1","letterSpacing":"0.02em"},"spacing":{"padding":{"top":"20px"}}},"fontFamily":"sorts-mill-goudy"} /-->
 
 <!-- wp:group {"align":"full","style":{"border":{"top":{"width":"1px"}}},"layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group alignfull" style="border-top-width:1px"><!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"fontSize":"x-small"} -->
+<div class="wp-block-group alignfull course-attribution" style="border-top-width:1px"><!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"fontSize":"x-small"} -->
 
 <p class="has-text-align-center has-x-small-font-size" style="padding-top:80px;padding-bottom:80px;letter-spacing:0.02em">
 <?php

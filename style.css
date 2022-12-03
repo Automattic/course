@@ -336,6 +336,19 @@ footer .wp-block-column h3 {
 	white-space: nowrap;
 }
 
+footer h1.wp-block-site-title {
+	overflow: hidden;
+}
+
+footer h1.wp-block-site-title a {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+footer .course-attribution {
+	margin-block-start: 0;
+}
+
 @media screen and (max-width: 480px) {
 	footer .wp-block-columns.course-footer-links-vertical-space {
 		margin-bottom: 44px;
@@ -346,15 +359,6 @@ footer .wp-block-column h3 {
 		align-items: baseline;
 		gap: 10px;
 	}
-}
-
-footer h1.wp-block-site-title {
-	overflow: hidden;
-}
-
-footer h1.wp-block-site-title a {
-	display: inline-block;
-	white-space: nowrap;
 }
 
 /*
