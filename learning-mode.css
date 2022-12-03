@@ -301,10 +301,6 @@ body {
 	align-items: baseline;
 }
 
-.sensei-course-theme .sensei-course-theme__header {
-	padding-bottom: 10px;
-}
-
 .wp-block-sensei-lms-exit-course:hover {
 	text-decoration: none;
 }
