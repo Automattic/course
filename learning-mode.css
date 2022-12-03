@@ -1,4 +1,4 @@
-:root, .sensei-course-theme  {
+:root, .sensei-course-theme {
 	--sensei-lm-header-height: 116px;
 	--border-color: var(--wp--preset--color--primary);
 }
@@ -11,6 +11,13 @@ body {
 
 .sensei-course-theme-course-progress-bar {
 	--border-color:  var(--border-color)
+}
+
+/* Override theme.json blockGap setting. */
+.sensei-course-theme .sensei-course-theme__sidebar,
+.sensei-course-theme__sidebar .wp-block-sensei-lms-course-navigation,
+.sensei-course-theme .is-layout-constrained > .wp-block-columns.is-layout-flex {
+	margin-block-start: 0;
 }
 
 .sensei-lms-course-navigation-lesson {
@@ -45,11 +52,11 @@ body {
 
 .sensei-lms-course-navigation-lesson__extra {
 	font-size: 1rem;
-		font-family: var(--wp--preset--font-family--system);
-		line-height: 100%;
-		font-weight: normal;
-		opacity: 1;
-		letter-spacing: 0.02em;
+	font-family: var(--wp--preset--font-family--system);
+	line-height: 100%;
+	font-weight: normal;
+	opacity: 1;
+	letter-spacing: 0.02em;
 }
 
 .sensei-lms-course-navigation-module__summary {
@@ -99,8 +106,8 @@ body {
 }
 
 .sensei-course-theme .is-style-outline .wp-block-button__link {
-		background-color: transparent;
-		border-color: var(--sensei-primary-color);
+	background-color: transparent;
+	border-color: var(--sensei-primary-color);
 }
 
 .sensei-course-theme-lesson-actions .is-secondary:hover:not(:disabled),
@@ -285,9 +292,9 @@ body {
 }
 
 .learning-mode-full-width .wp-block-sensei-lms-course-theme-course-progress-counter {
-		font-size: var(--wp--preset--font-size--x-small);
-		opacity: 1;
-		color: var(--wp--preset--color--primary) !important;
+	font-size: var(--wp--preset--font-size--x-small);
+	opacity: 1;
+	color: var(--wp--preset--color--primary) !important;
 }
 
 .sensei-lms-course-navigation-lesson {
