@@ -84,11 +84,13 @@ body {
 	background-color: var(--sensei-primary-color) !important;
 	color: var(--sensei-primary-contrast-color);
 }
+
 .sensei-course-theme-lesson-actions .is-primary:hover,
 .sensei-course-theme-lesson-actions .wp-block-button:not(.is-style-outline, .is-style-link):hover {
 	color: var(--sensei-primary-color);
 	background: none;
 }
+
 .sensei-course-theme-lesson-actions .is-secondary,
 .sensei-course-theme-lesson-actions .wp-block-button.is-style-outline {
 	color: var(--sensei-primary-color);
@@ -111,40 +113,47 @@ body {
 .sensei-course-theme-lesson-actions .is-secondary:hover:not(:disabled) .wp-block-button__link,
 .sensei-course-theme-lesson-actions .wp-block-button.is-style-outline:hover:not(:disabled) .wp-block-button__link {
 	border-color: var(--sensei-primary-color);
-
 }
+
 .sensei-course-theme-lesson-actions .is-link {
 	font-weight: 600;
 	text-decoration: underline !important;
 	background: none !important;
 	color: inherit !important;
 }
+
 .sensei-course-theme-lesson-actions .is-link:hover {
 	color: var(--sensei-primary-color) !important;
 }
+
 .sensei-course-theme-lesson-actions[aria-disabled=true], .sensei-course-theme-lesson-actions:disabled {
 	opacity: 0.5;
 	pointer-events: none;
 	cursor: not-allowed;
 }
+
 .sensei-course-theme-lesson-actions.is-completed.is-primary {
 	opacity: 0.8;
 	color: var(--bg-color) !important;
 	background: var(--text-color) !important;
 	border-color: var(--text-color) !important;
 }
+
 .sensei-course-theme-lesson-actions.is-completed.is-secondary {
 	opacity: 0.8;
 	color: var(--text-color) !important;
 	border-color: var(--text-color) !important;
 }
+
 .sensei-course-theme-lesson-actions.is-busy {
 	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.5) 28%, rgba(255, 255, 255, 0.1) 28%, rgba(255, 255, 255, 0.1) 72%, rgba(255, 255, 255, 0.5) 72%);
 	animation: components-button__busy-animation 25000ms infinite linear;
 }
+
 .sensei-course-theme-lesson-actions.is-busy:disabled {
 	cursor: not-allowed;
 }
+
 .sensei-course-theme-lesson-actions .sensei-course-theme__button,
 .sensei-course-theme-lesson-actions .sensei-course-theme__link,
 .sensei-course-theme .sensei-course-theme__button,
@@ -165,17 +174,20 @@ body {
 	font-weight: var(--wp--custom--button--typography--font-weight);
 	letter-spacing: var(--wp--custom--button--typography--letter-spacing);
 }
+
 .sensei-course-theme-lesson-actions .sensei-course-theme__button:focus,
 .sensei-course-theme-lesson-actions .sensei-course-theme__link:focus {
 	outline: dashed 1px var(--sensei-primary-color);
 	margin: -1px;
 }
+
 .sensei-course-theme-lesson-actions .sensei-course-theme__button.has-icon,
 .sensei-course-theme-lesson-actions .sensei-course-theme__link.has-icon {
 	display: flex;
 	gap: 4px;
 	align-items: center;
 }
+
 .sensei-course-theme-lesson-actions .sensei-course-theme__button.has-icon svg,
 .sensei-course-theme-lesson-actions .sensei-course-theme__link.has-icon svg {
 	width: 20px;
@@ -277,6 +289,7 @@ body {
 		opacity: 1;
 		color: var(--wp--preset--color--primary) !important;
 }
+
 .sensei-lms-course-navigation-lesson {
 	align-items: baseline;
 }
