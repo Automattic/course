@@ -337,7 +337,8 @@
 					"slug": "xxx-large"
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
@@ -897,7 +898,11 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "2.5rem"
+			"blockGap": "2.5rem",
+			"padding": {
+				"right": "1.25rem",
+				"left": "1.25rem"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--body)",
