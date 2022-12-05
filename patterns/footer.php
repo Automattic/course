@@ -34,7 +34,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"margin":{"bottom":"20px","top":"20px"},"blockGap":{"top":"10px","left":"20px"}}}} -->
+<!-- wp:columns {"style":{"border":{"left":{"width":"1px"}},"spacing":{"padding":{"left":"20px"},"margin":{"bottom":"20px"},"blockGap":{"top":"10px","left":"20px"}}}} -->
 <div class="wp-block-columns" style="border-left-width:1px;margin-top:20px;margin-bottom:20px;padding-left:20px"><!-- wp:column {"verticalAlignment":"center","width":"128px"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:128px"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1","fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium","fontFamily":"secondary"} -->
 <h3 class="has-secondary-font-family has-medium-font-size" style="font-style:normal;font-weight:700;line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Pages', 'course' );?></h3>
