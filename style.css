@@ -402,3 +402,12 @@ body.page-template-page-wide-width footer .wp-block-group {
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
 	color: var(--wp--preset--color--primary);
 }
+
+/*
+ * Mobile Styles
+ */
+ @media ( max-width: 781px ) {
+	.single-post .is-layout-flow {
+		margin-right: 0 !important;
+	}
+ }
