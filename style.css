@@ -400,7 +400,7 @@ body.page-template-page-wide-width footer .wp-block-group {
 	white-space: normal;
 }
 
-.footer-title:hover {
+.footer-title a:hover {
 	text-decoration: none;
 }
 
