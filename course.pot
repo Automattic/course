@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Course 1.1.0\n"
+"Project-Id-Version: Course 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/course\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-11-21T16:15:50+00:00\n"
+"POT-Creation-Date: 2022-12-06T14:42:01+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: course\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid "https://automattic.com/"
 msgstr ""
 
-#: functions.php:70
+#: functions.php:82
 msgid "Button"
 msgstr ""
 
@@ -47,52 +47,40 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-#: patterns/footer.php:16
+#: patterns/footer.php:24
 msgid "Social"
 msgstr ""
 
-#: patterns/footer.php:23
-msgid "Instagram"
-msgstr ""
-
-#: patterns/footer.php:27
-msgid "YouTube"
-msgstr ""
-
-#: patterns/footer.php:31
-msgid "Spotify"
-msgstr ""
-
-#: patterns/footer.php:40
+#: patterns/footer.php:56
 msgid "Pages"
 msgstr ""
 
-#: patterns/footer.php:47
+#: patterns/footer.php:66
 msgid "About"
 msgstr ""
 
-#: patterns/footer.php:51
+#: patterns/footer.php:70
 msgid "Video"
 msgstr ""
 
-#: patterns/footer.php:55
+#: patterns/footer.php:74
 msgid "Episodes"
 msgstr ""
 
-#: patterns/footer.php:59
+#: patterns/footer.php:78
 msgid "All Posts"
 msgstr ""
 
-#: patterns/footer.php:69
+#: patterns/footer.php:93
 msgid "Terms"
 msgstr ""
 
-#: patterns/footer.php:73
+#: patterns/footer.php:97
 msgid "Privacy"
 msgstr ""
 
 #. translators: %1$s is https://senseilms.com, %2$s is https://wordpress.org.
-#: patterns/footer.php:89
+#: patterns/footer.php:139
 msgid "Course Theme by <a href=\"%1$s\" rel=\"nofollow\"><span style=\"text-decoration: underline;\">Sensei</span></a>, Powered by <a href=\"%2$s\" rel=\"nofollow\"><span style=\"text-decoration: underline;\">WordPress</span></a>."
 msgstr ""
 
@@ -234,5 +222,40 @@ msgstr ""
 
 #: theme.json
 msgctxt "Custom template name"
-msgid "Wide Width, No Title"
+msgid "Wide - No Featured Image, No Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Wide"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Wide - Title Only"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Wide - Featured Image Only"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Column"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Column - Featured Image Only"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Column - Title Only"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Column - No Featured Image, No Title"
 msgstr ""
