@@ -119,8 +119,8 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"className":"separator","layout":{"type":"default"}} -->
-      <div class="wp-block-group alignfull separator" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+      <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"5rem"}}},"className":"separator","layout":{"type":"default"}} -->
+      <div class="wp-block-group alignfull separator" style="margin-top:5rem;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
         <!-- wp:separator {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-style-default"} -->
         <hr class="wp-block-separator alignfull has-alpha-channel-opacity is-style-default" style="margin-top:0;margin-bottom:0" />
         <!-- /wp:separator -->
@@ -130,8 +130,8 @@
     <!-- /wp:group -->
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0"}}},"layout":{"type":"constrained","contentSize":""}} -->
     <div class="wp-block-group alignfull" style="padding-top:0">
-      <!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"bottom":"5rem"}}},"fontSize":"x-small","fontFamily":"system"} -->
-      <p class="has-text-align-center has-system-font-family has-x-small-font-size" style="padding-bottom:5rem;letter-spacing:0.02em">
+      <!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.02em"},"spacing":{"padding":{"bottom":"5rem","top":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|70"}}},"fontSize":"x-small","fontFamily":"system"} -->
+      <p class="has-text-align-center has-system-font-family has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--70);padding-top:var(--wp--preset--spacing--50);padding-bottom:5rem;letter-spacing:0.02em">
         <?php
         echo sprintf(
           wp_kses(
