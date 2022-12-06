@@ -213,6 +213,13 @@ header.wp-block-template-part {
 	gap: 0;
 }
 
+.comment-respond h3#reply-title {
+	font-family: var(--wp--preset--font-family--system);
+	text-transform: none;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
 /*
  * Link styles
  */
