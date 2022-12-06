@@ -12,14 +12,33 @@ Course is a flexible and modern theme for anyone wanting to share their knowledg
 
 == Changelog ==
 
-= 1.1.0 =
+= 2022-12-06 - 1.2.0 =
+* New: Add support for Learning Mode [#68](https://github.com/Automattic/course/pull/68)
+* New: Add page templates [#126](https://github.com/Automattic/course/pull/126)
+* Fix: Header appearing behind some elements [#106](https://github.com/Automattic/course/pull/106)
+* Fix: Course patterns layout [#127](https://github.com/Automattic/course/pull/127)
+* Fix: Global colors not being applied to the footer [#128](https://github.com/Automattic/course/pull/128)
+* Fix: Don't override post title's font size [#129](https://github.com/Automattic/course/pull/129)
+* Fix: Header breaking issue in Learning Mode [#131](https://github.com/Automattic/course/pull/131)
+* Fix: Templates on mobile [#142](https://github.com/Automattic/course/pull/142)
+* Fix: Learning Mode template styles [#144](https://github.com/Automattic/course/pull/144)
+* Fix: Quiz footer not full width [#147](https://github.com/Automattic/course/pull/147)
+* Tweak: Variation site title in the header should use heading font, not League Gothic [#119](https://github.com/Automattic/course/pull/119)
+* Tweak: Remove sticky header [#123](https://github.com/Automattic/course/pull/123)
+* Tweak: Update theme screenshot [#130](https://github.com/Automattic/course/pull/130)
+* Tweak: Update default page template to be wide width [#135](https://github.com/Automattic/course/pull/135)
+* Tweak: Remove extra spacing between footer and the post-content [#138](https://github.com/Automattic/course/pull/138)
+* Tweak: Remove top margin from testimonial bottom quote [#139](https://github.com/Automattic/course/pull/139)
+* Tweak: Refactor footer [#150](https://github.com/Automattic/course/pull/150)
+
+= 2022-11-21 - 1.1.0 =
 * New: Add style variations [#101](https://github.com/Automattic/course/pull/101)
 * Fix: Spacing issues for posts and pages [#103](https://github.com/Automattic/course/pull/103)
 
-= 1.0.1 =
+= 2022-11-17 - 1.0.1 =
 * Tweak: Use built-in search icon for search block [#99](https://github.com/Automattic/course/pull/99)
 
-= 1.0.0 =
+= 2022-11-14 - 1.0.0 =
 * Initial release
 
 == Copyright ==
