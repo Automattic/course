@@ -404,16 +404,6 @@ body.page-template-page-wide-width footer .wp-block-group {
 	text-decoration: none;
 }
 
-.separator {
-	width: 100%;
-	background-color: var(--wp--preset--color--background);
-	margin-top: -30px;
-	z-index: 999;
-	position: relative;
-	height: 20px;
-	top: -35px;
-}
-
 @media screen and (max-width: 700px) {
 	.footer-title{
 		font-size: 86px;
