@@ -352,14 +352,6 @@ footer.wp-block-template-part  {
 	margin-block-start: 0;
 }
 
-footer h1.wp-block-site-title {
-	overflow: hidden;
-}
-
-footer h1.wp-block-site-title a {
-	display: inline-block;
-	white-space: nowrap;
-}
 
 /*
  * "Wide Width, No Title" page template
@@ -401,4 +393,32 @@ body.page-template-page-wide-width footer .wp-block-group {
 /* Workaround for https://github.com/WordPress/gutenberg/issues/35480. */
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
 	color: var(--wp--preset--color--primary);
+}
+
+
+.footer-title{
+	white-space: normal;
+}
+
+.footer-title:hover {
+	text-decoration: none;
+}
+
+.separator {
+	width: 100%;
+	background-color: var(--wp--preset--color--background);
+	margin-top: -30px;
+	z-index: 999;
+	position: relative;
+	height: 20px;
+	top: -35px;
+}
+
+@media screen and (max-width: 700px) {
+	.footer-title{
+		font-size: 86px;
+	}
+	.separator {
+		 top: -25px;
+	}
 }
