@@ -407,6 +407,8 @@ body.page-template-page-wide-width footer .wp-block-group {
 @media screen and (max-width: 700px) {
 	.footer-title{
 		font-size: 86px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.separator {
 		 top: -25px;
