@@ -237,14 +237,14 @@ a {
 /*
  * Search Results Styles
  */
-.search .is-layout-flow li {
-	margin-top: 0;
+.search .wp-block-post-template .wp-block-post {
+	margin: 0;
 }
 
-.search .wp-block-post.course.type-course {
-	margin:0;
-	padding: 0;
+.search .wp-block-post.course {
 	border-bottom: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Buttons */
