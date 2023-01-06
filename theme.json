@@ -128,7 +128,7 @@
 		"custom": {
 			"typography": {
 				"fontSizes": {
-					"normal": "1.5rem",
+					"normal": "clamp(1.313rem, 1.179rem + 0.357vw, 1.5rem)",
 					"button": "1.3125rem"
 				}
 			},
@@ -296,7 +296,7 @@
 					"size": "1.375rem",
 					"fluid": {
 						"min": "1.25rem",
-						"max": "1.75rem"
+						"max": "1.5rem"
 					},
 					"slug": "medium"
 				},
@@ -329,7 +329,7 @@
 				},
 				{
 					"name": "Gigantic",
-					"size": "16.125rem",
+					"size": "22.125rem",
 					"fluid": {
 						"min": "16.125rem",
 						"max": "28.125rem"
