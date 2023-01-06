@@ -234,6 +234,19 @@ a {
 	padding: 1.063rem;
 }
 
+/*
+ * Search Results Styles
+ */
+.search .wp-block-post-template .wp-block-post {
+	margin: 0;
+}
+
+.search .wp-block-post.course {
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
 /* Buttons */
 .wp-block-button__link:focus {
 	outline: var(--wp--preset--color--foreground) dashed;
