@@ -22,10 +22,12 @@ if ( ! function_exists( 'course_support' ) ) :
 	function course_support() {
 
 		add_theme_support( 'sensei-learning-mode' );
+		add_theme_support( 'editor-styles' );
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 		add_editor_style( 'learning-mode.css' );
+		add_editor_style( 'assets/css/style-editor.css' );
 	}
 
 endif;
