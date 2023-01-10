@@ -205,10 +205,6 @@ body {
 	align-items: baseline;
 }
 
-.wp-block-sensei-lms-button-contact-teacher {
-	display: none;
-}
-
 .sensei-course-theme .sensei-course-theme__video-container::after {
 	--sensei-lm-sidebar-width: 290px;
 }
