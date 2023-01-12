@@ -44,7 +44,7 @@
 		"custom": {
 			"typography": {
 				"fontSizes": {
-					"normal": "1.125rem",
+					"normal": "1.25rem",
 					"button": "1rem"
 				}
 			}
