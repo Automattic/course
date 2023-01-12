@@ -113,7 +113,7 @@
       <div class="wp-block-group">
         <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1000px","justifyContent":"center"}} -->
         <div class="wp-block-group">
-          <!-- wp:site-title {"textAlign":"left","isLink":false,"style":{"typography":{"letterSpacing":"0.02em","fontSize":"100px","lineHeight":"1"},"spacing":{"margin":{"top":"0px"},"padding":{"top":"0px"}}},"className":"footer-title","fontFamily":"sorts-mill-goudy"} /-->
+          <!-- wp:site-title {"level":0,"textAlign":"left","isLink":false,"style":{"typography":{"letterSpacing":"0.02em","fontSize":"100px","lineHeight":"1"},"spacing":{"margin":{"top":"0px"},"className":"footer-title","fontFamily":"sorts-mill-goudy"} /-->
         </div>
         <!-- /wp:group -->
       </div>
