@@ -399,6 +399,12 @@ body.page-template-page-wide-width footer .wp-block-group {
 	text-transform: uppercase;
 }
 
+/* Glossary */
+.sensei-glossary-tooltip .sensei-glossary-tooltip__inner {
+	background-color: var(--wp--preset--color--background);
+	border-color: var(--wp--preset--color--foreground);
+}
+
 /*
  * Style Variations
  */
