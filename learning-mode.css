@@ -35,7 +35,6 @@ body {
 
 .sensei-lms-course-navigation-lesson__title {
 	font-family: var(--wp--preset--font-family--system);
-	color: var(--wp--preset--color--primary);
 	font-size: 1rem;
 	font-weight: normal;
 }
