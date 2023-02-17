@@ -1,16 +1,10 @@
 :root, .sensei-course-theme {
 	--sensei-lm-header-height: 116px;
-	--border-color: var(--wp--preset--color--primary);
 }
 
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	---border-color: var(--border-color, red)
-}
-
-.sensei-course-theme-course-progress-bar {
-	--border-color:  var(--border-color)
 }
 
 /* Override theme.json blockGap setting. */
@@ -45,7 +39,6 @@ body {
 	line-height: 100%;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
-	color: var(--wp--preset--color--foreground);
 	text-decoration: none;
 }
 
@@ -138,19 +131,6 @@ body {
 	cursor: not-allowed;
 }
 
-.sensei-course-theme-lesson-actions.is-completed.is-primary {
-	opacity: 0.8;
-	color: var(--bg-color) !important;
-	background: var(--text-color) !important;
-	border-color: var(--text-color) !important;
-}
-
-.sensei-course-theme-lesson-actions.is-completed.is-secondary {
-	opacity: 0.8;
-	color: var(--text-color) !important;
-	border-color: var(--text-color) !important;
-}
-
 .sensei-course-theme-lesson-actions.is-busy {
 	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.5) 28%, rgba(255, 255, 255, 0.1) 28%, rgba(255, 255, 255, 0.1) 72%, rgba(255, 255, 255, 0.5) 72%);
 	animation: components-button__busy-animation 25000ms infinite linear;
@@ -234,11 +214,6 @@ body {
 
 .sensei-course-theme .sensei-course-theme__video-container {
 	border-radius: 4px;
-}
-
-.sensei-course-theme.sensei-video-lesson .sensei-course-theme__video-container .sensei-course-theme__sidebar,
-.sensei-course-theme.sensei-video-lesson .sensei-course-theme__sidebar.sensei-course-theme__secondary-sidebar {
-	border-width: 0px;
 }
 
 .sensei-course-theme:not(.learning-mode-full-width) .sensei-course-theme__header > * {
