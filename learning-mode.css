@@ -190,7 +190,7 @@ body {
 
 .sensei-course-theme .sensei-course-theme__video-container .sensei-course-theme-lesson-video .wp-block-video {
 	border: 1px solid var(--wp--preset--color--primary);
-	border-radius: 4px;
+	border-radius: 3px;
 }
 
 .sensei-course-theme .sensei-course-theme__video-container .sensei-course-theme-course-progress {
