@@ -138,9 +138,9 @@
         $is_wpcom = ( defined( 'IS_WPCOM' ) && IS_WPCOM );
 
         if ( $is_atomic || $is_wpcom ) {
-          $wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'upsidedown' ) ) . '" rel="nofollow">WordPress</a>';
+          $wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'course' ) ) . '" rel="nofollow">WordPress</a>';
             echo sprintf(
-                esc_html__( '© Designed with %1$s', 'upsidedown' ),
+                esc_html__( '© Designed with %1$s', 'course' ),
                 $wordpress_link
             );
         } else {
