@@ -246,10 +246,17 @@ body {
 	padding-right: 20px;
 }
 
-/* Sidebar on Modern template */
+/* Modern Template */
 .sensei-modern .sensei-course-theme__sidebar:not(.sensei-course-theme__secondary-sidebar) {
-	border: 1px solid var(--wp--preset--color--primary);
+	border: 1px solid var(--sensei-text-color);
 	border-radius: 4px;
+}
+
+/* Modern Template */
+.sensei-course-theme.sensei-modern .sensei-course-theme__header,
+.sensei-course-theme.sensei-modern .sensei-course-theme__sidebar {
+	background-color: var(--sensei-background-color);
+	color: var(--sensei-text-color);
 }
 
 .sensei-lms-course-navigation + .wp-block-spacer {
